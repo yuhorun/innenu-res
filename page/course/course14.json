@@ -1,0 +1,45 @@
+[
+  {
+    "tag": "head",
+    "title": "本科课程设置",
+    "grey": true,
+    "shareable": true,
+    "contact": true
+  },
+  {
+    "tag": "list",
+    "head": "本科课程设置",
+    "content": [
+      {
+        "text": "通识教育课程",
+        "icon": "/module/icon/typeTime.svg",
+        "aim": "course1"
+      },
+      {
+        "text": "专业教育课程",
+        "icon": "/module/icon/typeTime.svg",
+        "aim": "course2"
+      },
+      {
+        "text": "发展课程课程",
+        "icon": "/module/icon/typeTime.svg",
+        "aim": "course3"
+      },
+      {
+        "text": "绩点计算方法",
+        "icon": "/module/icon/typeTime.svg",
+        "aim": "course4"
+      },
+      {
+        "text": "本科课程计划",
+        "icon": "/module/icon/plan.svg",
+        "aim": "course5"
+      }
+    ]
+  },
+  {
+    "tag": "foot",
+    "author": "Mr.Hope",
+    "time": "2020/2/22"
+  }
+]
