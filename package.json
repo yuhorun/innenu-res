@@ -1,6 +1,6 @@
 {
   "name": "inenu-server",
-  "version": "1.0.0",
+  "version": "3.0.0-alpha.1",
   "private": true,
   "description": "inNENU 小程序资源文件",
   "scripts": {
@@ -14,8 +14,7 @@
   },
   "author": "Mr.Hope",
   "devDependencies": {
-    "child_process": "^1.0.2",
-    "eslint": "^6.6.0"
+    "child_process": "^1.0.2"
   },
   "dependencies": {
     "ftp-hope": "0.0.3"
