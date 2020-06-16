@@ -1,5 +1,6 @@
+bak/
 node_modules/
+server/info/
+service/info/
 
-lib/loginDetail.js
-function.zip
-page.zip
+script/loginInfo.js

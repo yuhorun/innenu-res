@@ -4,19 +4,29 @@
   "private": true,
   "description": "inNENU 小程序资源文件",
   "scripts": {
-    "upload:page": "node ./script/page.js",
-    "upload:function": "node ./script/function.js",
-    "check:json": "node ./script/json.js"
+    "check:json": "node ./script/json.js",
+    "generate": "node ./script/generate.js",
+    "upload": "node ./script/upload.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@gitee.com:Mr-Hope/miniprogramWebsite.git"
+    "url": "git@github.com:Hope-Studio/innenu-res.git"
   },
-  "author": "Mr.Hope",
+  "author": {
+    "name": "Mr.Hope",
+    "email": "zhangbowang1998@gmail.com",
+    "url": "https://mrhope.site"
+  },
+  "dependencies": {
+    "ftp-hope": "0.0.3",
+    "husky": "^4.2.5"
+  },
   "devDependencies": {
     "child_process": "^1.0.2"
   },
-  "dependencies": {
-    "ftp-hope": "0.0.3"
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run generate && git add functionVersion.json function.zip pageVersion.json page.zip"
+    }
   }
 }
