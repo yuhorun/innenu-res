@@ -1,0 +1,18 @@
+- tag: head
+  title: 如何到达自己的校区
+  shareable: true
+  contact: true
+- tag: list
+  head: " "
+  content:
+    - text: 从火车站站出发
+      aim: train/
+    - text: 从龙嘉机场
+      aim: plane/
+    - text: 出租车
+      aim: taxi
+    - text: 关于接站
+      aim: pickup
+- tag: foot
+  author: Mr.Hope
+  time: 2019/7/21

@@ -1,0 +1,22 @@
+- tag: head
+  title: 校医院
+  grey: true
+  shareable: true
+  contact: true
+- tag: list
+  content:
+    - text: 校医院简介
+      aim: intro
+    - text: 补办公费医疗手册
+      aim: handbook
+    - text: 楼层分布
+      aim: floor
+    - text: 注意事项
+      aim: attention
+    - text: 科室介绍
+      aim: department
+    - text: 联系电话
+      aim: phone
+- tag: foot
+  desc: 信息来源：校医院官网
+  time: 2019/8/14

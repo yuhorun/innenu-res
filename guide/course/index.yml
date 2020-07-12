@@ -1,0 +1,59 @@
+- tag: head
+  title: 课程
+  grey: true
+  shareable: true
+  contact: true
+- tag: list
+  head: 本科课程设置
+  content:
+    - text: 通识教育课程
+      icon: /module/icon/typeTime.svg
+      aim: general
+    - text: 专业教育课程
+      icon: /module/icon/typeTime.svg
+      aim: professional
+    - text: 发展课程课程
+      icon: /module/icon/typeTime.svg
+      aim: develop
+    - text: 绩点计算方法
+      icon: /module/icon/typeTime.svg
+      aim: calculate
+    - text: 本科课程计划
+      icon: /module/icon/plan.svg
+      aim: plan
+- tag: list
+  head: 选课
+  content:
+    - text: 选课内容
+      icon: /module/icon/content.svg
+      aim: select
+    - text: 选课流程
+      icon: /module/icon/process.svg
+      aim: flow
+    - text: 选课系统
+      icon: /module/icon/operate.svg
+      aim: system
+    - text: 选课技巧
+      icon: /module/icon/skill.svg
+      aim: skill
+- tag: list
+  head: 东师及专业排名
+  content:
+    - text: 东师排名
+      icon: /module/icon/nenuRanking.svg
+      aim: rank
+    - text: 专业排名
+      icon: /module/icon/nenuRanking.svg
+      aim: major-rank
+- tag: list
+  head: 双学位、辅修与转专业
+  content:
+    - text: 获取双学位与辅修
+      icon: /icon/tabPage/course.svg
+      aim: double-degree
+    - text: 转专业实施办法及注意事项
+      icon: /icon/tabPage/course.svg
+      aim: change-major
+- tag: foot
+  author: Mr.Hope
+  time: 2019/8/2

@@ -1,0 +1,27 @@
+- tag: head
+  title: 校园卡功能
+  shareable: true
+  contact: true
+- tag: title
+  text: 主要功能
+- tag: p
+  head: 生活
+  text: |2-
+     宿舍网络的自助付费(注：可在线缴费)
+     食堂消费
+     超市购物
+     浴池洗浴
+     洗漱间的生活用水
+     饮用水接取
+     体育馆门禁
+- tag: p
+  head: 学习
+  text: |2-
+     图书超期罚款
+     图书馆电子阅览室的图书借阅
+     图书馆门禁
+     期中期末考试身份认证
+     计算机等级考试身份认证
+     英语四六级考试身份认证
+- tag: foot
+  time: 2020/2/22

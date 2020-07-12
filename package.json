@@ -19,10 +19,11 @@
   },
   "dependencies": {
     "ftp-hope": "0.0.3",
-    "husky": "^4.2.5"
+    "js-yaml": "3.14.0",
+    "husky": "4.2.5"
   },
   "devDependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "1.0.2"
   },
   "husky": {
     "hooks": {

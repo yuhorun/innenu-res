@@ -1,9 +1,9 @@
-'use strict';
+"use strict";
 
-const fs = require('fs');
+const fs = require("fs");
 
 const testJSON = (path) => {
-  const content = fs.readFileSync(path, { encoding: 'utf-8' });
+  const content = fs.readFileSync(path, { encoding: "utf-8" });
 
   try {
     JSON.parse(content);
@@ -27,7 +27,7 @@ const checkJSON = (path) =>
         // 是文件
         if (file.isDirectory())
           checkProcess.push(checkJSON(`${path}/${file.name}`));
-        else if (file.name.split('.').pop() === 'json')
+        else if (file.name.split(".").pop() === "json")
           checkProcess.push(testJSON(`${path}/${file.name}`));
       });
 
@@ -36,9 +36,9 @@ const checkJSON = (path) =>
   });
 
 Promise.all([
-  checkJSON('./config'),
-  checkJSON('./function'),
-  checkJSON('./page')
+  checkJSON("./config"),
+  checkJSON("./function"),
+  checkJSON("./page")
 ]).then(() => {
-  console.log('检测完成');
+  console.log("检测完成");
 });
