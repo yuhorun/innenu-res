@@ -1,6 +1,13 @@
-import fs from "fs";
-import path from "path";
+import {
+  readdirSync,
+  statSync,
+  existsSync,
+  mkdirSync,
+  readFileSync,
+  writeFileSync
+} from "fs";
 import { safeLoad } from "js-yaml";
+import { dirname, resolve } from "path";
 
 interface ReadDirResult {
   file: string[];
@@ -8,13 +15,13 @@ interface ReadDirResult {
 }
 
 const readDir = (dirPath: string, prefix = ""): ReadDirResult => {
-  const files = fs.readdirSync(path.resolve(prefix, dirPath));
+  const files = readdirSync(resolve(prefix, dirPath));
   const result: ReadDirResult = { file: [], dir: [] };
   files.forEach((file) => {
-    const filePath = path.resolve(prefix, dirPath, file);
+    const filePath = resolve(prefix, dirPath, file);
 
-    if (fs.statSync(filePath).isFile()) result.file.push(file);
-    else if (fs.statSync(filePath).isDirectory()) result.dir.push(file);
+    if (statSync(filePath).isFile()) result.file.push(file);
+    else if (statSync(filePath).isDirectory()) result.dir.push(file);
   });
 
   return result;
@@ -26,21 +33,19 @@ export const convertFolder = (
   convertFunction: (data: any, filePath: string) => any
 ): void => {
   const result = readDir("", sourceFolder);
-  if (!fs.existsSync(targetFolder))
-    fs.mkdirSync(targetFolder, { recursive: true });
+  if (!existsSync(targetFolder)) mkdirSync(targetFolder, { recursive: true });
 
   result.file.forEach((filePath) => {
-    const folderPath = path.dirname(path.resolve(targetFolder, filePath));
-    if (!fs.existsSync(folderPath))
-      fs.mkdirSync(folderPath, { recursive: true });
+    const folderPath = dirname(resolve(targetFolder, filePath));
+    if (!existsSync(folderPath)) mkdirSync(folderPath, { recursive: true });
 
-    const content = fs.readFileSync(path.resolve(sourceFolder, filePath), {
+    const content = readFileSync(resolve(sourceFolder, filePath), {
       encoding: "utf-8"
     });
     const json = safeLoad(content);
 
-    fs.writeFileSync(
-      path.resolve(targetFolder, filePath.replace(/\.yml/u, ".json")),
+    writeFileSync(
+      resolve(targetFolder, filePath.replace(/\.yml/u, ".json")),
       JSON.stringify(convertFunction(json, filePath))
     );
   });
@@ -48,8 +53,8 @@ export const convertFolder = (
   if (result.dir.length !== 0)
     result.dir.forEach((dirPath) => {
       convertFolder(
-        path.resolve(sourceFolder, dirPath),
-        path.resolve(targetFolder, dirPath),
+        resolve(sourceFolder, dirPath),
+        resolve(targetFolder, dirPath),
         convertFunction
       );
     });
