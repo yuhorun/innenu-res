@@ -36,7 +36,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run ts:compile && yarn run generate && git add functionVersion.json function.zip pageVersion.json page.zip"
+      "pre-commit": "yarn run ts:compile && yarn run generate && git add functionVersion.json function.zip guideVersion.json guide.zip guide/"
     }
   }
 }
