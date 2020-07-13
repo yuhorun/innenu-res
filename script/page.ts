@@ -1,4 +1,4 @@
-import { assertType } from "./assertType";
+import { checkKeys } from "./assertType";
 import { resolveTitle, TitleComponentConfig } from "./components/title";
 import { resolveDoc, DocComponentConfig } from "./components/doc";
 import { resolveP, PComponentConfig } from "./components/p";
@@ -24,6 +24,8 @@ export interface PageConfig {
   title?: string;
   /** 页面描述 */
   desc?: string;
+  /** 是否是灰色背景 */
+  grey?: boolean;
   /** 页面内容 */
   content: Record<string, any>[];
   /** 页面图片 */
@@ -46,6 +48,10 @@ export interface PageConfig {
    * @default true
    */
   feedback?: boolean;
+  /**
+   * 是否隐藏导航栏
+   */
+  hidden?: boolean;
 }
 
 /**
@@ -59,13 +65,20 @@ export interface PageConfig {
 export const resolvePage = (page: PageConfig, pageName = ""): PageConfig => {
   page.images = [];
 
-  assertType(page, "object", "page");
-  assertType(page.title, "string", "page.title");
-  assertType(page.desc, ["string", "undefined"], "page.desc");
-  assertType(page.content, "object[]", "page.content");
-  assertType(page.shareable, ["boolean", "undefined"], "page.shareable");
-  assertType(page.feedback, ["boolean", "undefined"], "page.feedback");
-  assertType(page.contact, ["boolean", "undefined"], "page.contact");
+  checkKeys(
+    page,
+    {
+      title: "string",
+      desc: ["string", "undefined"],
+      grey: ["boolean", "undefined"],
+      content: "object[]",
+      shareable: ["boolean", "undefined"],
+      feedback: ["boolean", "undefined"],
+      contact: ["boolean", "undefined"],
+      images: "string[]"
+    },
+    "page"
+  );
 
   page.content.forEach((element, index) => {
     // 处理图片

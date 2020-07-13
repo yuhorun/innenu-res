@@ -4,7 +4,7 @@ export interface DocComponentConfig {
   tag: "doc";
   docName: string;
   docIcon: string;
-  docType: string;
+  url: string;
   downloadable?: boolean;
 }
 
@@ -58,7 +58,7 @@ export const resolveDoc = (
       tag: "string",
       docIcon: "string",
       docName: "string",
-      docType: "string",
+      url: "string",
       downloadable: [true, "undefined"]
     },
     location

@@ -1,4 +1,5 @@
-import { convertFolder } from "./yml2json";
-import { resolvePage } from "./page";
+import { basename } from "path";
 
-convertFolder("../res", "../guide", resolvePage);
+const baseFolder = basename("../");
+
+console.log(baseFolder);

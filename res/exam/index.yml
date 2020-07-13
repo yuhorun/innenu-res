@@ -1,41 +1,41 @@
-- tag: head
-  title: 考试
-  grey: true
-  shareable: true
-  contact: true
-- tag: list
-  head: 体测
-  content:
-    - text: 体测简介
-      icon: /module/icon/bodyMeasureTime.svg
-      aim: physical-examination/intro
-    - text: 测试成绩说明
-      icon: /module/icon/grade.svg
-      aim: physical-examination/explain
-    - text: 测试项目评分表
-      icon: /module/icon/score.svg
-      aim: physical-examination/score
-    - text: 申请免测/缓测的条件及程序
-      icon: /module/icon/condition.svg
-      aim: physical-examination/exempt
-- tag: list
-  head: 英语
-  content:
-    - text: 分级考试
-      icon: /module/icon/gradeExam.svg
-      aim: FAQ6
-    - text: 东北师范大学英语水平测试
-      icon: /module/icon/English.svg
-      aim: DET
-    - text: 四六级报考
-      icon: /module/icon/CET.svg
-      aim: CET
-- tag: list
-  head: 计算机
-  content:
-    - text: 计算机等级考试说明
-      icon: /module/icon/computer.svg
-      aim: NCRE/intro
-- tag: foot
-  author: Mr.Hope
-  time: 2019/8/7
+title: 考试
+shareable: true
+grey: true
+contact: true
+content:
+  - tag: list
+    head: 体测
+    content:
+      - text: 体测简介
+        icon: /module/icon/bodyMeasureTime.svg
+        aim: physical-examination/intro
+      - text: 测试成绩说明
+        icon: /module/icon/grade.svg
+        aim: physical-examination/explain
+      - text: 测试项目评分表
+        icon: /module/icon/score.svg
+        aim: physical-examination/score
+      - text: 申请免测/缓测的条件及程序
+        icon: /module/icon/condition.svg
+        aim: physical-examination/exempt
+  - tag: list
+    head: 英语
+    content:
+      - text: 分级考试
+        icon: /module/icon/gradeExam.svg
+        aim: FAQ6
+      - text: 东北师范大学英语水平测试
+        icon: /module/icon/English.svg
+        aim: DET
+      - text: 四六级报考
+        icon: /module/icon/CET.svg
+        aim: CET
+  - tag: list
+    head: 计算机
+    content:
+      - text: 计算机等级考试说明
+        icon: /module/icon/computer.svg
+        aim: NCRE/intro
+  - tag: foot
+    author: Mr.Hope
+    time: 2019/8/7

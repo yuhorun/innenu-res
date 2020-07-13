@@ -3,7 +3,7 @@ import { resolveStyle } from "./utils";
 
 export interface TitleComponentConfig {
   tag: "title";
-  title: string;
+  text: string;
   style: string | Record<string, string>;
 }
 
@@ -19,8 +19,8 @@ export const resolveTitle = (
     element,
     {
       tag: "string",
-      title: "string",
-      style: "string"
+      text: "string",
+      style: ["string", "Record<string, string>", "undefined"]
     },
     location
   );

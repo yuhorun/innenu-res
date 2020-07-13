@@ -25,9 +25,10 @@ export const resolveP = (element: PComponentConfig, location = ""): void => {
     {
       tag: "string",
       title: ["string", "boolean", "undefined"],
-      text: "string",
+      text: ["string", "string[]", "undefined"],
       style: ["string", "Record<string,string>", "undefined"],
       align: ["string", "undefined"],
+      src: ["string", "undefined"],
       desc: ["string", "undefined"]
     },
     location

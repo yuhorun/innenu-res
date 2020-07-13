@@ -1,31 +1,7 @@
-import {
-  readdirSync,
-  statSync,
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  writeFileSync
-} from "fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { safeLoad } from "js-yaml";
 import { dirname, resolve } from "path";
-
-interface ReadDirResult {
-  file: string[];
-  dir: string[];
-}
-
-const readDir = (dirPath: string, prefix = ""): ReadDirResult => {
-  const files = readdirSync(resolve(prefix, dirPath));
-  const result: ReadDirResult = { file: [], dir: [] };
-  files.forEach((file) => {
-    const filePath = resolve(prefix, dirPath, file);
-
-    if (statSync(filePath).isFile()) result.file.push(file);
-    else if (statSync(filePath).isDirectory()) result.dir.push(file);
-  });
-
-  return result;
-};
+import { readDir } from "./file";
 
 export const convertFolder = (
   sourceFolder: string,
@@ -46,7 +22,8 @@ export const convertFolder = (
 
     writeFileSync(
       resolve(targetFolder, filePath.replace(/\.yml/u, ".json")),
-      JSON.stringify(convertFunction(json, filePath))
+      JSON.stringify(convertFunction(json, filePath)),
+      { encoding: "utf-8" }
     );
   });
 
