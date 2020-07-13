@@ -1,27 +1,35 @@
 "use strict";
 
-const fs = require("fs");
+import { readFile, readdir } from "fs";
 
-const testJSON = (path) => {
-  const content = fs.readFileSync(path, { encoding: "utf-8" });
-
-  try {
-    JSON.parse(content);
-  } catch (err) {
-    console.error(`${path} is not a correct JSON file`);
-  }
-};
-
-const checkJSON = (path) =>
+const testJSON = (path: string): Promise<void> =>
   new Promise((resolve, reject) => {
-    fs.readdir(path, { withFileTypes: true }, (err, files) => {
+    readFile(path, { encoding: "utf-8" }, (err, content) => {
+      if (err) {
+        console.error(`读取文件 ${path} 出错`, err);
+
+        return reject(err);
+      }
+      try {
+        JSON.parse(content);
+      } catch (err) {
+        throw new Error(`${path} is not a correct JSON file`);
+      }
+
+      resolve();
+    });
+  });
+
+const checkJSON = (path: string): Promise<void> =>
+  new Promise((resolve, reject) => {
+    readdir(path, { withFileTypes: true }, (err, files) => {
       if (err) {
         console.error(`读取文件夹 ${path} 出错`, err);
 
         return reject(err);
       }
 
-      const checkProcess = [];
+      const checkProcess: Promise<void>[] = [];
 
       files.forEach((file) => {
         // 是文件

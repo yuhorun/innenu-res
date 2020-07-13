@@ -3,4 +3,4 @@ node_modules/
 server/info/
 service/info/
 
-script/loginInfo.js
+script/**/*.js
