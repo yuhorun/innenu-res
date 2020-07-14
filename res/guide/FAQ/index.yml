@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    head: 报道之前
+    heading: 报道之前
     content:
       - text: 报到时间
         aim: /guide/check/location-and-time
@@ -15,7 +15,7 @@ content:
       - text: 新生入学前课程学习
         aim: beginning-course
   - tag: list
-    head: 找到组织
+    heading: 找到组织
     content:
       - text: 专业所属学院
         aim: /guide/about/enroll
@@ -24,7 +24,7 @@ content:
       - text: 老乡群
         aim: fellow-group
   - tag: list
-    head: 报道相关
+    heading: 报道相关
     content:
       - text: 大学第一天
         aim: first-day
@@ -37,7 +37,7 @@ content:
       - text: 关于接站
         aim: /guide/check/arrival/pickup
   - tag: list
-    head: 开学活动
+    heading: 开学活动
     content:
       - text: 体检
         aim: /guide/check/medical-examination
@@ -47,6 +47,6 @@ content:
         aim: military-training/detail
       - text: 英语分班考试
         aim: /exam/grading-exam
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/7/29

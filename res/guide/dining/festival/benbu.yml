@@ -2,7 +2,7 @@ title: 本部美食节
 shareable: true
 contact: true
 content:
-  - tag: p
+  - tag: text
     text: 学校每年都会举办美食节，在那一天，食堂所有档口都会打8折，每个档口和食堂还会制作美食供大家品尝。
   - tag: title
     text: 北苑
@@ -24,6 +24,6 @@ content:
     src: 'https://mp.innenu.com/img/dining/dining34.jpg'
   - tag: img
     src: 'https://mp.innenu.com/img/dining/dining35.jpg'
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/4/9

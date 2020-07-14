@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: title
     text: OPAC使用指南
-  - tag: p
+  - tag: text
     text: '先访问图书馆主页 (http://www.library.nenu.edu.cn/)'
   - tag: img
     src: 'https://mp.innenu.com/img/library/libraryGuide1.jpg'
@@ -17,7 +17,7 @@ content:
     desc: 详细资料信息
   - tag: title
     text: 已借资料的查询与续借
-  - tag: p
+  - tag: text
     text: 点击图书馆主页上“我的图书馆”链接
   - tag: img
     src: 'https://mp.innenu.com/img/library/libraryGuide4.jpg'
@@ -25,5 +25,5 @@ content:
   - tag: img
     src: 'https://mp.innenu.com/img/library/libraryGuide5.jpg'
     desc: 我的图书馆页面
-  - tag: foot
+  - tag: footer
     desc: 信息来源：图书馆官网

@@ -1,5 +1,6 @@
-bak/
 node_modules/
+
+other/bak/
 server/info/
 service/info/
 

@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: title
     text: 登陆地址
-  - tag: p
+  - tag: text
     text: '   请您访问 http://mail.nenu.edu.cn/ 进行登录。为了您的安全，建议勾选 "SSL安全登录" 与 "全程SSL"。'
   - tag: img
     src: 'https://mp.innenu.com/img/account/email0.png'
@@ -23,5 +23,5 @@ content:
   - tag: img
     src: 'https://mp.innenu.com/img/account/emailAdvance.png'
     desc: 高级设置
-  - tag: foot
+  - tag: footer
     time: 2019/2/22

@@ -4,8 +4,8 @@ contact: true
 content:
   - tag: title
     text: 本部净月往返
-  - tag: p
-    title: 地铁-轻轨
+  - tag: text
+    heading: 地铁-轻轨
     text: |2-
          本部到净月的路线：
         乘坐地铁一号线从东北师大站向红嘴子方向坐三战到卫星广场站。
@@ -22,6 +22,6 @@ content:
     desc: 地铁一号线途经站点
   - tag: title
     text: 制作中...
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/1

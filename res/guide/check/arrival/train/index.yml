@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: title
     text: 长春站
-  - tag: p
+  - tag: text
     text: '   长春站有南北出站口。南出站口有直达本部校区的公交线路。北站口有两个，分别西侧的B1和东侧的B2。在下火车进入出站地下通道时，头顶有告示牌注明自己即将到达的是哪个出站口。新生报到期间，会有专人接站。'
   - tag: list
     content:
@@ -15,7 +15,7 @@ content:
   - tag: title
     text: 长春西站
   - tag: list
-    head: ' '
+    heading: ' '
     content:
       - text: 去本部
         aim: benbu2
@@ -26,6 +26,6 @@ content:
       - text: 接站
         icon: /module/icon/pickup.svg
         aim: /guide/check/arrival/pickup
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/10

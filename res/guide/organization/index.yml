@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    head: 学生组织
+    heading: 学生组织
     content:
       - text: 学生会
         icon: /image/nenuyouth.png
@@ -42,6 +42,6 @@ content:
       - text: 青年马克思主义者学习研究会
         icon: 'https://mp.innenu.com/img/studentOrg/qingMaXueHui.png'
         aim: marxism
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/10

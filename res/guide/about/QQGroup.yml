@@ -44,6 +44,6 @@ content:
     src: 'https://mp.innenu.com/img/FAQ/QRCode17.jpg'
   - tag: img
     src: 'https://mp.innenu.com/img/FAQ/QRCode18.jpg'
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/15

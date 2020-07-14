@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    head: 图书馆
+    heading: 图书馆
     content:
       - text: 馆藏分布
         icon: /module/icon/bookCollection.svg
@@ -36,6 +36,6 @@ content:
       - text: 电子阅览室
         icon: /module/icon/computer.svg
         aim: digit-room
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/10

@@ -4,8 +4,8 @@ contact: true
 content:
   - tag: title
     text: 基本餐
-  - tag: p
-    title: 基本餐价格
+  - tag: text
+    heading: 基本餐价格
     text: |-
       米饭￥0.25/两；
       素菜￥1—￥2.5，荤菜￥2.5—￥3.5。
@@ -22,8 +22,8 @@ content:
   - head: 3元区
     text: >-
       菠萝古老肉、鱿鱼炒韭菜、溜丸子、肉炒香菇、麻辣鳕鱼、孜然鸭脖、糖醋鱼段、麻辣鱼段、红烧肉焖蛋、蛋黄焗南瓜、苦瓜煎蛋、红烧扒皮鱼、孜然肉片、葱爆肉、木耳炒肉、糖醋排骨、溜肉段、溜三样、红烧鸡块、山东酥肉、家鸡干豆腐、香菇炖鸡
-  - tag: p
-    title: 基本餐供应时间
+  - tag: text
+    heading: 基本餐供应时间
     text: |-
       早餐供应时间为：6:30-9:00
       供应面条、粥、豆浆、包子、炒菜等
@@ -35,8 +35,8 @@ content:
   - tag: img
     src: 'https://mp.innenu.com/img/dining/dining5.jpg'
     desc: 早餐主食区
-  - tag: p
-    title: false
+  - tag: text
+    heading: false
     text: |-
       午餐供应时间为：11:00-12:30；
       晚餐供应时间为：16:30-18:00
@@ -54,9 +54,9 @@ content:
     desc: 北苑一楼北侧
   - tag: title
     text: Mr.Hope个人评价
-  - tag: p
+  - tag: text
     text: >-
       东北菜和南方的清淡是不同的，具有油大盐大的特点。Mr.Hope2016年入学的时候，作为一个辽宁人也觉得食堂的饭菜咸。好在北苑接受了学生们的意见反馈，开设了低油低盐窗口，同时普通窗口的菜的咸度和油度也有一定比例的下降。这种菜品的口味算是东北的一个地域特征吧，Mr.Hope个人觉得学校应该不会再改动菜品的口味了。南方的同学可能的确需要习惯一下。如果的确觉得咸，可以考虑低油低盐窗口、或到特色档口进行就餐。
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2020/2/22

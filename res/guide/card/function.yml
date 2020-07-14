@@ -4,8 +4,8 @@ contact: true
 content:
   - tag: title
     text: 主要功能
-  - tag: p
-    title: 生活
+  - tag: text
+    heading: 生活
     text: |2-
        宿舍网络的自助付费(注：可在线缴费)
        食堂消费
@@ -14,8 +14,8 @@ content:
        洗漱间的生活用水
        饮用水接取
        体育馆门禁
-  - tag: p
-    title: 学习
+  - tag: text
+    heading: 学习
     text: |2-
        图书超期罚款
        图书馆电子阅览室的图书借阅
@@ -23,5 +23,5 @@ content:
        期中期末考试身份认证
        计算机等级考试身份认证
        英语四六级考试身份认证
-  - tag: foot
+  - tag: footer
     time: 2020/2/22

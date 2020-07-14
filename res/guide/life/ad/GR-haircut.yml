@@ -4,12 +4,12 @@ contact: true
 content:
   - tag: title
     text: 理发价格
-  - tag: p
+  - tag: text
     text: |2-
        剪发：￥20/30
        烫发/染发：￥128起
-  - tag: p
-    title: 会员卡
+  - tag: text
+    heading: 会员卡
     text: |2-
        剪发卡：储值￥100元，剪发￥16
        烫染卡：￥300——八折 ￥500——7折 ￥1000——六折
@@ -23,9 +23,9 @@ content:
     src: 'https://mp.innenu.com/img/life/GR3.jpg'
   - tag: img
     src: 'https://mp.innenu.com/img/life/GR4.jpg'
-  - tag: p
-    title: 活动
+  - tag: text
+    heading: 活动
     text: '   开学期间办理剪发会员卡，当次剪发免费。'
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/7

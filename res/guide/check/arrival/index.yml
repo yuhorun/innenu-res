@@ -3,7 +3,7 @@ shareable: true
 contact: true
 content:
   - tag: list
-    head: ' '
+    heading: ' '
     content:
       - text: 从火车站站出发
         aim: train/
@@ -13,6 +13,6 @@ content:
         aim: taxi
       - text: 关于接站
         aim: pickup
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/7/21

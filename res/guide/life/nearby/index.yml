@@ -4,11 +4,11 @@ grey: true
 contact: true
 content:
   - tag: list
-    head: 吃喝玩乐
+    heading: 吃喝玩乐
     content:
       - text: 本部
         aim: benbu
       - text: 净月
         aim: jingyue
-  - tag: foot
+  - tag: footer
     time: 2019/8/10

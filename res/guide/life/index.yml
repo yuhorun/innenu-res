@@ -35,6 +35,6 @@ content:
       - text: 校园周边
         icon: /icon/tabPage/nearby.svg
         aim: nearby
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/1

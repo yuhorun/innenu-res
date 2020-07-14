@@ -17,6 +17,6 @@ content:
         aim: department
       - text: 联系电话
         aim: phone
-  - tag: foot
+  - tag: footer
     desc: 信息来源：校医院官网
     time: 2019/8/14

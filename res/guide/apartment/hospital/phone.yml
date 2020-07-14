@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: title
     text: 行政联系方式
-  - tag: p
+  - tag: text
     text: 医院(劳资)
   - tag: phone
     fName: 医院(劳资)
@@ -12,7 +12,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院(后勤)
   - tag: phone
     fName: 医院(后勤)
@@ -22,7 +22,7 @@ content:
     postcode: '130024'
   - tag: title
     text: 医务联系方式
-  - tag: p
+  - tag: text
     text: 医院医务科
   - tag: phone
     fName: 医院医务科
@@ -30,7 +30,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院护理部
   - tag: phone
     fName: 医院护理部
@@ -38,7 +38,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院保健科
   - tag: phone
     fName: 医院保健科
@@ -46,7 +46,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院健康管理中心(体检)
   - tag: phone
     fName: 医院健康管理中心(体检)
@@ -56,7 +56,7 @@ content:
     postcode: '130024'
   - tag: title
     text: 社区服务
-  - tag: p
+  - tag: text
     text: 社区计免科
   - tag: phone
     fName: 社区计免科
@@ -64,7 +64,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 社区妇保室
   - tag: phone
     fName: 社区妇保室
@@ -72,7 +72,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 社区办公室(慢病科)
   - tag: phone
     fName: 社区办公室(慢病科)
@@ -82,7 +82,7 @@ content:
     postcode: '130024'
   - tag: title
     text: 净月卫生所
-  - tag: p
+  - tag: text
     text: 主任室
   - tag: phone
     fName: 主任室
@@ -90,7 +90,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 门诊收款室
   - tag: phone
     fName: 门诊收款室
@@ -100,7 +100,7 @@ content:
     postcode: '130024'
   - tag: title
     text: 其他
-  - tag: p
+  - tag: text
     text: 医院财务科
   - tag: phone
     fName: 医院财务科
@@ -108,7 +108,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院住院处
   - tag: phone
     fName: 医院住院处
@@ -116,7 +116,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 医院门诊收款处
   - tag: phone
     fName: 医院门诊收款处
@@ -124,7 +124,7 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: p
+  - tag: text
     text: 急诊科
   - tag: phone
     fName: 急诊科
@@ -132,6 +132,6 @@ content:
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
     postcode: '130024'
-  - tag: foot
+  - tag: footer
     desc: 信息来源：校医院官网
     time: 2019/8/14

@@ -55,16 +55,86 @@ export const convertFolder = (
     });
 };
 
-convertFolder("../res/guide", (json) => {
+const change = (json: any): any => {
+  if (Array.isArray(json)) {
+    const head = json.shift();
+
+    const { title, desc, grey } = head;
+
+    delete head.title;
+    delete head.desc;
+    delete head.grey;
+
+    const page: Record<string, any> = { title };
+
+    if (desc) page.desc = desc;
+    if (grey) page.grey = grey;
+
+    // eslint-disable-next-line no-param-reassign
+    json = { ...page, content: json, ...head };
+  }
+
+  // eslint-disable-next-line max-statements
   json.content.forEach((element: any, index: number) => {
-    if (element.tag === "p" && element.head === false) {
-      const title = element.head;
+    if (element.tag === "p") {
+      delete element.tag;
+      json.content[index] = { tag: "text", ...element };
+    }
+
+    if (element.tag === "text" && element.head !== undefined) {
+      const heading = element.head;
 
       delete element.tag;
       delete element.head;
-      json.content[index] = { tag: "p", title, ...element };
+      json.content[index] = { tag: "text", heading, ...element };
+    }
+
+    if (element.tag === "text" && element.title !== undefined) {
+      const heading = element.title;
+
+      delete element.tag;
+      delete element.title;
+      json.content[index] = { tag: "text", heading, ...element };
+    }
+
+    if (element.tag === "list" && element.head !== undefined) {
+      const heading = element.head;
+
+      delete element.tag;
+      delete element.head;
+      json.content[index] = { tag: "list", heading, ...element };
+    }
+
+    if (element.tag === "list" && element.foot !== undefined) {
+      const footer = element.foot;
+
+      delete element.foot;
+      json.content[index] = { ...element, footer };
+    }
+
+    if (element.tag === "grid" && element.head !== undefined) {
+      const heading = element.head;
+
+      delete element.tag;
+      delete element.head;
+      json.content[index] = { tag: "grid", heading, ...element };
+    }
+
+    if (element.tag === "grid" && element.foot !== undefined) {
+      const footer = element.foot;
+
+      delete element.foot;
+      json.content[index] = { ...element, footer };
+    }
+
+    if (element.tag === "foot") {
+      delete element.tag;
+      json.content[index] = { tag: "footer", ...element };
     }
   });
 
   return safeDump(json, { lineWidth: 80 });
-});
+};
+
+convertFolder("../res/guide", change);
+convertFolder("../res/other", change);

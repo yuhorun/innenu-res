@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: title
     text: 办理IC卡
-  - tag: p
+  - tag: text
     text: |2-
          在长春,刷IC卡乘公交车享受优惠，刷地铁不享受优惠。
          恒客隆超市应当是离校园比较近的公交卡办理与充值地点了。
@@ -12,10 +12,10 @@ content:
       时间：每天09:00～15:30 附：长春公交IC卡工本费30元。
   - tag: title
     text: 办理地铁卡
-  - tag: p
+  - tag: text
     text: |2-
          在长春，地铁卡刷地铁与轻轨享受95折优惠，刷公交车享受9折优惠。
          在任意地铁站的窗口均可办理，工本费12元。
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/4/9

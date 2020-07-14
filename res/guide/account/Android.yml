@@ -2,7 +2,7 @@ title: 安卓邮件客户端设置
 shareable: true
 contact: true
 content:
-  - tag: p
+  - tag: text
     text: '   以安卓手机上的Gmail客户端为例'
   - tag: img
     src: 'https://mp.innenu.com/img/account/email1.jpg'
@@ -31,5 +31,5 @@ content:
   - tag: img
     src: 'https://mp.innenu.com/img/account/email9.jpg'
     desc: 选择合适的账号名称与发件人姓名
-  - tag: foot
+  - tag: footer
     time: 2019/9/7

@@ -2,32 +2,32 @@ title: 报到时间地点
 shareable: true
 contact: true
 content:
-  - tag: p
+  - tag: text
     style: 'color:#888;font-size:14px;'
     text: |-
 
       本页信息为2019年情况
   - tag: title
     text: 报到(接待)时间
-  - tag: p
-    title: 临时接待
+  - tag: text
+    heading: 临时接待
     text: '2019年8月14日13:30-8月15日13:30'
-  - tag: p
-    title: 正式接待
+  - tag: text
+    heading: 正式接待
     text: |-
       2019年8月15日13:30-22:30
       8月16日7:00-22:00
   - tag: title
     text: 报到(接待)地点
-  - tag: p
-    title: 临时接待
+  - tag: text
+    heading: 临时接待
     text: 地点：各学院教学楼
-  - tag: p
-    title: 正式接待
+  - tag: text
+    heading: 正式接待
   - tag: doc
     docName: 摆台分布示意图.pdf
     url: 'https://mp.innenu.com/file/checkin2019.pdf'
-  - tag: p
+  - tag: text
     text: '   本部校区在同心路上(化院、排球场门前对着的那条路)'
   - tag: img
     src: 'https://mp.innenu.com/img/check/check7.jpg'
@@ -42,10 +42,10 @@ content:
   - tag: img
     src: 'https://mp.innenu.com/img/check/check9.jpg'
     desc: 本部摆台旁的学生证展板(图片中是Mr.Hope本人哦)
-  - tag: p
+  - tag: text
     text: '   净月校区在净月图书馆门前广场'
   - tag: img
     src: 'https://mp.innenu.com/img/check/jingyueNow.jfif'
-  - tag: foot
+  - tag: footer
     author: Mr.Hope
     time: 2019/8/12
