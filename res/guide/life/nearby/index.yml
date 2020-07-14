@@ -7,8 +7,8 @@ content:
     heading: 吃喝玩乐
     content:
       - text: 本部
-        aim: benbu
+        path: benbu
       - text: 净月
-        aim: jingyue
+        path: jingyue
   - tag: footer
     time: 2019/8/10

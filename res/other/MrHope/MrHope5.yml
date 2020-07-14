@@ -8,7 +8,7 @@ content:
     heading: false
     content:
       - text: 更多详情
-        aim: MrHope6
+        path: MrHope6
   - tag: title
     text: 顾客须知
   - tag: text
@@ -17,7 +17,7 @@ content:
     heading: false
     content:
       - text: 店铺公告
-        aim: MrHope7
+        path: MrHope7
   - tag: title
     text: 价格收费
   - tag: text
@@ -27,7 +27,7 @@ content:
     heading: false
     content:
       - text: 更多详情
-        aim: MrHope8
+        path: MrHope8
   - tag: footer
     author: Mr.Hope
     time: 2019/8/29

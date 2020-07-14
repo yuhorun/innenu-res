@@ -1,12 +1,5 @@
+import { DocComponentConfig } from "../../types";
 import { checkKeys } from "@mr-hope/assert-type";
-
-export interface DocComponentConfig {
-  tag: "doc";
-  docName: string;
-  docIcon: string;
-  url: string;
-  downloadable?: boolean;
-}
 
 /**
  * 获得文档图标

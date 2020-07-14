@@ -24,7 +24,7 @@ content:
     content:
       - text: 了解更多校园网相关
         icon: /module/icon/network.svg
-        aim: network0
+        path: network0
   - tag: footer
     author: Mr.Hope
     time: 2019/4/9

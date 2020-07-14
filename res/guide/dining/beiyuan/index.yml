@@ -13,19 +13,19 @@ content:
     content:
       - text: 基本餐价格比较亲民，每天都会制订几款特价菜品，分时间段供应三餐。
       - text: 了解更多
-        aim: basic
+        path: basic
   - tag: list
     heading: 特色档口
     content:
       - text: 特色档口以特色餐和各式快餐为主。几乎所有档口不分时段供应对应饮食，价格比外面餐馆略低。
       - text: 了解更多
-        aim: special
+        path: special
   - tag: list
     heading: 清真餐厅
     content:
       - text: 清真餐厅位于二楼北侧，食物多种多样。
       - text: 了解更多
-        aim: muslim
+        path: muslim
   - tag: footer
     author: Mr.Hope
     time: 2019/4/9

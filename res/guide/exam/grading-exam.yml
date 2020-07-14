@@ -17,7 +17,7 @@ content:
     content:
       - text: 免修评定
         icon: /module/icon/English.svg
-        aim: study6
+        path: study6
   - tag: text
     heading: 提示
     text: '   因为如果分班考试成绩高于八十分的话，可以直接申请大一一整学年的英语免修，在别的小伙伴还在上课、练习视听说、写英语作文的时候，免修的同学们就可以做自己的事情了，这可以节约大量的时间。所以对于英语好的同学，如果有空的话一定要在假期刷一刷四级题，争取免修。'

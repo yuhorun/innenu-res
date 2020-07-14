@@ -7,34 +7,34 @@ content:
     content:
       - text: 洗浴
         icon: /module/icon/shower.svg
-        aim: bath
+        path: bath
       - text: 理发
         icon: /module/icon/haircut.svg
-        aim: haircut
+        path: haircut
       - text: 照相
         icon: /module/icon/takePhoto.svg
-        aim: photo
+        path: photo
       - text: 打印
         icon: /module/icon/copy.svg
-        aim: print
+        path: print
       - text: 超市
         icon: /module/icon/shop.svg
-        aim: shop
+        path: shop
       - text: 快递
         icon: /module/icon/express.svg
-        aim: express/
+        path: express/
       - text: 地铁卡公交卡
         icon: /icon/tabPage/card.svg
-        aim: card
+        path: card
       - text: ATM
         icon: /module/icon/atm.svg
-        aim: atm
+        path: atm
       - text: 就医
         icon: /icon/heart.svg
-        aim: hostpital
+        path: hostpital
       - text: 校园周边
         icon: /icon/tabPage/nearby.svg
-        aim: nearby
+        path: nearby
   - tag: footer
     author: Mr.Hope
     time: 2019/8/1

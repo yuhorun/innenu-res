@@ -13,10 +13,10 @@ content:
     content:
       - text: 统一身份认证
         icon: /icon/tabPage/about.svg
-        aim: authorize
+        path: authorize
       - text: 校园邮箱
         icon: /icon/tabPage/about.svg
-        aim: mail
+        path: mail
   - tag: footer
     author: Mr.Hope
     time: 2019/8/15

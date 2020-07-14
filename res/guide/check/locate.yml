@@ -15,10 +15,10 @@ content:
     content:
       - text: 本部校区校门介绍
         icon: /module/icon/gate.svg
-        aim: benbu
+        path: benbu
       - text: 本部校区寝室介绍
         icon: /icon/tabPage/dorm.svg
-        aim: /guide/dorm/benbu
+        path: /guide/dorm/benbu
   - tag: title
     text: 净月校区院系专业
   - tag: text
@@ -28,10 +28,10 @@ content:
     content:
       - text: 净月校区校门介绍
         icon: /module/icon/gate.svg
-        aim: jingyue
+        path: jingyue
       - text: 净月校区寝室介绍
         icon: /icon/tabPage/dorm.svg
-        aim: /guide/dorm/jingyue
+        path: /guide/dorm/jingyue
   - tag: title
     text: 注意事项
   - tag: text
@@ -47,7 +47,7 @@ content:
     content:
       - text: 地址与快递相关
         icon: /module/icon/express.svg
-        aim: /guide/life/express/
+        path: /guide/life/express/
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

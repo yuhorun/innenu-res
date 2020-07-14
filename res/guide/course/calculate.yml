@@ -28,7 +28,7 @@ content:
     content:
       - text: 各专业课程计划
         icon: /module/icon/plan.svg
-        aim: plan
+        path: plan
   - tag: footer
     author: Mr.Hope
     time: 2019/4/9

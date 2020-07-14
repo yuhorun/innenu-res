@@ -8,34 +8,34 @@ content:
     content:
       - text: 馆藏分布
         icon: /module/icon/bookCollection.svg
-        aim: distribution
+        path: distribution
       - text: 图书馆楼层平面图
         icon: /icon/tabPage/map.svg
-        aim: floor
+        path: floor
       - text: 书目检索
         icon: /module/icon/lost.svg
-        aim: search
+        path: search
       - text: 借书权限
         icon: /module/icon/checkOut.svg
-        aim: borrow
+        path: borrow
       - text: 图书馆开门时间
         icon: /module/icon/libraryTime.svg
-        aim: door
+        path: door
       - text: 图书馆风貌
         icon: /module/icon/library.svg
-        aim: scene
+        path: scene
       - text: 其他服务
         icon: /module/icon/service.svg
-        aim: service
+        path: service
       - text: 借阅流程
         icon: /module/icon/attentionItem.svg
-        aim: borrow-flow
+        path: borrow-flow
       - text: 图书馆简介
         icon: /module/icon/attentionItem.svg
-        aim: intro
+        path: intro
       - text: 电子阅览室
         icon: /module/icon/computer.svg
-        aim: digit-room
+        path: digit-room
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

@@ -9,23 +9,23 @@ content:
   - tag: list
     content:
       - text: 到本部
-        aim: benbu
+        path: benbu
       - text: 到净月
-        aim: jingyue
+        path: jingyue
   - tag: title
     text: 长春西站
   - tag: list
     heading: ' '
     content:
       - text: 去本部
-        aim: benbu2
+        path: benbu2
       - text: 去净月
-        aim: jingyue2
+        path: jingyue2
   - tag: list
     content:
       - text: 接站
         icon: /module/icon/pickup.svg
-        aim: /guide/check/arrival/pickup
+        path: /guide/check/arrival/pickup
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

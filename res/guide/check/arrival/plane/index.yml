@@ -16,9 +16,9 @@ content:
     heading: ' '
     content:
       - text: 到本部
-        aim: benbu
+        path: benbu
       - text: 到净月
-        aim: jingyue
+        path: jingyue
   - tag: footer
     author: Mr.Hope
     time: 2019/7/21

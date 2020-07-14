@@ -14,16 +14,16 @@ content:
     content:
       - text: 有线上网
         icon: /module/icon/ethernet.svg
-        aim: lan
+        path: lan
       - text: 无线上网
         icon: /module/icon/wifi.svg
-        aim: wlan
+        path: wlan
       - text: 计费
         icon: /module/icon/pay.svg
-        aim: fee
+        path: fee
       - text: 统一身份认证
         icon: /icon/tabPage/about.svg
-        aim: /guide/account/authorize
+        path: /guide/account/authorize
   - tag: footer
     author: Mr.Hope
     time: 2019/8/15

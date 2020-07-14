@@ -35,13 +35,13 @@ content:
   - tag: list
     content:
       - text: 查看详情
-        aim: check2
+        path: check2
   - tag: title
     text: 本部/净月-飞机
   - tag: list
     content:
       - text: 查看详情
-        aim: check3
+        path: check3
   - tag: title
     text: 本部/净月-主要商业圈
   - tag: text

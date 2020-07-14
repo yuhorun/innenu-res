@@ -6,13 +6,13 @@ content:
     heading: ' '
     content:
       - text: 从火车站站出发
-        aim: train/
+        path: train/
       - text: 从龙嘉机场
-        aim: plane/
+        path: plane/
       - text: 出租车
-        aim: taxi
+        path: taxi
       - text: 关于接站
-        aim: pickup
+        path: pickup
   - tag: footer
     author: Mr.Hope
     time: 2019/7/21

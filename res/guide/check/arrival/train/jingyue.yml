@@ -29,7 +29,7 @@ content:
     content:
       - text: 打车的建议
         icon: /module/icon/taxi.svg
-        aim: check4
+        path: check4
   - tag: title
     text: 轻轨
   - tag: text

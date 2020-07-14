@@ -35,7 +35,7 @@ content:
     heading: false
     content:
       - text: 更多军训详情
-        aim: FAQ9
+        path: FAQ9
   - tag: footer
     author: Mr.Hope
     time: 2019/7/27

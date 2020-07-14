@@ -7,31 +7,31 @@ content:
     heading: 寝室分布
     content:
       - text: 本部校区
-        aim: benbu
+        path: benbu
       - text: 净月校区
-        aim: jingyue
+        path: jingyue
   - tag: list
     heading: 寝室环境
     content:
       - text: 室内布局
-        aim: detail
+        path: detail
       - text: 公共区域
-        aim: public
+        path: public
   - tag: list
     heading: 其他相关
     content:
       - text: 寝室门禁时间
         icon: /module/icon/guard.svg
-        aim: door
+        path: door
       - text: 寝室供电
         icon: /module/icon/electric.svg
-        aim: electricity
+        path: electricity
       - text: 寝室供网
         icon: /module/icon/network.svg
-        aim: network
+        path: network
       - text: 走读与调宿
         icon: /icon/tabPage/about.svg
-        aim: day-reading
+        path: day-reading
   - tag: text
     heading: 禁用物品
     text: '   宿舍内严禁使用违章电器，如电熨斗、直板夹、电热宝、电吹风、电炉、电水壶、电热毯、热得快等大功率电器。床帘和吊椅也是不允许的。(只可以在夜间挂蚊帐)'

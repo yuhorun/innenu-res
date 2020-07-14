@@ -10,10 +10,10 @@ content:
     content:
       - icon: /module/icon/subsidizeAuthentication.svg
         text: 资助申请流程
-        aim: application
+        path: application
       - icon: /module/icon/list.svg
         text: 资助工作机构简介
-        aim: intro
+        path: intro
   - tag: footer
     author: Mr.Hope
     time: 2020/2/22

@@ -10,7 +10,7 @@ content:
     content:
       - text: 转专业实施办法及注意事项
         icon: /module/icon/attention.svg
-        aim: course12
+        path: course12
   - tag: title
     text: 东师可以双学位或者辅修么
   - tag: text

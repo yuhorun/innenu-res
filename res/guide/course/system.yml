@@ -22,7 +22,7 @@ content:
     content:
       - icon: /module/icon/more.svg
         text: 信息化办
-        aim: card4
+        path: card4
   - tag: text
     heading: ' 其他操作注意事项'
     text: |2-

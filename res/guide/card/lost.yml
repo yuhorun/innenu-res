@@ -22,7 +22,7 @@ content:
     content:
       - text: 信息化办
         icon: /module/icon/more.svg
-        aim: card4
+        path: card4
   - tag: text
     heading: 补卡费用：
     text: ' ￥20/张'

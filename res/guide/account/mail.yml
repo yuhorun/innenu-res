@@ -17,9 +17,9 @@ content:
   - tag: list
     content:
       - text: 安卓设置方法
-        aim: Android
+        path: Android
       - text: iOS设置方法
-        aim: iOS
+        path: iOS
   - tag: img
     src: 'https://mp.innenu.com/img/account/emailAdvance.png'
     desc: 高级设置

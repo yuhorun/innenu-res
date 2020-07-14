@@ -10,7 +10,7 @@ content:
     content:
       - text: 火车站-本部
         icon: /module/icon/train.svg
-        aim: check17
+        path: check17
   - tag: title
     text: 机场巴士-公交
   - tag: text

@@ -31,7 +31,7 @@ content:
     content:
       - text: 校内外超市
         icon: /module/icon/shop.svg
-        aim: life5
+        path: life5
   - tag: title
     text: 学习用品
   - tag: text

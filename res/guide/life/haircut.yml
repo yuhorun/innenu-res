@@ -15,7 +15,7 @@ content:
     content:
       - text: G·R 理发
         icon: /module/icon/haircut.svg
-        aim: ad/GR-haircut
+        path: ad/GR-haircut
   - tag: title
     text: 净月
   - tag: text

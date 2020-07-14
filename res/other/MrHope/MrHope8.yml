@@ -5,15 +5,15 @@ content:
     heading: 项目选择
     content:
       - text: 预装正版win10——重装最新版win10
-        aim: MrHope21
+        path: MrHope21
       - text: 预装正版win10——重装老版本win10
-        aim: MrHope22
+        path: MrHope22
       - text: 预装正版win10——降级为Win7
-        aim: MrHope23
+        path: MrHope23
       - text: 无预装系统——安装最新版Win10
-        aim: MrHope24
+        path: MrHope24
       - text: 其他选项
-        aim: MrHope25
+        path: MrHope25
   - tag: footer
     author: Mr.Hope
     time: 2019/8/29

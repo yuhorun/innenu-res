@@ -10,7 +10,7 @@ content:
     content:
       - text: 火车站-净月
         icon: /module/icon/train.svg
-        aim: check18
+        path: check18
   - tag: title
     text: 打车
   - tag: text

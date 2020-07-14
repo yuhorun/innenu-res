@@ -11,7 +11,7 @@ content:
     content:
       - text: 机场动车
         icon: /module/icon/train.svg
-        aim: check3
+        path: check3
   - tag: text
     style: 'color:#888;font-size:14px;'
     text: 长春站南出站口虽然说也有人接，只不过南出站口没地方摆台停大巴，所以等聚齐一批人之后还是会统一通过南北通道领到北口去乘车，所以就不要走冤枉路了。

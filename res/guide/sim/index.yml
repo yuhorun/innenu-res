@@ -8,11 +8,11 @@ content:
     heading: 运营商
     content:
       - text: 中国联通
-        aim: unicom
+        path: unicom
       - text: 中国移动
-        aim: mobile
+        path: mobile
       - text: 中国电信
-        aim: telecom
+        path: telecom
   - tag: footer
     author: Mr.Hope
     time: 2019/4/9

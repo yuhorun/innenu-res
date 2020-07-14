@@ -8,52 +8,52 @@ content:
     content:
       - text: 通识教育课程
         icon: /module/icon/typeTime.svg
-        aim: general
+        path: general
       - text: 专业教育课程
         icon: /module/icon/typeTime.svg
-        aim: professional
+        path: professional
       - text: 发展课程课程
         icon: /module/icon/typeTime.svg
-        aim: develop
+        path: develop
       - text: 绩点计算方法
         icon: /module/icon/typeTime.svg
-        aim: calculate
+        path: calculate
       - text: 本科课程计划
         icon: /module/icon/plan.svg
-        aim: plan
+        path: plan
   - tag: list
     heading: 选课
     content:
       - text: 选课内容
         icon: /module/icon/content.svg
-        aim: select
+        path: select
       - text: 选课流程
         icon: /module/icon/process.svg
-        aim: flow
+        path: flow
       - text: 选课系统
         icon: /module/icon/operate.svg
-        aim: system
+        path: system
       - text: 选课技巧
         icon: /module/icon/skill.svg
-        aim: skill
+        path: skill
   - tag: list
     heading: 东师及专业排名
     content:
       - text: 东师排名
         icon: /module/icon/nenuRanking.svg
-        aim: rank
+        path: rank
       - text: 专业排名
         icon: /module/icon/nenuRanking.svg
-        aim: major-rank
+        path: major-rank
   - tag: list
     heading: 双学位、辅修与转专业
     content:
       - text: 获取双学位与辅修
         icon: /icon/tabPage/course.svg
-        aim: double-degree
+        path: double-degree
       - text: 转专业实施办法及注意事项
         icon: /icon/tabPage/course.svg
-        aim: change-major
+        path: change-major
   - tag: footer
     author: Mr.Hope
     time: 2019/8/2

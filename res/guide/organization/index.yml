@@ -8,40 +8,40 @@ content:
     content:
       - text: 学生会
         icon: /image/nenuyouth.png
-        aim: student-union
+        path: student-union
       - text: 研究生会
         icon: 'https://mp.innenu.com/img/studentOrg/yanHui.png'
-        aim: graduate-association
+        path: graduate-association
       - text: 学生社团联合会
         icon: 'https://mp.innenu.com/img/studentOrg/sheLian.png'
-        aim: association-union
+        path: association-union
       - text: 红烛志愿者协会
         icon: 'https://mp.innenu.com/img/studentOrg/hongZhu.png'
-        aim: hongzhu
+        path: hongzhu
       - text: 厚普公益学校
         icon: 'https://mp.innenu.com/img/studentOrg/houpu.png'
-        aim: hope
+        path: hope
       - text: 校新媒体中心
         icon: /image/nenuyouth.png
-        aim: new-media-center
+        path: new-media-center
       - text: 《东师青年》报社
         icon: 'https://mp.innenu.com/img/studentOrg/baoShe.png'
-        aim: newspaper-office
+        path: newspaper-office
       - text: “东师之声”校园广播站
         icon: 'https://mp.innenu.com/img/studentOrg/dongShiZhiSheng.png'
-        aim: radio-station
+        path: radio-station
       - text: 大学生艺术团
         icon: 'https://mp.innenu.com/img/studentOrg/daYi.png'
-        aim: art-ensemble
+        path: art-ensemble
       - text: 大学生体育俱乐部
         icon: 'https://mp.innenu.com/img/studentOrg/daTi.png'
-        aim: sport-club
+        path: sport-club
       - text: 大学生创业中心
         icon: 'https://mp.innenu.com/img/studentOrg/daChuang.png'
-        aim: career-center
+        path: career-center
       - text: 青年马克思主义者学习研究会
         icon: 'https://mp.innenu.com/img/studentOrg/qingMaXueHui.png'
-        aim: marxism
+        path: marxism
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

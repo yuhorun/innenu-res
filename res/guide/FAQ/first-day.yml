@@ -9,15 +9,15 @@ content:
   - tag: list
     content:
       - text: 第一步：认清校区位置
-        aim: check1
+        path: check1
       - text: 第二部：出发并到达校区
-        aim: check6
+        path: check6
   - tag: title
     text: 办理入学和住宿手续
   - tag: list
     content:
       - text: 第三步：办理入学和住宿手续
-        aim: check9
+        path: check9
   - tag: text
     text: |-
       请新生同学注意：
@@ -27,9 +27,9 @@ content:
   - tag: list
     content:
       - text: 第四步：激活校园卡
-        aim: card2
+        path: card2
       - text: 第五步：准备各类用品
-        aim: check7
+        path: check7
   - tag: footer
     author: Mr.Hope
     time: 2019/7/23

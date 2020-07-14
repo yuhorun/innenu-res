@@ -12,7 +12,7 @@ content:
     content:
       - text: 校医院详情
         icon: /icon/heart.svg
-        aim: apartment6
+        path: apartment6
   - tag: text
     style: 'color:#888;font-size:14px;'
     text: '   净月校区Mr.Hope不是很了解。此处有待补充'

@@ -6,19 +6,19 @@ content:
   - tag: list
     content:
       - text: 党委学生工作部
-        aim: student
+        path: student
       - text: 学生心理健康教育中心
-        aim: psychology
+        path: psychology
       - text: 学校办公室
-        aim: office
+        path: office
       - text: 校团委
-        aim: youthLeague
+        path: youthLeague
       - text: 后勤管理处
-        aim: logistics
+        path: logistics
       - text: 校医院
-        aim: hospital/
+        path: hospital/
       - text: 保卫科
-        aim: defend
+        path: defend
   - tag: footer
     author: Mr.Hope
     time: 2019/8/15
