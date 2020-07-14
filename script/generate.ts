@@ -7,6 +7,7 @@ import { generateKeywords } from "./keyword";
 
 // 生成对应的 JSON
 convertFolder("./res/config", "./config");
+convertFolder("./res/function", "./function");
 convertFolder("./res/guide", "./guide", resolvePage);
 
 // 生成关键词
