@@ -1,4 +1,4 @@
-import { checkKeys } from "../assertType";
+import { checkKeys } from "@mr-hope/assert-type";
 
 export interface PComponentConfig {
   tag: "p";

@@ -1,4 +1,4 @@
-import { checkKeys } from "../assertType";
+import { checkKeys } from "@mr-hope/assert-type";
 
 export interface DocComponentConfig {
   tag: "doc";
@@ -59,7 +59,7 @@ export const resolveDoc = (
       docIcon: "string",
       docName: "string",
       url: "string",
-      downloadable: [true, "undefined"]
+      downloadable: { type: ["undefined"], additional: [true] }
     },
     location
   );

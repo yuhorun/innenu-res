@@ -1,14 +1,13 @@
-"use strict";
-
 import { exec } from "child_process";
 import { readFileSync, writeFileSync } from "fs";
 import { type } from "os";
 import { convertFolder } from "./yml2json";
-import { resolvePage } from "./page";
+import { resolvePage } from "./components/page";
 import { generateKeywords } from "./keyword";
 
 // 生成对应的 JSON
-convertFolder("./res", "./guide", resolvePage);
+convertFolder("./res/config", "./config");
+convertFolder("./res/guide", "./guide", resolvePage);
 
 // 生成关键词
 generateKeywords();

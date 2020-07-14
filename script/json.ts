@@ -46,7 +46,7 @@ const checkJSON = (path: string): Promise<void> =>
 Promise.all([
   checkJSON("./config"),
   checkJSON("./function"),
-  checkJSON("./page")
+  checkJSON("./guide")
 ]).then(() => {
   console.log("检测完成");
 });

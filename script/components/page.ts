@@ -1,7 +1,7 @@
-import { checkKeys } from "./assertType";
-import { resolveTitle, TitleComponentConfig } from "./components/title";
-import { resolveDoc, DocComponentConfig } from "./components/doc";
-import { resolveP, PComponentConfig } from "./components/p";
+import { checkKeys } from "@mr-hope/assert-type";
+import { resolveTitle, TitleComponentConfig } from "./title";
+import { resolveDoc, DocComponentConfig } from "./doc";
+import { resolveP, PComponentConfig } from "./p";
 
 export type PageTag =
   | "head"

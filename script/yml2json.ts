@@ -6,7 +6,7 @@ import { readDir } from "./file";
 export const convertFolder = (
   sourceFolder: string,
   targetFolder = "./temp",
-  convertFunction: (data: any, filePath: string) => any
+  convertFunction: (data: any, filePath: string) => any = (data): any => data
 ): void => {
   const result = readDir("", sourceFolder);
   if (!existsSync(targetFolder)) mkdirSync(targetFolder, { recursive: true });

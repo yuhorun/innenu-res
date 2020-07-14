@@ -6,7 +6,6 @@
   "scripts": {
     "check:json": "node ./script/json.js",
     "generate": "node ./script/generate.js",
-    "test": "mocha test/*.test.js",
     "ts:compile": "tsc",
     "upload": "node ./script/upload.js"
   },
@@ -20,6 +19,7 @@
     "url": "https://mrhope.site"
   },
   "dependencies": {
+    "@mr-hope/assert-type": "0.0.2",
     "@types/chai": "4.2.11",
     "@types/js-yaml": "3.12.5",
     "@types/mocha": "7.0.2",

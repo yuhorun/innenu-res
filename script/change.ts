@@ -55,7 +55,7 @@ export const convertFolder = (
     });
 };
 
-convertFolder("../res", (json) => {
+convertFolder("../res/guide", (json) => {
   json.content.forEach((element: any, index: number) => {
     if (element.tag === "p" && element.head === false) {
       const title = element.head;

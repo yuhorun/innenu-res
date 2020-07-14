@@ -1,4 +1,4 @@
-import { assertType } from "../assertType";
+import { assertType } from "@mr-hope/assert-type";
 
 export const camelCase2kebabCase = (str: string): string => {
   const hyphenateRE = /([^-])([A-Z])/gu;
