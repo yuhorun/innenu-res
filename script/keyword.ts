@@ -11,7 +11,7 @@ interface KeywordItem {
 // 写入关键词内容
 const writeKeywords = (
   keywords: Record<string, KeywordItem>,
-  folder = "./guide"
+  folder = "./resource/guide"
 ): void => {
   /** 文件夹列表 */
   const result = readDir("", folder);
@@ -56,5 +56,5 @@ export const generateKeywords = (): void => {
   writeKeywords(keywords);
 
   // 写入关键词列表
-  writeFileSync("./guide/keywords.json", JSON.stringify(keywords));
+  writeFileSync("./resource/guide/keywords.json", JSON.stringify(keywords));
 };

@@ -1,5 +1,3 @@
-"use strict";
-
 import { readFile, readdir } from "fs";
 
 const testJSON = (path: string): Promise<void> =>
@@ -44,9 +42,9 @@ const checkJSON = (path: string): Promise<void> =>
   });
 
 Promise.all([
-  checkJSON("./config"),
-  checkJSON("./function"),
-  checkJSON("./guide")
+  checkJSON("./resource/config"),
+  checkJSON("./resource/function"),
+  checkJSON("./resource/guide")
 ]).then(() => {
   console.log("检测完成");
 });

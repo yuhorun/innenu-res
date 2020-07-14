@@ -7,8 +7,7 @@ const loginInfo = require("./loginInfo");
 client.connect(loginInfo);
 
 client.on("ready", () => {
-  putFolder("./server/info")
-    .then(() => putFolder("./service/info"))
+  putFolder("./service/info")
     .then(() => {
       console.log("upload success");
       client.end();

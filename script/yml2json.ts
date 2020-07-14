@@ -5,7 +5,7 @@ import { readDir } from "./file";
 
 export const convertFolder = (
   sourceFolder: string,
-  targetFolder = "./temp",
+  targetFolder = sourceFolder,
   convertFunction: (data: any, filePath: string) => any = (data): any => data
 ): void => {
   const result = readDir("", sourceFolder);

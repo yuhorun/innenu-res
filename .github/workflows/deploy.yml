@@ -45,8 +45,6 @@ jobs:
         run: |
           git push -f git@mp.innenu.com:/www/wwwroot/mp-v3 master
           ssh git@mp.innenu.com "cd /www/wwwroot/mp-v3 && git reset --hard HEAD"
-          mkdir server/info
-          echo "${{ secrets.APPID_SECRET }}" > server/info/appid.php
           mkdir service/info
           echo "${{ secrets.APPID_SECRET }}" > service/info/appid.php
           echo "${{ secrets.LOGIN_INFO }}" > script/loginInfo.js
