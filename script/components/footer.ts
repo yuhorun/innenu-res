@@ -1,4 +1,4 @@
-import { FooterComponentConfig } from "../../types";
+import { FooterComponentConfig } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 
 export const resolveFooter = (

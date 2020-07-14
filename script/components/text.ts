@@ -1,4 +1,4 @@
-import { TextComponentConfig } from "../../types";
+import { TextComponentConfig } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveStyle } from "./utils";
 

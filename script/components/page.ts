@@ -6,7 +6,7 @@ import {
   FooterComponentConfig,
   ListComponentConfig,
   GridComponentConfig
-} from "../../types";
+} from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
 import { resolveDoc } from "./doc";

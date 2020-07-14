@@ -1,4 +1,4 @@
-import { ListComponentConfig } from "../../types";
+import { ListComponentConfig } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 
 export const resolveList = (

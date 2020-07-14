@@ -34,5 +34,5 @@
     "locale": "zh-CN",
     "module": "CommonJS"
   },
-  "include": ["script/**/*.ts", "types/**/*.ts"]
+  "include": ["script/**/*.ts", "typings/**/*.ts"]
 }
