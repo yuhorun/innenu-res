@@ -25,7 +25,7 @@ content:
     content:
       - text: 接站
         icon: /module/icon/pickup.svg
-        path: /guide/check/arrival/pickup
+        path: /check/arrival/pickup
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

@@ -118,11 +118,13 @@ export interface GridComponenntItemComfig {
   path?: string;
   /** 对应页面界面的路径 */
   url?: string;
+  /** 对应的英文名 */
+  name?: string;
 }
 
 export interface GridComponentConfig {
   tag: "grid";
-  heading?: string;
+  heading?: string | false;
   content: GridComponenntItemComfig[];
   /** 网格页脚 */
   footer?: string;

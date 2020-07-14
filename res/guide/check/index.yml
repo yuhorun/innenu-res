@@ -44,7 +44,7 @@ content:
         path: green-channel
       - text: 使用校园卡
         icon: /icon/tabPage/card.svg
-        path: /guide/card/prepare
+        path: /card/prepare
       - text: 防盗防骗攻略
         icon: /module/icon/safe.svg
         path: guard

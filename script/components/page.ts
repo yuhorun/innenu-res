@@ -4,7 +4,8 @@ import {
   TextComponentConfig,
   TitleComponentConfig,
   FooterComponentConfig,
-  ListComponentConfig
+  ListComponentConfig,
+  GridComponentConfig
 } from "../../types";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -12,15 +13,17 @@ import { resolveDoc } from "./doc";
 import { resolveText } from "./text";
 import { resolveFooter } from "./footer";
 import { resolveList } from "./list";
+import { resolveGrid } from "./grid";
+
 /**
  * 处理页面数据
  *
  * @param page 页面数据
- * @param pageName 页面名称
+ * @param pagePath 页面路径
  *
  * @returns 处理之后的page
  */
-export const resolvePage = (page: PageConfig, pageName = ""): PageConfig => {
+export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
   page.images = [];
 
   checkKeys(
@@ -35,8 +38,10 @@ export const resolvePage = (page: PageConfig, pageName = ""): PageConfig => {
       contact: ["boolean", "undefined"],
       images: "string[]"
     },
-    `${pageName} page`
+    `${pagePath} page`
   );
+
+  page.id = pagePath;
 
   page.content.forEach((element, index) => {
     // 处理图片
@@ -47,31 +52,38 @@ export const resolvePage = (page: PageConfig, pageName = ""): PageConfig => {
     if (element.tag === "title")
       resolveTitle(
         element as TitleComponentConfig,
-        `${pageName} page.content[${index}]`
+        `${pagePath} page.content[${index}]`
       );
     else if (element.tag === "p")
       resolveText(
         element as TextComponentConfig,
-        `${pageName} page.content[${index}]`
+        `${pagePath} page.content[${index}]`
       );
     // 设置文档
     else if (element.tag === "doc")
       resolveDoc(
         element as DocComponentConfig,
-        `${pageName} page.content[${index}]`
+        `${pagePath} page.content[${index}]`
       );
     // 设置列表组件
     else if (element.tag === "list" || element.tag === "ex-list")
       resolveList(
         element as ListComponentConfig,
         page.id,
-        `${pageName} page.content[${index}]`
+        `${pagePath} page.content[${index}]`
+      );
+    // 设置网格组件
+    else if (element.tag === "grid")
+      resolveGrid(
+        element as GridComponentConfig,
+        page.id,
+        `${pagePath} page.content[${index}]`
       );
     // 设置页脚
     else if (element.tag === "footer")
       resolveFooter(
         element as FooterComponentConfig,
-        `${pageName} page.content[${index}]`
+        `${pagePath} page.content[${index}]`
       );
   });
 

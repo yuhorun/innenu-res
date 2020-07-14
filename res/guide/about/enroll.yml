@@ -85,7 +85,7 @@ content:
         path: benbu
       - text: 本部校区寝室介绍
         icon: /icon/tabPage/dorm.svg
-        path: /guide/dorm/benbu
+        path: /dorm/benbu
   - tag: text
     heading: 政法学院-净月
     text: |2-
@@ -150,7 +150,7 @@ content:
         path: jingyue
       - text: 净月校区寝室介绍
         icon: /icon/tabPage/dorm.svg
-        path: /guide/dorm/jingyue
+        path: /dorm/jingyue
   - tag: footer
     author: Mr.Hope
     time: 2019/8/23

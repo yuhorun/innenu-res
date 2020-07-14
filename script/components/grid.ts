@@ -1,8 +1,8 @@
-import { ListComponentConfig } from "../../types";
+import { GridComponentConfig } from "../../types";
 import { checkKeys } from "@mr-hope/assert-type";
 
-export const resolveList = (
-  element: ListComponentConfig,
+export const resolveGrid = (
+  element: GridComponentConfig,
   pageId: string,
   location = ""
 ): void => {
@@ -10,33 +10,32 @@ export const resolveList = (
     element,
     {
       tag: "string",
-      heading: ["string", "boolean", "undefined"],
+      heading: ["string", "undefined"],
       content: "array",
       footer: ["string", "undefined"]
     },
     location
   );
 
-  element.content.forEach((listItem) => {
-    if (listItem.path)
-      if (listItem.path.startsWith("/"))
-        listItem.path = listItem.path.replace(/^\//u, "");
+  element.content.forEach((gridItem) => {
+    if (gridItem.path)
+      if (gridItem.path.startsWith("/"))
+        gridItem.path = gridItem.path.replace(/^\//u, "");
       else {
         const paths = pageId.split("/");
         paths.pop();
 
-        listItem.path = `${paths.join("/")}/${listItem.path.replace(
+        gridItem.path = `${paths.join("/")}/${gridItem.path.replace(
           /\/$/u,
           "/index"
         )}`;
       }
 
     checkKeys(
-      listItem,
+      gridItem,
       {
         text: "string",
         icon: ["string", "undefined"],
-        desc: ["string", "undefined"],
         path: ["string", "undefined"],
         url: ["string", "undefined"]
       },
