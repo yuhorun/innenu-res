@@ -30,7 +30,7 @@ content:
   - tag: title
     text: 考试环境及使用的软件
   - tag: text
-    text: '   NCRE 三级上机考试环境为 Windows 7 简体中文版。'
+    text: "   NCRE 三级上机考试环境为 Windows 7 简体中文版。"
   - tag: footer
     author: Mr.Hope
     time: 2019/7/22

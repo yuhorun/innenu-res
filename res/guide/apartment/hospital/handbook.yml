@@ -8,7 +8,7 @@ content:
     text:
       - 一、办理对象：学制期内的所有招收的计划内本科生、研究生(定向委培生除外)及少数民族骨干计划学生。
       - 二、办理所需材料：近期免冠一寸照片一张，医疗手册工本费4.5元/人，填写好的“补办《学生医疗手册》申请表”。
-      - '三、办理时间：正常工作日周一至周五 AM 8:30-11:00、PM 14:00-16:00 (法定节假日除外)。'
+      - "三、办理时间：正常工作日周一至周五 AM 8:30-11:00、PM 14:00-16:00 (法定节假日除外)。"
       - |-
         四、办理流程：
          1. 下载“补办《学生医疗手册》申请表”，自行打印。
@@ -25,10 +25,10 @@ content:
     text: 相关文件
   - tag: doc
     docName: 补办《学生医疗手册》申请表(全日制).pdf
-    url: 'https://mp.innenu.com/file/hospital/quanri.pdf'
+    url: "https://mp.innenu.com/file/hospital/quanri.pdf"
   - tag: doc
     docName: 补办《学生医疗手册》申请表(少民计划制).pdf
-    url: 'https://mp.innenu.com/file/hospital/shaomin.pdf'
+    url: "https://mp.innenu.com/file/hospital/shaomin.pdf"
   - tag: footer
     desc: 信息来源：校医院官网
     time: 2019/8/13

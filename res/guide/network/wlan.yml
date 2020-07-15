@@ -5,9 +5,9 @@ content:
   - tag: title
     text: 联网步骤
   - tag: text
-    text: ' 1. 开启手机/电脑等上的无线网(WLAN)功能，搜索可用无线网信号，搜索结果应包含下图所示无线网信号：'
+    text: " 1. 开启手机/电脑等上的无线网(WLAN)功能，搜索可用无线网信号，搜索结果应包含下图所示无线网信号："
   - tag: img
-    src: 'https://mp.innenu.com/img/network/wifi.jpg'
+    src: "https://mp.innenu.com/img/network/wifi.jpg"
   - tag: text
     text: |2-
        2. 如同时搜索到iNENU-2G、iNENU-5G，推荐连接iNENU-5G，速度体验更佳。
@@ -32,10 +32,10 @@ content:
   - tag: title
     text: 覆盖范围
   - tag: text
-    text: '   目前食堂、图书馆、各个学院及其他一些建筑已覆盖学校的wifi，但是为了您的学习，公共教学楼(逸夫教学楼和综合教学楼)不在wifi覆盖范围内，其他建筑大部分都已覆盖校园wifi。'
+    text: "   目前食堂、图书馆、各个学院及其他一些建筑已覆盖学校的wifi，但是为了您的学习，公共教学楼(逸夫教学楼和综合教学楼)不在wifi覆盖范围内，其他建筑大部分都已覆盖校园wifi。"
   - tag: title
     text: 无线网优势
   - tag: text
-    text: '   无线网连接方便快捷，但会存在抖动大、偶发性延时与丢包率激增的情况。所以如果您想稳定地连接网络进行音视频通话或是游玩在线游戏，建议您选择有线网。'
+    text: "   无线网连接方便快捷，但会存在抖动大、偶发性延时与丢包率激增的情况。所以如果您想稳定地连接网络进行音视频通话或是游玩在线游戏，建议您选择有线网。"
   - tag: footer
     time: 2019/8/17

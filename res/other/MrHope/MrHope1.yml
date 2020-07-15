@@ -3,9 +3,9 @@ content:
   - tag: title
     text: Mr.Hope个人简历
   - tag: text
-    text: '   Mr.Hope，男，1998年生于辽宁省，现为东北师范大学16级本科生，专业为物理学。'
+    text: "   Mr.Hope，男，1998年生于辽宁省，现为东北师范大学16级本科生，专业为物理学。"
   - tag: text
-    text: '   在大学入学后，Mr.Hope一直利用闲暇时间自学前端开发，服务器搭建、维护等相关知识，并致力于服务东师学子。Mr.Hope同时参与了大量的学生工作，包括在年级、院团委、校学生会、厚普公益学校等服务他人。'
+    text: "   在大学入学后，Mr.Hope一直利用闲暇时间自学前端开发，服务器搭建、维护等相关知识，并致力于服务东师学子。Mr.Hope同时参与了大量的学生工作，包括在年级、院团委、校学生会、厚普公益学校等服务他人。"
   - tag: title
     text: 主要学生干部经历
   - tag: text
@@ -39,14 +39,14 @@ content:
   - tag: title
     text: 个人爱好
   - tag: text
-    text: ' 钓鱼、国际象棋、花体英文、羽毛球、编程'
+    text: " 钓鱼、国际象棋、花体英文、羽毛球、编程"
   - tag: title
     text: 个人技能
   - tag: text
-    text: '   全栈开发，前端精通ES6、ES7语法，深入了解JS运行机制与原理，熟练掌握Node、TypeScript以及Vue框架的使用与开发；后端运维了解知识面广，对Linux命令、服务器常见软件包的配置与使用十分了解。在编程语言上了解C、C++、PHP语言，Angular、React框架也有所使用和了解。略有涉猎Java、Go、Kodin和Python。'
+    text: "   全栈开发，前端精通ES6、ES7语法，深入了解JS运行机制与原理，熟练掌握Node、TypeScript以及Vue框架的使用与开发；后端运维了解知识面广，对Linux命令、服务器常见软件包的配置与使用十分了解。在编程语言上了解C、C++、PHP语言，Angular、React框架也有所使用和了解。略有涉猎Java、Go、Kodin和Python。"
   - tag: footer
     author: Mr.Hope
     time: 2019/7/25
-tag: head
+
 shareable: true
 contact: true

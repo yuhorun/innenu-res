@@ -5,7 +5,7 @@ content:
   - tag: title
     text: 动车-其他(最优)
   - tag: text
-    text: '   先坐动车到长春站，约15分钟，再从长春站到东北师范大学。一定要查好班车时间，提前规划(长春站到本部的方法见【火车站-本部】)。'
+    text: "   先坐动车到长春站，约15分钟，再从长春站到东北师范大学。一定要查好班车时间，提前规划(长春站到本部的方法见【火车站-本部】)。"
   - tag: list
     content:
       - text: 火车站-本部
@@ -23,12 +23,12 @@ content:
        3. 乘坐306路/66路/6路/6路夜车到达自由大路站，1元
       4.步行约63米 到达东北师范大学(东北方向)
   - tag: img
-    src: 'https://mp.innenu.com/img/check/mainGate.jfif'
+    src: "https://mp.innenu.com/img/check/mainGate.jfif"
     desc: 图为东北师范大学正门
   - tag: title
     text: 打车
   - tag: text
-    text: '   出租车到本部的价格一般是100元左右，约50分钟。长春市龙嘉机场在离长春市区非常非常远的郊区，交通极其不便，打车费用惊人。'
+    text: "   出租车到本部的价格一般是100元左右，约50分钟。长春市龙嘉机场在离长春市区非常非常远的郊区，交通极其不便，打车费用惊人。"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/2

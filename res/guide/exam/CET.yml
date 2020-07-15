@@ -5,7 +5,7 @@ content:
   - tag: title
     text: 笔试时间
   - tag: text
-    text: '   笔试在每年每年6月和12月各一次；口试在笔试前进行。每年5月和11月各一次。'
+    text: "   笔试在每年每年6月和12月各一次；口试在笔试前进行。每年5月和11月各一次。"
   - tag: text
     heading: 英语四级
     text: |-
@@ -19,7 +19,7 @@ content:
   - tag: title
     text: 考试内容
   - tag: img
-    src: 'https://mp.innenu.com/img/study/CET.png'
+    src: "https://mp.innenu.com/img/study/CET.png"
   - tag: title
     text: 评分标准
   - tag: text
@@ -34,15 +34,15 @@ content:
   - tag: title
     text: 报名
   - tag: text
-    text: '   东北师范大学考点只接收本校在籍学生的报名。'
+    text: "   东北师范大学考点只接收本校在籍学生的报名。"
   - tag: title
     text: 相关查询
   - tag: text
-    text: '   可以通过在“东师青年”微信公众号回复“四六级”可以查到相应的考试时间、报名入口、准考证号，以及成绩。'
+    text: "   可以通过在“东师青年”微信公众号回复“四六级”可以查到相应的考试时间、报名入口、准考证号，以及成绩。"
   - tag: title
     text: 口试
   - tag: text
-    text: '   考生登录全国大学英语四、六级考试网站点击<CET口试报名>栏目进行报名完成信息填报、选择考点、网上缴费等报名手续，考试费为50元。'
+    text: "   考生登录全国大学英语四、六级考试网站点击<CET口试报名>栏目进行报名完成信息填报、选择考点、网上缴费等报名手续，考试费为50元。"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

@@ -14,15 +14,15 @@ content:
     text: 麻婆面、麦多馅饼、过桥米线、脆皮鸡排饭、好享扒饭、山西饼、营养粥、鸡柳卷饼、东师饺子王、重庆鸡公煲。
   - tag: text
     heading: 价位与供应时间：
-    text: '价格7-16元左右。开放时间大致为7:00-20:00(每个档口开关时间不定，视具体情况而定) 。'
+    text: "价格7-16元左右。开放时间大致为7:00-20:00(每个档口开关时间不定，视具体情况而定) 。"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining40.png'
+    src: "https://mp.innenu.com/img/dining/dining40.png"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining41.jpg'
+    src: "https://mp.innenu.com/img/dining/dining41.jpg"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining42.jpg'
+    src: "https://mp.innenu.com/img/dining/dining42.jpg"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining43.jpg'
+    src: "https://mp.innenu.com/img/dining/dining43.jpg"
     desc: 面包房
   - tag: title
     text: 二楼
@@ -35,24 +35,24 @@ content:
        午：11:00-12:30;
        晚：16:30-18:00。
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining44.png'
+    src: "https://mp.innenu.com/img/dining/dining44.png"
   - tag: title
     text: 三楼
   - tag: text
     text: 三楼共分为两个部分，一个是前面大厅的餐厅，一个是后面的清真餐厅。
   - tag: text
     heading: 大厅
-    text: '大厅的早饭和午饭都为自助餐，种类丰富，价格亲民。供应时间：早6:30-10:00；午11：00-12：30；晚饭可点餐，并承接大小型聚餐和活动。'
+    text: "大厅的早饭和午饭都为自助餐，种类丰富，价格亲民。供应时间：早6:30-10:00；午11：00-12：30；晚饭可点餐，并承接大小型聚餐和活动。"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining45.png'
+    src: "https://mp.innenu.com/img/dining/dining45.png"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining46.png'
+    src: "https://mp.innenu.com/img/dining/dining46.png"
     desc: 大厅
   - tag: text
     heading: 清真餐厅：
-    text: '从三楼餐厅侧面进去，也可以从清真餐厅大门上楼。供应时间：7:00-20:00。'
+    text: "从三楼餐厅侧面进去，也可以从清真餐厅大门上楼。供应时间：7:00-20:00。"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining47.png'
+    src: "https://mp.innenu.com/img/dining/dining47.png"
     desc: 清真餐厅
   - tag: footer
     author: Mr.Hope

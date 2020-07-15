@@ -5,15 +5,15 @@ content:
   - tag: title
     text: 本部校区
   - tag: img
-    src: 'https://mp.innenu.com/img/library/benbuOpenTime.png'
+    src: "https://mp.innenu.com/img/library/benbuOpenTime.png"
   - tag: title
     text: 田家炳楼
   - tag: img
-    src: 'https://mp.innenu.com/img/library/TianjiabingOpenTime.png'
+    src: "https://mp.innenu.com/img/library/TianjiabingOpenTime.png"
   - tag: title
     text: 净月校区
   - tag: img
-    src: 'https://mp.innenu.com/img/library/jingyueOpenTIme.png'
+    src: "https://mp.innenu.com/img/library/jingyueOpenTIme.png"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/10

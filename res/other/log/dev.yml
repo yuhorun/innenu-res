@@ -54,4 +54,3 @@ content:
       修复主题选择器无法改变theme值的问题，新增夜间模式开关；
       修复了iOS夜间模式的几个bug，完整构建iOS夜间主题；
   - tag: footer
-tag: head

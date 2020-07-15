@@ -57,7 +57,7 @@ content:
       大幅减少代码包的体积；
   - tag: text
     heading: V0.1.7
-    text: '重新新构建界面，使用wx: for渲染template模板，将页面信息置于js的pageData中；'
+    text: "重新新构建界面，使用wx: for渲染template模板，将页面信息置于js的pageData中；"
   - tag: text
     heading: V0.1.8
     text: |-
@@ -81,4 +81,3 @@ content:
       优化了部分函数逻辑，减少渲染时间；
       数个bug修复；
   - tag: footer
-tag: head

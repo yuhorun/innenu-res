@@ -5,9 +5,9 @@ content:
   - tag: title
     text: 清真食堂
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining14.jpg'
+    src: "https://mp.innenu.com/img/dining/dining14.jpg"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining15.jpg'
+    src: "https://mp.innenu.com/img/dining/dining15.jpg"
   - tag: text
     heading: 清真套餐
     text: 价位：一荤两素大概平均价位在7、8元左右，两荤一素在9、10元左右。

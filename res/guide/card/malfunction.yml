@@ -6,10 +6,10 @@ content:
     text: 无法正常使用生活用水
   - tag: text
     heading: 常见原因：
-    text: '  生活用水激活信息失效。'
+    text: "  生活用水激活信息失效。"
   - tag: text
     heading: 解决办法：
-    text: '  请您到生活用水补助机器上重新激活。'
+    text: "  请您到生活用水补助机器上重新激活。"
   - tag: text
     heading: 地点：
     text: |2-
@@ -17,7 +17,7 @@ content:
         (不是自助终端机，是一个绿色的置于墙上的机器)
   - tag: text
     heading: 其他情况：
-    text: '  请您咨询信息化办。'
+    text: "  请您咨询信息化办。"
   - tag: title
     text: 无法正常使用直饮水机
   - tag: text

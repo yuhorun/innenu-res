@@ -10,11 +10,11 @@ content:
   - tag: title
     text: 资助对象申请流程
   - tag: img
-    src: 'https://mp.innenu.com/img/subsidize/subsidize1.png'
+    src: "https://mp.innenu.com/img/subsidize/subsidize1.png"
   - tag: title
     text: 勤工助学岗位申请流程
   - tag: img
-    src: 'https://mp.innenu.com/img/subsidize/subsidize2.png'
+    src: "https://mp.innenu.com/img/subsidize/subsidize2.png"
   - tag: footer
     author: Mr.Hope
     time: 2019/6/27

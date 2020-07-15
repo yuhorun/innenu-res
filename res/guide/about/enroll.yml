@@ -3,7 +3,7 @@ shareable: true
 contact: true
 content:
   - tag: text
-    text: '   为了解决新生同学们不知道自己的专业属于哪个学院哪个校区的问题，Mr.Hope现收集各学院专业招生信息，整理如下：'
+    text: "   为了解决新生同学们不知道自己的专业属于哪个学院哪个校区的问题，Mr.Hope现收集各学院专业招生信息，整理如下："
   - tag: title
     text: 各学院招生专业
   - tag: text
@@ -78,7 +78,7 @@ content:
        · 运动训练: ￥9000/年
        · 武术与民族传统体育: ￥9000/年
   - tag: list
-    header: ' '
+    header: " "
     content:
       - text: 本部校区校门介绍
         icon: /module/icon/gate.svg
@@ -95,7 +95,7 @@ content:
        · 政治学类: ￥3850/年
   - tag: text
     heading: 经济学院-净月
-    text: ' · 经济学类: ￥3850/年'
+    text: " · 经济学类: ￥3850/年"
   - tag: text
     heading: 商学院-净月
     text: |2-
@@ -143,7 +143,7 @@ content:
        · 广播电视编导: ￥12000/年
        · 播音与主持艺术: ￥12000/年
   - tag: list
-    header: ' '
+    header: " "
     content:
       - text: 净月校区校门介绍
         icon: /module/icon/gate.svg

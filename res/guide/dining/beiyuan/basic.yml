@@ -29,11 +29,11 @@ content:
       供应面条、粥、豆浆、包子、炒菜等
       受菜品数量限制早餐可能提前结束
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining3.jpg'
+    src: "https://mp.innenu.com/img/dining/dining3.jpg"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining4.jpg'
+    src: "https://mp.innenu.com/img/dining/dining4.jpg"
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining5.jpg'
+    src: "https://mp.innenu.com/img/dining/dining5.jpg"
     desc: 早餐主食区
   - tag: text
     heading: false
@@ -41,16 +41,16 @@ content:
       午餐供应时间为：11:00-12:30；
       晚餐供应时间为：16:30-18:00
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining6.jpg'
+    src: "https://mp.innenu.com/img/dining/dining6.jpg"
     desc: 餐盘餐具
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining7.jpg'
+    src: "https://mp.innenu.com/img/dining/dining7.jpg"
     desc: 荤菜区
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining8.jpg'
+    src: "https://mp.innenu.com/img/dining/dining8.jpg"
     desc: 北苑基本餐真诚服务同学
   - tag: img
-    src: 'https://mp.innenu.com/img/dining/dining9.jpg'
+    src: "https://mp.innenu.com/img/dining/dining9.jpg"
     desc: 北苑一楼北侧
   - tag: title
     text: Mr.Hope个人评价

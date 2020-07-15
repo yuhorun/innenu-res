@@ -51,4 +51,3 @@ content:
       改进iOS模板；废弃了n属性；
       img模块增加了预览，加载loading图和加载错误提示功能；
   - tag: footer
-tag: head

@@ -13,10 +13,10 @@ content:
   - tag: title
     text: 顾客须知
   - tag: text
-    text: ' 除非您有特殊需求，比如一些老旧软件在新版本Windows运行时出现问题，否则Mr.Hope不建议您安装旧版Windows10'
+    text: " 除非您有特殊需求，比如一些老旧软件在新版本Windows运行时出现问题，否则Mr.Hope不建议您安装旧版Windows10"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/29
-tag: head
+
 shareable: true
 contact: true

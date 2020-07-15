@@ -3,9 +3,9 @@ shareable: true
 contact: true
 content:
   - tag: title
-    text: ' 类型'
+    text: " 类型"
   - tag: img
-    src: 'https://mp.innenu.com/img/study/scholarship.jpg'
+    src: "https://mp.innenu.com/img/study/scholarship.jpg"
   - tag: title
     text: 评定时间
   - tag: text
@@ -27,25 +27,25 @@ content:
     text: 学年奖学金(针对毕业生)
   - tag: doc
     docName: 本科学生奖励条例.docx
-    url: 'https://mp.innenu.com/file/xsc/scholarship.pdf'
+    url: "https://mp.innenu.com/file/xsc/scholarship.pdf"
   - tag: doc
     docName: 奖学金评审流程.png
-    url: 'https://mp.innenu.com/file/xsc/scholarship.png'
+    url: "https://mp.innenu.com/file/xsc/scholarship.png"
   - tag: doc
     docName: 校长奖学金申请表.docx
-    url: 'https://mp.innenu.com/file/xsc/xiaozhang.docx'
+    url: "https://mp.innenu.com/file/xsc/xiaozhang.docx"
   - tag: doc
     docName: 一等奖学金申请表.docx
-    url: 'https://mp.innenu.com/file/xsc/yideng.docx'
+    url: "https://mp.innenu.com/file/xsc/yideng.docx"
   - tag: doc
     docName: 二等奖学金申请表.docx
-    url: 'https://mp.innenu.com/file/xsc/erdeng.docx'
+    url: "https://mp.innenu.com/file/xsc/erdeng.docx"
   - tag: doc
     docName: 三等奖学金申请表.docx
-    url: 'https://mp.innenu.com/file/xsc/sandeng.docx'
+    url: "https://mp.innenu.com/file/xsc/sandeng.docx"
   - tag: doc
     docName: 单项奖学金申请表.docx
-    url: 'https://mp.innenu.com/file/xsc/danxiang.docx'
+    url: "https://mp.innenu.com/file/xsc/danxiang.docx"
   - tag: footer
     author: Mr.Hope
     time: 2019/10/10

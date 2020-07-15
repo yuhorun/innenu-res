@@ -5,7 +5,7 @@ content:
   - tag: title
     text: 收到处分的后果
   - tag: text
-    text: '   收到处分的同学不能参加评奖评优，并且处分材料会被装入学生档案。严重者可能会受到留校察看、开除学籍等后果。'
+    text: "   收到处分的同学不能参加评奖评优，并且处分材料会被装入学生档案。严重者可能会受到留校察看、开除学籍等后果。"
   - tag: title
     text: 常见违纪现象
   - tag: text
@@ -41,13 +41,13 @@ content:
          以上也是同学们常犯的问题，希望同学们要注意，不要因为这个影响到自己的大学学习生活。
   - tag: doc
     docName: 学生违纪惩处办法.docx
-    url: 'https://mp.innenu.com/file/xsc/way.docx'
+    url: "https://mp.innenu.com/file/xsc/way.docx"
   - tag: doc
     docName: 处分工作流程.png
-    url: 'https://mp.innenu.com/file/xsc/process.png'
+    url: "https://mp.innenu.com/file/xsc/process.png"
   - tag: doc
     docName: 检讨书.pdf
-    url: 'https://mp.innenu.com/file/xsc/jts.pdf'
+    url: "https://mp.innenu.com/file/xsc/jts.pdf"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/1

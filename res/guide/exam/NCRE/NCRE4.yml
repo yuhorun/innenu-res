@@ -3,7 +3,7 @@ shareable: true
 contact: true
 content:
   - tag: text
-    style: 'color:red;'
+    style: "color:red;"
     text: 请注意：四级证书面向已持有三级相关证书的考生，
   - tag: title
     text: 考试科目
@@ -33,7 +33,7 @@ content:
   - tag: title
     text: 考试环境及使用的软件
   - tag: text
-    text: '   NCRE 四级上机考试环境为 Windows 7 简体中文版。'
+    text: "   NCRE 四级上机考试环境为 Windows 7 简体中文版。"
   - tag: footer
     author: Mr.Hope
     time: 2019/7/22

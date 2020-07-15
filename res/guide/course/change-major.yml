@@ -13,7 +13,7 @@ content:
        4. 从未转过专业；
        5. 身体条件符合申请转入专业的体检标准者。
   - tag: text
-    style: 'color:#888;font-size:14px;'
+    style: "color:#888;font-size:14px;"
     text: 以上信息来源于《东北师范大学全日制本科生转专业实施办法(2016年7月修订)》
   - tag: text
     heading: 转专业程序
@@ -35,7 +35,7 @@ content:
        1. 学生入学后发现某种疾病或生理缺陷，经学校指定的医疗单位检查，证明不能在原专业学习，但能在其他专业学习者。
        2. 经学校认可，学生确有某种特殊困难，不转专业则无法继续学习者。上述学生转专业，由学生本人提出申请，所在学院(部)提出建议，经教务处审核，主管校长批准，可安排到适合其继续学习的专业学习。
   - tag: text
-    heading: ' 注意事项'
+    heading: " 注意事项"
     text: |2-
        1. 每个学院转入和转出的成绩要求、名额不同，转入的考核方式和考核内容不同，详情可参照《东北师范大学各专业准入细则汇编》以及询问有经验的学长学姐。
        2. 对于大部分想转专业的同学来说尽量要保证自己大一上不挂科，成绩排名靠前一点比较好。
@@ -45,7 +45,7 @@ content:
     text: 各专业准入细则
   - tag: doc
     docName: 各专业准入细则.pdf
-    url: 'https://mp.innenu.com/file/study/switchMajor.pdf'
+    url: "https://mp.innenu.com/file/study/switchMajor.pdf"
   - tag: footer
     author: Mr.Hope
     time: 2019/8/2

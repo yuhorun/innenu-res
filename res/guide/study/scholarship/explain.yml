@@ -5,7 +5,7 @@ content:
   - tag: title
     text: 特殊说明
   - tag: text
-    text: ' 1. 国家励志奖学金由资助中心评定，需为学校确定的资助对象中品学兼优的学生。其余奖学金由学生处评定。'
+    text: " 1. 国家励志奖学金由资助中心评定，需为学校确定的资助对象中品学兼优的学生。其余奖学金由学生处评定。"
   - tag: text
     text: |2-
 
@@ -48,7 +48,7 @@ content:
        10. 具体情况见附件。
   - tag: doc
     docName: 奖学金.pdf
-    url: 'https://mp.innenu.com/file/scholarship.pdf'
+    url: "https://mp.innenu.com/file/scholarship.pdf"
   - tag: footer
     author: Mr.Hope
     time: 2019/4/9
