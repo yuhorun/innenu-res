@@ -24,6 +24,7 @@ const writeKeywords = (
       const pageConfig = JSON.parse(content);
       const pathName = `${folder}/${filePath}`
         .replace("./", "")
+        .replace("resource/guide/", "")
         .replace(".json", "");
 
       // 生成对应页面的索引对象
