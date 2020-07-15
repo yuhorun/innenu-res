@@ -24,6 +24,7 @@
     "@types/js-yaml": "3.12.5",
     "@types/mocha": "7.0.2",
     "chai": "4.2.0",
+    "del": "5.1.0",
     "ftp-hope": "0.0.3",
     "js-yaml": "3.14.0",
     "husky": "4.2.5",

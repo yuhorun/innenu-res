@@ -1,5 +1,3 @@
-import { basename } from "path";
+import { exec } from "child_process";
 
-const baseFolder = basename("../");
-
-console.log(baseFolder);
+exec('cd ./resource && "../lib/7z" a -r guide.zip @../lib/guide && cd ..');
