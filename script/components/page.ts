@@ -58,7 +58,7 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
           element as TitleComponentConfig,
           `${pagePath} page.content[${index}]`
         );
-      else if (element.tag === "p")
+      else if (element.tag === "text")
         resolveText(
           element as TextComponentConfig,
           `${pagePath} page.content[${index}]`
