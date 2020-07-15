@@ -18,18 +18,18 @@ export const resolveGrid = (
   );
 
   element.content.forEach((gridItem) => {
-    if (gridItem.path)
+    if (gridItem.path) {
       if (gridItem.path.startsWith("/"))
         gridItem.path = gridItem.path.replace(/^\//u, "");
-      else {
-        const paths = pageId.split("/");
-        paths.pop();
 
-        gridItem.path = `${paths.join("/")}/${gridItem.path.replace(
-          /\/$/u,
-          "/index"
-        )}`;
-      }
+      const paths = pageId.split("/");
+      paths.pop();
+
+      gridItem.path = `${paths.join("/")}/${gridItem.path.replace(
+        /\/$/u,
+        "/index"
+      )}`;
+    }
 
     checkKeys(
       gridItem,
