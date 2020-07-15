@@ -15,7 +15,7 @@ content:
   - tag: title
     text: 长春西站
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 去本部
         path: benbu2

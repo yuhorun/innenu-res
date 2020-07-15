@@ -13,7 +13,7 @@ content:
   - tag: text
     text: '   按照往年的惯例，AB班的分班是根据成绩是否及格决定的。如果成绩小于60分则会分入B班，否则分入A班。如果成绩大于80分则可以直接免修大一一整学年的英语。班级的划分是由学校统一进行的，一般原则是尽可能让每个班的学生都来自不同的学院，所以上英语课的时候也可以认识一群其他学院的小伙伴。'
   - tag: list
-    heading: false
+    header: false
     content:
       - text: 免修评定
         icon: /module/icon/English.svg

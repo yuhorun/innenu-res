@@ -33,6 +33,7 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
       desc: ["string", "undefined"],
       grey: ["boolean", "undefined"],
       content: "object[]",
+      hidden: ["boolean", "undefined"],
       shareable: ["boolean", "undefined"],
       feedback: ["boolean", "undefined"],
       contact: ["boolean", "undefined"],

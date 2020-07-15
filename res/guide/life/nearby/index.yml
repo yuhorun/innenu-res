@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 吃喝玩乐
+    header: 吃喝玩乐
     content:
       - text: 本部
         path: benbu

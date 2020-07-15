@@ -7,7 +7,7 @@ content:
   - tag: text
     text: '   接站地点为在长春站北出站口和长春西站。机场由于过远且人员数量较少学校不负责接送，建议自行购票乘坐动车到长春站(票价￥8)。'
   - tag: list
-    heading: false
+    header: false
     content:
       - text: 机场动车
         icon: /module/icon/train.svg

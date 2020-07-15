@@ -4,13 +4,13 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 日常学习
+    header: 日常学习
     content:
       - text: 上课时间、地点
         icon: /module/icon/scholarship.svg
         path: location-and-time
   - tag: list
-    heading: 奖学金
+    header: 奖学金
     content:
       - text: 类型及评定时间
         icon: /module/icon/scholarship.svg
@@ -19,7 +19,7 @@ content:
         icon: /module/icon/attentionItem.svg
         path: scholarship/explain
   - tag: list
-    heading: 公共课程
+    header: 公共课程
     content:
       - text: 体育课说明
         icon: /module/icon/bodyMeasureTime.svg
@@ -28,7 +28,7 @@ content:
         icon: /module/icon/wifi.svg
         path: net-course
   - tag: list
-    heading: 英语课程说明
+    header: 英语课程说明
     content:
       - text: 英语课程简介
         icon: /module/icon/English.svg

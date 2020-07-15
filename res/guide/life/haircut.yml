@@ -11,7 +11,7 @@ content:
     heading: 校外
     text: '  从小南门出去左转，在文昌路上有两家(有一家刚开不久)，不算太远。'
   - tag: list
-    heading: false
+    header: false
     content:
       - text: G·R 理发
         icon: /module/icon/haircut.svg

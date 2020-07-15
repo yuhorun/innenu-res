@@ -11,7 +11,7 @@ content:
   - tag: text
     text: '   教育学部、心理学院、文学院、历史文化学院、外国语学院、马克思主义学部、数学与统计学院、物理学院、化学学院、生命科学学院、地理科学学院、环境学院(大一)、体育学院。'
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 本部校区校门介绍
         icon: /module/icon/gate.svg
@@ -24,7 +24,7 @@ content:
   - tag: text
     text: '   政法学院、经济学院、商学院、外国语学院、音乐学院(研究生在本部)、美术学院、信息科学与技术学院、传媒科学学院、民族教育学院、东北师范大学罗格斯大学•纽瓦克学院。'
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 净月校区校门介绍
         icon: /module/icon/gate.svg

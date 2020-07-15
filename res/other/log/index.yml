@@ -17,7 +17,7 @@ content:
       iOSpicker-view夜间模式异常;
       button的open-type动态绑定;
   - tag: list
-    heading: 日志如下：
+    header: 日志如下：
     content:
       - text: alpha日志
         path: dev

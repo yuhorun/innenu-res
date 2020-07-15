@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 本科课程设置
+    header: 本科课程设置
     content:
       - text: 通识教育课程
         icon: /module/icon/typeTime.svg
@@ -22,7 +22,7 @@ content:
         icon: /module/icon/plan.svg
         path: plan
   - tag: list
-    heading: 选课
+    header: 选课
     content:
       - text: 选课内容
         icon: /module/icon/content.svg
@@ -37,7 +37,7 @@ content:
         icon: /module/icon/skill.svg
         path: skill
   - tag: list
-    heading: 东师及专业排名
+    header: 东师及专业排名
     content:
       - text: 东师排名
         icon: /module/icon/nenuRanking.svg
@@ -46,7 +46,7 @@ content:
         icon: /module/icon/nenuRanking.svg
         path: major-rank
   - tag: list
-    heading: 双学位、辅修与转专业
+    header: 双学位、辅修与转专业
     content:
       - text: 获取双学位与辅修
         icon: /icon/tabPage/course.svg

@@ -3,7 +3,7 @@ shareable: true
 contact: true
 content:
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 从火车站站出发
         path: train/

@@ -10,7 +10,7 @@ export const resolveGrid = (
     element,
     {
       tag: "string",
-      heading: ["string", "undefined"],
+      heading: { type: ["string", "undefined"], additional: [false] },
       content: "array",
       footer: ["string", "undefined"]
     },
@@ -35,7 +35,9 @@ export const resolveGrid = (
       gridItem,
       {
         text: "string",
-        icon: ["string", "undefined"],
+        icon: "string",
+        color: "string",
+        name: "string",
         path: ["string", "undefined"],
         url: ["string", "undefined"]
       },

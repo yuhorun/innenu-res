@@ -7,7 +7,7 @@ content:
   - tag: text
     text: '   请注意，目前校方认证已开放。'
   - tag: list
-    heading: false
+    header: false
     content:
       - text: 注册流程
         path: FAQ12

@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 到校路线
+    header: 到校路线
     content:
       - text: 认准校区和校门
         icon: /module/icon/gate.svg
@@ -22,13 +22,13 @@ content:
         icon: /module/icon/pickup.svg
         path: arrival/pickup
   - tag: list
-    heading: 需带物品
+    header: 需带物品
     content:
       - text: 需带物品
         icon: /module/icon/good.svg
         path: necessity
   - tag: list
-    heading: 报到流程
+    header: 报到流程
     content:
       - text: 报到时间地点
         icon: /module/icon/libraryTime.svg

@@ -78,7 +78,7 @@ content:
        · 运动训练: ￥9000/年
        · 武术与民族传统体育: ￥9000/年
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 本部校区校门介绍
         icon: /module/icon/gate.svg
@@ -143,7 +143,7 @@ content:
        · 广播电视编导: ￥12000/年
        · 播音与主持艺术: ￥12000/年
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 净月校区校门介绍
         icon: /module/icon/gate.svg

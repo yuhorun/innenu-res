@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 图书馆
+    header: 图书馆
     content:
       - text: 馆藏分布
         icon: /module/icon/bookCollection.svg

@@ -10,7 +10,7 @@ content:
     heading: 校园网优势
     text: '   使用校园网上网会被认证为东北师范大学企业用户，可以享有一些特权，比如免费下载知网论文。'
   - tag: list
-    heading: 了解更多
+    header: 了解更多
     content:
       - text: 有线上网
         icon: /module/icon/ethernet.svg

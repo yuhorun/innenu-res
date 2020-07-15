@@ -13,7 +13,7 @@ content:
   - tag: text
     text: '   下飞机之后，需要走出机场，经过天桥既是动车站。可以提前在12306APP上购买动车票，外面取票人多，过安检之后有取票机人少取票便捷。'
   - tag: list
-    heading: ' '
+    header: ' '
     content:
       - text: 到本部
         path: benbu

@@ -75,7 +75,7 @@ const change = (json: any): any => {
     json = { ...page, content: json, ...head };
   }
 
-  // eslint-disable-next-line max-statements
+  // eslint-disable-next-line
   json.content.forEach((element: any, index: number) => {
     if (element.tag === "p") {
       delete element.tag;
@@ -102,14 +102,27 @@ const change = (json: any): any => {
       }
     } else if (element.tag === "list") {
       if (element.head !== undefined) {
-        const heading = element.head;
+        const header = element.head;
 
         delete element.tag;
         delete element.head;
         // eslint-disable-next-line no-param-reassign
         element = json.content[index] = {
           tag: "list",
-          heading,
+          header,
+          ...element
+        };
+      }
+
+      if (element.heading !== undefined) {
+        const header = element.heading;
+
+        delete element.tag;
+        delete element.heading;
+        // eslint-disable-next-line no-param-reassign
+        element = json.content[index] = {
+          tag: "list",
+          header,
           ...element
         };
       }
@@ -131,12 +144,25 @@ const change = (json: any): any => {
       });
     } else if (element.tag === "grid") {
       if (element.head !== undefined) {
-        const heading = element.head;
+        const header = element.head;
 
         delete element.tag;
         delete element.head;
         // eslint-disable-next-line no-param-reassign
-        element = json.content[index] = { tag: "grid", heading, ...element };
+        element = json.content[index] = { tag: "grid", header, ...element };
+      }
+
+      if (element.heading !== undefined) {
+        const header = element.heading;
+
+        delete element.tag;
+        delete element.heading;
+        // eslint-disable-next-line no-param-reassign
+        element = json.content[index] = {
+          tag: "list",
+          header,
+          ...element
+        };
       }
 
       if (element.foot !== undefined) {
@@ -154,5 +180,5 @@ const change = (json: any): any => {
   return safeDump(json, { lineWidth: 80 });
 };
 
-convertFolder("../res/guide", change);
-convertFolder("../res/other", change);
+convertFolder("./res/guide", change);
+convertFolder("./res/other", change);

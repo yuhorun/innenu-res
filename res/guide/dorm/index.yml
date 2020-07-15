@@ -4,21 +4,21 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 寝室分布
+    header: 寝室分布
     content:
       - text: 本部校区
         path: benbu
       - text: 净月校区
         path: jingyue
   - tag: list
-    heading: 寝室环境
+    header: 寝室环境
     content:
       - text: 室内布局
         path: detail
       - text: 公共区域
         path: public
   - tag: list
-    heading: 其他相关
+    header: 其他相关
     content:
       - text: 寝室门禁时间
         icon: /module/icon/guard.svg

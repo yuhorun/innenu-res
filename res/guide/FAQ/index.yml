@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 报道之前
+    header: 报道之前
     content:
       - text: 报到时间
         path: /check/location-and-time
@@ -15,7 +15,7 @@ content:
       - text: 新生入学前课程学习
         path: beginning-course
   - tag: list
-    heading: 找到组织
+    header: 找到组织
     content:
       - text: 专业所属学院
         path: /about/enroll
@@ -24,7 +24,7 @@ content:
       - text: 老乡群
         path: fellow-group
   - tag: list
-    heading: 报道相关
+    header: 报道相关
     content:
       - text: 大学第一天
         path: first-day
@@ -37,7 +37,7 @@ content:
       - text: 关于接站
         path: /check/arrival/pickup
   - tag: list
-    heading: 开学活动
+    header: 开学活动
     content:
       - text: 体检
         path: /check/medical-examination

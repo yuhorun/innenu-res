@@ -10,7 +10,7 @@ content:
          请注意，如果您在图书馆电子阅览室登录，则需要用学号和初始密码登录，初始密码可以自己修改。
          关于更多校园身份账户的详情请点击：
   - tag: list
-    heading: false
+    header: false
     content:
       - text: 统一身份认证
         icon: /icon/tabPage/about.svg

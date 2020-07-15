@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 学生组织
+    header: 学生组织
     content:
       - text: 学生会
         icon: /image/nenuyouth.png

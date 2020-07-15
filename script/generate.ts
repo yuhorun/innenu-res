@@ -7,9 +7,9 @@ import { resolvePage } from "./components/page";
 import { generateKeywords } from "./keyword";
 
 // 生成对应的 JSON
-convertFolder("./res/config", "./resource/config", (data, filePath) => {
-  filePath.match(/(function|guide|main)/u) ? resolvePage(data, filePath) : data;
-});
+convertFolder("./res/config", "./resource/config", (data, filePath) =>
+  filePath.match(/(function|guide|main)/u) ? resolvePage(data, filePath) : data
+);
 convertFolder("./res/function", "./resource/function");
 convertFolder("./res/guide", "./resource/guide", resolvePage);
 
@@ -17,8 +17,6 @@ convertFolder("./res/guide", "./resource/guide", resolvePage);
 generateKeywords();
 
 exec("git diff --name-status", (_err, gitDiffResult) => {
-  console.log(gitDiffResult);
-
   // 功能配置有更新
   if (gitDiffResult.match(/resource\/function/u)) {
     del("./resource/function.zip");

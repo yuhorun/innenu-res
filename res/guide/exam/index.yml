@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 体测
+    header: 体测
     content:
       - text: 体测简介
         icon: /module/icon/bodyMeasureTime.svg
@@ -19,7 +19,7 @@ content:
         icon: /module/icon/condition.svg
         path: physical-examination/exempt
   - tag: list
-    heading: 英语
+    header: 英语
     content:
       - text: 分级考试
         icon: /module/icon/gradeExam.svg
@@ -31,7 +31,7 @@ content:
         icon: /module/icon/CET.svg
         path: CET
   - tag: list
-    heading: 计算机
+    header: 计算机
     content:
       - text: 计算机等级考试说明
         icon: /module/icon/computer.svg

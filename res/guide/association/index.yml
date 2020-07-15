@@ -4,7 +4,7 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 本部校区
+    header: 本部校区
     content:
       - text: 卓音网络工作室
         icon: 'https://mp.innenu.com/img/corporation/joinin.png'
@@ -27,7 +27,7 @@ content:
       - text: 天宇协会
         path: astronomy
   - tag: list
-    heading: 净月校区
+    header: 净月校区
     content:
       - text: 5A职业发展协会
         icon: 'https://mp.innenu.com/img/corporation/5Alogo.png'
@@ -36,7 +36,7 @@ content:
     heading: 入驻说明
     text: '   欢迎社团入驻本页面，请联系QQ1178522294'
   - tag: list
-    heading: 入驻中...
+    header: 入驻中...
     content:
       - text: 心理协会
         path: update

@@ -11,7 +11,7 @@ content:
   - tag: text
     heading: 详情说明
   - tag: list
-    heading: false
+    header: false
     content:
       - text: 计算机二级
         icon: /module/icon/computer.svg

@@ -4,19 +4,19 @@ grey: true
 contact: true
 content:
   - tag: list
-    heading: 本科招生情况
+    header: 本科招生情况
     content:
       - text: 2019年本科开设专业
         icon: /icon/tabPage/about.svg
         path: enroll
   - tag: list
-    heading: 新生
+    header: 新生
     content:
       - text: 2019年新生群一览
         icon: /icon/tabPage/about.svg
         path: QQGroup
   - tag: list
-    heading: 校园管理条例
+    header: 校园管理条例
     content:
       - text: 常见犯错以及相关处罚规定
         icon: /icon/tabPage/about.svg
