@@ -6,7 +6,7 @@ content:
     content:
       - text: 快递
         icon: https://mp.innenu.com/icon/module/express.svg
-        path: /life/express
+        path: /life/express/
       - text: 校园网
         icon: /icon/tabPage/network.svg
         path: /network/
