@@ -5,7 +5,8 @@ import {
   TitleComponentConfig,
   FooterComponentConfig,
   ListComponentConfig,
-  GridComponentConfig
+  GridComponentConfig,
+  PhoneComponentConfig
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -14,6 +15,7 @@ import { resolveText } from "./text";
 import { resolveFooter } from "./footer";
 import { resolveList } from "./list";
 import { resolveGrid } from "./grid";
+import { resolvePhone } from "./phone";
 
 /**
  * 处理页面数据
@@ -85,6 +87,12 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
       else if (element.tag === "footer")
         resolveFooter(
           element as FooterComponentConfig,
+          `${pagePath} page.content[${index}]`
+        );
+      // 设置电话
+      else if (element.tag === "phone")
+        resolvePhone(
+          element as PhoneComponentConfig,
           `${pagePath} page.content[${index}]`
         );
     });

@@ -2,7 +2,7 @@ title: 首页
 hidden: true
 content:
   - tag: list
-    heading: 开启东师生活
+    header: 开启东师生活
     content:
       - text: 快递
         icon: https://mp.innenu.com/icon/module/express.svg

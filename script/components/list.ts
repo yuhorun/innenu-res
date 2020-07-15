@@ -10,7 +10,7 @@ export const resolveList = (
     element,
     {
       tag: "string",
-      heading: ["string", "boolean", "undefined"],
+      header: ["string", "boolean", "undefined"],
       content: "array",
       footer: ["string", "undefined"]
     },

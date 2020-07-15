@@ -11,7 +11,7 @@ content:
     num: '85099646'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院(后勤)
   - tag: phone
@@ -19,7 +19,7 @@ content:
     num: '85098513'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: title
     text: 医务联系方式
   - tag: text
@@ -29,7 +29,7 @@ content:
     num: '85098632'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院护理部
   - tag: phone
@@ -37,7 +37,7 @@ content:
     num: '85098615'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院保健科
   - tag: phone
@@ -45,7 +45,7 @@ content:
     num: '85098615'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院健康管理中心(体检)
   - tag: phone
@@ -53,7 +53,7 @@ content:
     num: '85098581'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: title
     text: 社区服务
   - tag: text
@@ -63,7 +63,7 @@ content:
     num: '85098673'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 社区妇保室
   - tag: phone
@@ -71,7 +71,7 @@ content:
     num: '85098753'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 社区办公室(慢病科)
   - tag: phone
@@ -79,7 +79,7 @@ content:
     num: '85098783'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: title
     text: 净月卫生所
   - tag: text
@@ -89,7 +89,7 @@ content:
     num: '84536130'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 门诊收款室
   - tag: phone
@@ -97,7 +97,7 @@ content:
     num: '84536130'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: title
     text: 其他
   - tag: text
@@ -107,7 +107,7 @@ content:
     num: '85099639'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院住院处
   - tag: phone
@@ -115,7 +115,7 @@ content:
     num: '85098329'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 医院门诊收款处
   - tag: phone
@@ -123,7 +123,7 @@ content:
     num: '85099120'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: text
     text: 急诊科
   - tag: phone
@@ -131,7 +131,7 @@ content:
     num: '85098120'
     org: 东北师范大学
     street: 吉林省长春市人民大街5268号
-    postcode: '130024'
+    postCode: '130024'
   - tag: footer
     desc: 信息来源：校医院官网
     time: 2019/8/14

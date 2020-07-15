@@ -2,7 +2,7 @@ title: 东师指南
 hidden: true
 content:
   - tag: grid
-    heading: 学在东师
+    header: 学在东师
     content:
       - text: 课程
         color: blue
@@ -25,7 +25,7 @@ content:
         icon: /icon/tabPage/test.svg
         path: /test/
   - tag: grid
-    heading: 行在东师
+    header: 行在东师
     content:
       - text: 校园卡
         color: blue
@@ -63,7 +63,7 @@ content:
         icon: /icon/tabPage/subsidize.svg
         path: /subsidize/
   - tag: grid
-    heading: 乐在东师
+    header: 乐在东师
     content:
       - text: 学生组织
         color: blue
@@ -86,7 +86,7 @@ content:
         icon: /icon/tabPage/nearby.svg
         path: /nearby/
   - tag: grid
-    heading: 关于东师
+    header: 关于东师
     content:
       - text: 学校概况
         color: blue
@@ -99,7 +99,7 @@ content:
         icon: /icon/tabPage/apartment.svg
         path: /apartment/
   - tag: grid
-    heading: 新生你好
+    header: 新生你好
     content:
       - text: SIM卡
         color: blue

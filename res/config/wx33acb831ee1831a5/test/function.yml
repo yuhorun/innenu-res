@@ -2,7 +2,7 @@ title: 功能大厅
 hidden: true
 content:
   - tag: grid
-    heading: false
+    header: false
     content:
       - text: 校园地图
         color: orange
@@ -25,7 +25,7 @@ content:
         icon: /icon/tabPage/calendar.svg
         url: calendar
   - tag: grid
-    heading: Building
+    header: Building
     content:
       - text: 绩点计算
         color: orange
@@ -38,7 +38,7 @@ content:
         icon: /icon/tabPage/video.svg
         url: /function/video
   - tag: grid
-    heading: 即将推出
+    header: 即将推出
     content:
       - text: 校历
         color: orange

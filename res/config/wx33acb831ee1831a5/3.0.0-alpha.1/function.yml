@@ -2,7 +2,7 @@ title: 功能大厅
 hidden: true
 content:
   - tag: grid
-    heading: false
+    header: false
     content:
       - text: 校园地图
         color: orange

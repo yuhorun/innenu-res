@@ -10,7 +10,7 @@ export const resolveGrid = (
     element,
     {
       tag: "string",
-      heading: { type: ["string", "undefined"], additional: [false] },
+      header: { type: ["string", "undefined"], additional: [false] },
       content: "array",
       footer: ["string", "undefined"]
     },
