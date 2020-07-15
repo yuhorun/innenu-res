@@ -1,0 +1,17 @@
+- tag: list
+  heading: 工作室与开发者介绍
+  content:
+    - text: "   小程序全部内容均由 Hope Studio 独立开发。"
+    - text: Hope Studio介绍
+      aim: MrHope0
+    - text: Mr.Hope个人介绍
+      aim: MrHope1
+    - text: 致谢名单
+      aim: MrHope4
+- tag: list
+  heading: 小程序介绍
+  content:
+    - text: 开发者访谈
+      aim: MrHope3
+    - text: 小程序功能太少?
+      aim: MrHope2
