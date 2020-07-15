@@ -18,18 +18,20 @@ export const resolveList = (
   );
 
   element.content.forEach((listItem) => {
-    if (listItem.path) {
+    if (listItem.path)
       if (listItem.path.startsWith("/"))
-        listItem.path = listItem.path.replace(/^\//u, "");
+        listItem.path = listItem.path
+          .replace(/^\//u, "")
+          .replace(/\/$/u, "/index");
+      else {
+        const paths = pageId.split("/");
+        paths.pop();
 
-      const paths = pageId.split("/");
-      paths.pop();
-
-      listItem.path = `${paths.join("/")}/${listItem.path.replace(
-        /\/$/u,
-        "/index"
-      )}`;
-    }
+        listItem.path = `${paths.join("/")}/${listItem.path.replace(
+          /\/$/u,
+          "/index"
+        )}`;
+      }
 
     checkKeys(
       listItem,
