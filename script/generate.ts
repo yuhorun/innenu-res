@@ -7,7 +7,9 @@ import { resolvePage } from "./components/page";
 import { generateKeywords } from "./keyword";
 
 // 生成对应的 JSON
-convertFolder("./res/config", "./resource/config");
+convertFolder("./res/config", "./resource/config", (data, filePath) => {
+  filePath.match(/(function|guide|main)/u) ? resolvePage(data, filePath) : data;
+});
 convertFolder("./res/function", "./resource/function");
 convertFolder("./res/guide", "./resource/guide", resolvePage);
 
@@ -68,15 +70,4 @@ exec("git diff --name-status", (_err, gitDiffResult) => {
       );
     else throw new Error("Mac OS is not supported");
   }
-
-  // // 压缩文件
-  // if (type() === "Linux") {
-  //   exec(
-  //     "zip -r resource/function.zip resource/function resource/functionVersion.json"
-  //   );
-  //   exec("zip -r resource/guide.zip resource/guide resource/guideVersion.json");
-  // } else if (type() === "Windows_NT") {
-  //   exec('"lib/7z" a -r resource/function.zip @lib/function');
-  //   exec('"lib/7z" a -r resource/guide.zip @lib/guide');
-  // } else throw new Error("Mac OS is not supported");
 });

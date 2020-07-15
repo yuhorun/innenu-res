@@ -1,5 +1,5 @@
 - tag: list
-  head: 更新日志
+  heading: 更新日志
   content:
     - text: |-
         V 2.4.2：

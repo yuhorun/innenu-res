@@ -85,7 +85,6 @@ content:
         name: Nearby
         icon: /icon/tabPage/nearby.svg
         path: /nearby/
-    footer: " "
   - tag: grid
     heading: 关于东师
     content:
@@ -99,7 +98,6 @@ content:
         name: Apartment
         icon: /icon/tabPage/apartment.svg
         path: /apartment/
-    footer: " "
   - tag: grid
     heading: 新生你好
     content:

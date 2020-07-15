@@ -24,6 +24,3 @@ content:
         name: Calendar
         icon: /icon/tabPage/calendar.svg
         url: calendar
-  - tag: text
-    text: "   Mr.Hope要考研了，小程序在年底之前应该不会推出新功能。Mr.Hope会尽量在明年推出大家需要的课程表、成绩查询等功能。"
-    style: "color: #888;font-size: 14px;"
