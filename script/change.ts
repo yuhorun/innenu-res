@@ -65,11 +65,16 @@ const change = (json: any): any => {
     delete head.title;
     delete head.desc;
     delete head.grey;
+    delete head.tag;
 
     const page: Record<string, any> = { title };
 
     if (desc) page.desc = desc;
     if (grey) page.grey = grey;
+    if (head.display === false) {
+      delete head.display;
+      head.hidden = true;
+    }
 
     // eslint-disable-next-line no-param-reassign
     json = { ...page, content: json, ...head };
@@ -182,3 +187,5 @@ const change = (json: any): any => {
 
 convertFolder("./res/guide", change);
 convertFolder("./res/other", change);
+convertFolder("./res/function/benbu", change);
+convertFolder("./res/function/jingyue", change);
