@@ -11,8 +11,6 @@ export const convertFolder = (
 ): void => {
   const fileList = getFileList(sourceFolder, "yml");
 
-  console.log(fileList);
-
   fileList.forEach((filePath) => {
     const folderPath = dirname(resolve(targetFolder, filePath));
 
