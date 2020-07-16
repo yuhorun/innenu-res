@@ -20,4 +20,4 @@
         添加天气页面
          · 天气页面UI完全重做，支持更多天气详情。
     - text: 查看详细日志
-      aim: log0
+      url: page?path=other/log/index

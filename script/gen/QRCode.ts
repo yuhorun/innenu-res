@@ -8,8 +8,6 @@ const fileList = getFileList("./res/guide", ".yml").map((filePath) =>
   filePath.replace(/\.yml$/gu, "")
 );
 
-console.log(fileList);
-
 const appidList = Object.keys(appidInfo);
 
 const promises = appidList.map((appid) =>
@@ -19,9 +17,7 @@ const promises = appidList.map((appid) =>
     )
     // eslint-disable-next-line @typescript-eslint/naming-convention
     .then(({ data: { access_token } }) => {
-      const photoPromises = [fileList[0]].map((filePath): Promise<
-        void
-      > | void => {
+      const photoPromises = fileList.map((filePath): Promise<void> | void => {
         const folderPath = dirname(resolve(`./img/QRCode/${appid}`, filePath));
 
         if (!existsSync(`${filePath}.png`)) {

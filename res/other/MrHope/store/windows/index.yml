@@ -5,15 +5,15 @@ content:
     header: 项目选择
     content:
       - text: 预装正版win10——重装最新版win10
-        path: MrHope21
+        url: page?path=other/MrHope/store/windows/reinstall
       - text: 预装正版win10——重装老版本win10
-        path: MrHope22
+        url: page?path=other/MrHope/store/windows/install-old
       - text: 预装正版win10——降级为Win7
-        path: MrHope23
+        url: page?path=other/MrHope/store/windows/win7
       - text: 无预装系统——安装最新版Win10
-        path: MrHope24
+        url: page?path=other/MrHope/store/windows/clean-install
       - text: 其他选项
-        path: MrHope25
+        url: page?path=other/MrHope/store/windows/others
   - tag: footer
     author: Mr.Hope
     time: 2019年8月29日

@@ -8,7 +8,7 @@ content:
     header: false
     content:
       - text: 更多详情
-        path: MrHope6
+        url: page?path=other/MrHope/store/intro
   - tag: title
     text: 顾客须知
   - tag: text
@@ -17,7 +17,7 @@ content:
     header: false
     content:
       - text: 店铺公告
-        path: MrHope7
+        url: page?path=other/MrHope/store/announcement
   - tag: title
     text: 价格收费
   - tag: text
@@ -27,7 +27,7 @@ content:
     header: false
     content:
       - text: 更多详情
-        path: MrHope8
+        url: page?path=other/MrHope/store/windows/index
   - tag: footer
     author: Mr.Hope
     time: 2019年8月29日
