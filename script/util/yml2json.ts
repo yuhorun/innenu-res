@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
 import { safeLoad } from "js-yaml";
 import { dirname, resolve, relative } from "path";
-import { readDir } from "./file";
+import { getFileList } from "./file";
 
 export const convertFolder = (
   sourceFolder: string,
@@ -9,11 +9,13 @@ export const convertFolder = (
   convertFunction: (data: any, filePath: string) => any = (data): any => data,
   dir = ""
 ): void => {
-  const result = readDir("", sourceFolder);
-  if (!existsSync(targetFolder)) mkdirSync(targetFolder, { recursive: true });
+  const fileList = getFileList(sourceFolder, "yml");
 
-  result.file.forEach((filePath) => {
+  console.log(fileList);
+
+  fileList.forEach((filePath) => {
     const folderPath = dirname(resolve(targetFolder, filePath));
+
     if (!existsSync(folderPath)) mkdirSync(folderPath, { recursive: true });
 
     const content = readFileSync(resolve(sourceFolder, filePath), {
@@ -35,14 +37,4 @@ export const convertFolder = (
       { encoding: "utf-8" }
     );
   });
-
-  if (result.dir.length !== 0)
-    result.dir.forEach((dirPath) => {
-      convertFolder(
-        resolve(sourceFolder, dirPath),
-        resolve(targetFolder, dirPath),
-        convertFunction,
-        resolve(dir, dirPath)
-      );
-    });
 };

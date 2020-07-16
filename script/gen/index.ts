@@ -2,8 +2,8 @@ import { exec } from "child_process";
 import { sync as del } from "del";
 import { readFileSync, writeFileSync } from "fs";
 import { type } from "os";
-import { convertFolder } from "./yml2json";
-import { resolvePage } from "./components/page";
+import { convertFolder } from "../util/yml2json";
+import { resolvePage } from "../components/page";
 import { generateKeywords } from "./keyword";
 
 // 生成对应的 JSON

@@ -4,8 +4,8 @@
   "private": true,
   "description": "inNENU 小程序资源文件",
   "scripts": {
-    "check:json": "node ./script/json.js",
-    "generate": "node ./script/generate.js",
+    "check": "node ./script/check.js",
+    "generate": "node ./script/gen/index.js",
     "ts:compile": "tsc",
     "upload": "node ./script/upload.js"
   },
@@ -23,9 +23,10 @@
     "@types/chai": "4.2.11",
     "@types/js-yaml": "3.12.5",
     "@types/mocha": "7.0.2",
+    "axios": "0.19.2",
     "chai": "4.2.0",
     "del": "5.1.0",
-    "ftp-hope": "0.0.3",
+    "ftp-hope": "0.1.1",
     "js-yaml": "3.14.0",
     "husky": "4.2.5",
     "mocha": "8.0.1",

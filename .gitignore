@@ -4,3 +4,5 @@ other/bak/
 service/info/
 
 script/**/*.js
+
+script/**/loginInfo.ts

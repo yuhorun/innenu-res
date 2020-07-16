@@ -18,7 +18,7 @@ const testJSON = (path: string): Promise<void> =>
     });
   });
 
-const checkJSON = (path: string): Promise<void> =>
+export const checkJSON = (path: string): Promise<void> =>
   new Promise((resolve, reject) => {
     readdir(path, { withFileTypes: true }, (err, files) => {
       if (err) {
@@ -40,11 +40,3 @@ const checkJSON = (path: string): Promise<void> =>
       return Promise.all(checkProcess).then(() => resolve());
     });
   });
-
-Promise.all([
-  checkJSON("./resource/config"),
-  checkJSON("./resource/function"),
-  checkJSON("./resource/guide")
-]).then(() => {
-  console.log("检测完成");
-});

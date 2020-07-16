@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
-import { readDir } from "./file";
+import { readDir } from "../util/file";
 
 interface KeywordItem {
   title: string;
