@@ -1,4 +1,5 @@
 title: 功能大厅
+grey: true
 hidden: true
 content:
   - tag: grid

@@ -1,4 +1,5 @@
 title: 首页
+grey: true
 hidden: true
 content:
   - tag: list
