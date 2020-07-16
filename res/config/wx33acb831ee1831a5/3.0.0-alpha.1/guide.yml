@@ -24,7 +24,7 @@ content:
         color: purple
         name: Exam
         icon: /icon/tabPage/test.svg
-        path: /test/
+        path: /exam/
   - tag: grid
     header: 行在东师
     content:
@@ -70,12 +70,12 @@ content:
         color: blue
         name: Orgnazation
         icon: /icon/tabPage/studentOrg.svg
-        path: /studentOrg/
+        path: /organization/
       - text: 社团
         color: orange
         name: Coporation
         icon: /icon/tabPage/corporation.svg
-        path: /corporation/
+        path: /association/
       - text: 交通
         color: red
         name: Traffic
@@ -85,7 +85,7 @@ content:
         color: purple
         name: Nearby
         icon: /icon/tabPage/nearby.svg
-        path: /nearby/
+        path: /life/nearby/
   - tag: grid
     header: 关于东师
     content:

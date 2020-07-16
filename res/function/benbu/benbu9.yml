@@ -22,7 +22,7 @@ content:
     header: false
     content:
       - text: 更多寝室相关
-        path: dorm0
+        path: /dorm/
   - tag: footer
     author: Mr.Hope
     time: 2019/08/11

@@ -23,7 +23,7 @@ content:
     content:
       - text: 分级考试
         icon: /module/icon/gradeExam.svg
-        path: FAQ6
+        path: grading-exam
       - text: 东北师范大学英语水平测试
         icon: /module/icon/English.svg
         path: DET
