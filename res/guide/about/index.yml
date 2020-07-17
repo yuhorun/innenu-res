@@ -13,13 +13,13 @@ content:
     header: 新生
     content:
       - text: 2019年新生群一览
-        icon: /icon/tabPage/about.svg
+        icon: qq-group
         path: QQGroup
   - tag: list
     header: 校园管理条例
     content:
       - text: 常见犯错以及相关处罚规定
-        icon: /icon/tabPage/about.svg
+        icon: punish
         path: punish
   - tag: footer
     author: Mr.Hope

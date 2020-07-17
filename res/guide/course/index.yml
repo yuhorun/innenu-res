@@ -7,44 +7,47 @@ content:
     header: 本科课程设置
     content:
       - text: 通识教育课程
-        icon: /module/icon/typeTime.svg
+        icon: course-type
         path: general
       - text: 专业教育课程
-        icon: /module/icon/typeTime.svg
+        icon: course-type
         path: professional
       - text: 发展课程课程
-        icon: /module/icon/typeTime.svg
+        icon: course-type
         path: develop
-      - text: 绩点计算方法
-        icon: /module/icon/typeTime.svg
-        path: calculate
+      - text: 学分与绩点
+        icon: course-type
+        path: gpa
       - text: 本科课程计划
-        icon: /module/icon/plan.svg
+        icon: plan
         path: plan
+
   - tag: list
     header: 选课
     content:
       - text: 选课内容
-        icon: /module/icon/content.svg
+        icon: content
         path: select
       - text: 选课流程
-        icon: /module/icon/process.svg
+        icon: flow
         path: flow
       - text: 选课系统
-        icon: /module/icon/operate.svg
+        icon: system
         path: system
       - text: 选课技巧
-        icon: /module/icon/skill.svg
+        icon: skill
         path: skill
+
   - tag: list
     header: 东师及专业排名
     content:
       - text: 东师排名
-        icon: /module/icon/nenuRanking.svg
+        icon: rank
         path: rank
       - text: 专业排名
-        icon: /module/icon/nenuRanking.svg
+        icon: rank
         path: major-rank
+
   - tag: list
     header: 双学位、辅修与转专业
     content:
@@ -54,6 +57,13 @@ content:
       - text: 转专业实施办法及注意事项
         icon: /icon/tabPage/course.svg
         path: change-major
+
+  - tag: list
+    content:
+      - text: Mr.Hope 的个人建议
+        icon: skill
+        path: advice
+
   - tag: footer
     author: Mr.Hope
-    time: 2019年8月2日
+    time: 2020年7月17日

@@ -15,7 +15,7 @@ content:
         icon: /module/icon/takePhoto.svg
         path: photo
       - text: 打印
-        icon: /module/icon/copy.svg
+        icon: print
         path: print
       - text: 超市
         icon: /module/icon/shop.svg

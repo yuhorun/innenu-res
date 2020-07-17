@@ -18,6 +18,7 @@ export const resolveList = (
   );
 
   element.content.forEach((listItem) => {
+    // 处理路径
     if (listItem.path)
       if (listItem.path.startsWith("/"))
         listItem.path = listItem.path
@@ -32,6 +33,14 @@ export const resolveList = (
           "/index"
         )}`;
       }
+
+    // 处理图标
+    if (listItem.icon) {
+      if (!listItem.icon.startsWith("/") && !listItem.icon.startsWith("http"))
+        listItem.icon = `/module/icon/${listItem.icon}`;
+
+      if (!listItem.icon.includes(".")) listItem.icon += ".svg";
+    }
 
     checkKeys(
       listItem,
