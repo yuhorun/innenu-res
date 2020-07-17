@@ -12,6 +12,7 @@ convertFolder("./res/config", "./resource/config", (data, filePath) =>
 );
 convertFolder("./res/function", "./resource/function");
 convertFolder("./res/guide", "./resource/guide", resolvePage);
+convertFolder("./res/other", "./resource/other", resolvePage);
 
 // 生成关键词
 generateKeywords();
