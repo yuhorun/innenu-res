@@ -25,7 +25,7 @@ export const resolveText = (
 
   // 处理段落缩进
   if (element.type === "p")
-    element.style = `text-indent: 2em; ${element.style}`;
+    element.style = `text-indent: 1.5em; ${element.style || ""}`;
 
   checkKeys(
     element,
