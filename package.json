@@ -4,7 +4,8 @@
   "private": true,
   "description": "inNENU 小程序资源文件",
   "scripts": {
-    "check": "node ./script/check.js",
+    "check": "yarn run check:json && yarn run lint:check",
+    "check:json": "node ./script/check.js",
     "generate": "node ./script/gen/index.js",
     "lint": "prettier --check --write . && eslint --fix --ext .ts .",
     "lint:check": "prettier --check . && eslint --ext .ts .",
