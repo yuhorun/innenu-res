@@ -11,28 +11,24 @@ const getDocIcon = (docName: string): string => {
 
   const docType = docName.split(".").pop();
 
-  return (
-    "./icon/" +
-    (docType === "docx" || docType === "doc"
-      ? "doc"
-      : docType === "pptx" || docType === "ppt"
-      ? "ppt"
-      : docType === "xlsx" || docType === "xls"
-      ? "xls"
-      : docType === "jpg" || docType === "jpeg"
-      ? "jpg"
-      : docType === "mp4" ||
-        docType === "mov" ||
-        docType === "avi" ||
-        docType === "rmvb"
-      ? "video"
-      : docType === "pdf"
-      ? "pdf"
-      : docType === "png" || docType === "gif"
-      ? docType
-      : "document") +
-    ".svg"
-  );
+  return docType === "docx" || docType === "doc"
+    ? "doc"
+    : docType === "pptx" || docType === "ppt"
+    ? "ppt"
+    : docType === "xlsx" || docType === "xls"
+    ? "xls"
+    : docType === "jpg" || docType === "jpeg" || docType === "jfif"
+    ? "jpg"
+    : docType === "mp4" ||
+      docType === "mov" ||
+      docType === "avi" ||
+      docType === "rmvb"
+    ? "video"
+    : docType === "pdf"
+    ? "pdf"
+    : docType === "png" || docType === "gif"
+    ? docType
+    : "document";
 };
 
 /** 获得文档名称 */
