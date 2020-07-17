@@ -6,8 +6,8 @@ content:
     text: 先乘坐动车到长春站(最优)
   - tag: text
     text: |2-
-
          从离市区较远的龙嘉机场下车后，最好的方式是先乘坐动车到达长春站，动车价格便宜，车次频繁，速度快，全程约15分钟，每45分钟一班。每天大约有16趟车(一等座：10.5元；二等座：8.5元)。
+  - tag: img
     src: "https://mp.innenu.com/img/check/check22.jfif"
     desc: 图为龙嘉到长春动车时刻表
   - tag: text

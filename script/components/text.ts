@@ -35,9 +35,7 @@ export const resolveText = (
       type: { type: ["string", "undefined"], enum: ["ul", "ol", "p"] },
       text: ["string[]", "undefined"],
       style: ["string", "undefined"],
-      align: ["string", "undefined"],
-      src: ["string", "undefined"],
-      desc: ["string", "undefined"]
+      align: ["string", "undefined"]
     },
     location
   );

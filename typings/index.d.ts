@@ -42,18 +42,6 @@ export interface TextComponentConfig {
     | "text-align: center;"
     | "text-align: right;"
     | "text-align: justify;";
-  /** 图片路径 */
-  src?: string;
-  /** 图片描述文字 */
-  desc?: string;
-  /** 图片高清地址 */
-  res?: string;
-  /**
-   * 图片显示模式
-   *
-   * @default "widthFix"
-   */
-  imgmode?: ImageMode;
 }
 
 export interface ImageComponentConfig {
@@ -201,7 +189,7 @@ export interface PhoneComponentConfig {
 export interface SwiperComponentConfig {
   tag: "swiper";
   /** swiper 展示的图片的在线网址或本地路径 */
-  url?: string[];
+  url: string[];
   /** swiper 的类名 */
   class?: string;
   /** swiper 的样式 */

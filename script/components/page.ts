@@ -7,7 +7,8 @@ import {
   ListComponentConfig,
   GridComponentConfig,
   PhoneComponentConfig,
-  ImageComponentConfig
+  ImageComponentConfig,
+  SwiperComponentConfig
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -17,6 +18,8 @@ import { resolveFooter } from "./footer";
 import { resolveList } from "./list";
 import { resolveGrid } from "./grid";
 import { resolvePhone } from "./phone";
+import { resolveImg } from "./img";
+import { resolveSwiper } from "./swiper";
 
 /**
  * 处理页面数据
@@ -26,6 +29,7 @@ import { resolvePhone } from "./phone";
  *
  * @returns 处理之后的page
  */
+// eslint-disable-next-line max-lines-per-function
 export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
   page.images = [];
 
@@ -50,18 +54,25 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
   if (page.content)
     page.content.forEach((element, index) => {
       // 处理图片
-      if ((element.tag === "text" || element.tag === "img") && "src" in element)
+      if (element.tag === "img") {
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         page.images!.push(
-          (element as TextComponentConfig | ImageComponentConfig).res ||
-            element.src
+          (element as ImageComponentConfig).res ||
+            (element as ImageComponentConfig).src
         );
 
-      if (element.tag === "title")
+        resolveImg(
+          element as ImageComponentConfig,
+          `${pagePath} page.content[${index}]`
+        );
+      }
+      // 设置标题
+      else if (element.tag === "title")
         resolveTitle(
           element as TitleComponentConfig,
           `${pagePath} page.content[${index}]`
         );
+      // 设置文字
       else if (element.tag === "text")
         resolveText(
           element as TextComponentConfig,
@@ -97,6 +108,12 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
       else if (element.tag === "phone")
         resolvePhone(
           element as PhoneComponentConfig,
+          `${pagePath} page.content[${index}]`
+        );
+      // 设置轮播图
+      else if (element.tag === "swiper")
+        resolveSwiper(
+          element as SwiperComponentConfig,
           `${pagePath} page.content[${index}]`
         );
     });

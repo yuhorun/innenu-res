@@ -36,6 +36,7 @@ content:
     text: 网线插口
   - tag: text
     text: 进门左右手边的墙壁上会有一侧安装无线路由器，路由器上提供了四个网线接口以供连接使用，如果四个网线接口无法满足需求可以考虑购买并使用交换机。
+  - tag: img
     src: "https://mp.innenu.com/img/network/network1.jpg"
   - tag: title
     text: 卫浴
