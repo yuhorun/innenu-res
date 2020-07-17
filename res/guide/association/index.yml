@@ -33,8 +33,9 @@ content:
         icon: "https://mp.innenu.com/img/corporation/5Alogo.png"
         path: 5A
   - tag: text
+    type: p
     heading: 入驻说明
-    text: "   欢迎社团入驻本页面，请联系QQ1178522294"
+    text: 欢迎社团入驻本页面，请联系 QQ 1178522294
   - tag: list
     header: 入驻中...
     content:

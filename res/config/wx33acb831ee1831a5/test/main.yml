@@ -22,7 +22,8 @@ content:
         path: /life/bath
   - tag: text
     heading: " "
-    text: "   如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。"
+    type: p
+    text: "如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。"
     style:
       color: "#888"
       font-size: 14px
