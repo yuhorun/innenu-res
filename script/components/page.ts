@@ -6,7 +6,8 @@ import {
   FooterComponentConfig,
   ListComponentConfig,
   GridComponentConfig,
-  PhoneComponentConfig
+  PhoneComponentConfig,
+  ImageComponentConfig
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -49,9 +50,12 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
   if (page.content)
     page.content.forEach((element, index) => {
       // 处理图片
-      if ("src" in element)
+      if ((element.tag === "text" || element.tag === "img") && "src" in element)
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        page.images!.push(element.res || element.src);
+        page.images!.push(
+          (element as TextComponentConfig | ImageComponentConfig).res ||
+            element.src
+        );
 
       if (element.tag === "title")
         resolveTitle(

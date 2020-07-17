@@ -206,8 +206,142 @@ export interface SwiperComponentConfig {
   class?: string;
   /** swiper 的样式 */
   style?: string;
-  // TODO:
+  /**
+   * 面板指示点
+   *
+   * @default true
+   */
+  indicatorDots?: boolean;
+  /**
+   * 指示点颜色
+   *
+   * @default '#ffffff88'
+   */
+  dotColor?: string;
+  /**
+   * 当前选中的指示点颜色
+   *
+   * @default '#fff'
+   */
+  dotActiveColor?: string;
+  /**
+   * 自动切换
+   *
+   * @default true
+   */
+  autoplay?: boolean;
+  /**
+   * 自动切换时间间隔
+   *
+   * @default 5000
+   */
+  interval?: number;
+  /**
+   * 滑动动画时长
+   *
+   * @default 500
+   */
+  duration?: number;
+  /**
+   * 衔接滑动
+   *
+   * @default true
+   */
+  circular?: boolean;
+  /**
+   * 是否是纵向滑动
+   *
+   * @default false
+   */
+  vertical?: boolean;
+  /**
+   * 前一项露出边距
+   *
+   * 默认为 0px，接受 px 和 rpx 值
+   */
+  preMargin?: string;
+  /**
+   * 后一项露出边距
+   *
+   * 默认为 0px，接受 px 和 rpx 值
+   */
+  nextMargin?: string;
+  /** swiper 改变时触发的函数名称 */
+  change?: string;
+  /** swiper 动画结束时触发的函数名称 */
+  animation?: string;
+  /**
+   * swiper 中图片的类名
+   *
+   * 默认样式为 'width:100%!important;height:100%!important;'
+   */
+  imgClass?: string;
+  /** 图片的显示模式 */
+  imgmode?: ImageMode;
 }
+
+interface MediaBaseComponentConfig {
+  tag: "media";
+  /** 媒体文件的在线网址或本地路径	 */
+  src: string;
+  /**
+   * 是否循环播放
+   *
+   * @default false
+   */
+  loop?: false;
+  /**
+   * 是否显示默认控件
+   *
+   * @default true
+   */
+  controls?: boolean;
+}
+
+export interface AudioConponentConfig extends MediaBaseComponentConfig {
+  type: "audio";
+  /**
+   * 音频名字
+   *
+   * @description controls 为 false 时无效
+   */
+  name?: string;
+  /**
+   * 音频作者
+   *
+   * @description controls 为 false 时无效
+   */
+  author?: string;
+}
+
+export interface VideoComponentConfig extends MediaBaseComponentConfig {
+  type: "video";
+  /**
+   * 视频封面的图片网络资源地址
+   *
+   * @description controls 为 false 时无效
+   */
+  poster?: string;
+  /**
+   * 是否自动播放
+   *
+   * @default false
+   */
+  autoplay?: boolean;
+  /** 视频初始播放位置 */
+  startTime?: number;
+  /** 弹幕列表 */
+  "danmu-list": any[];
+  /**
+   * 是否显示弹幕按钮
+   *
+   * @description 只在初始化有效
+   * @default false
+   */
+  "danmu-btn"?: boolean;
+}
+
+export type MediaComponentConfig = AudioConponentConfig | VideoComponentConfig;
 
 export type PageTag =
   | "title"
@@ -233,6 +367,7 @@ export type ComponentConfig =
   | DocComponentConfig
   | PhoneComponentConfig
   | SwiperComponentConfig
+  | MediaComponentConfig
   | Record<string, any>;
 
 /** 页面配置 */
