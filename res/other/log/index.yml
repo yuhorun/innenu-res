@@ -20,41 +20,41 @@ content:
     header: 日志如下：
     content:
       - text: alpha日志
-        path: dev
+        url: page?path=other/log/dev
       - text: V 0.1开发日志
-        path: "0.1"
+        url: page?path=other/log/0.1
       - text: V 0.2开发日志
-        path: "0.2"
+        url: page?path=other/log/0.2
       - text: V 0.3开发日志
-        path: "0.3"
+        url: page?path=other/log/0.3
       - text: V 0.4开发日志
-        path: "0.4"
+        url: page?path=other/log/0.4
       - text: V 0.5开发日志
-        path: "0.5"
+        url: page?path=other/log/0.5
       - text: V 0.6开发日志
-        path: "0.6"
+        url: page?path=other/log/0.6
       - text: V 0.7开发日志
-        path: "0.7"
+        url: page?path=other/log/0.7
       - text: V 0.8开发日志
-        path: "0.8"
+        url: page?path=other/log/0.8
       - text: V 0.9开发日志
-        path: "0.9"
+        url: page?path=other/log/0.9
       - text: V 1.0开发日志
-        path: "1.0"
+        url: page?path=other/log/1.0
       - text: V 1.1开发日志
-        path: "1.1"
+        url: page?path=other/log/1.1
       - text: V 1.2开发日志
-        path: "1.2"
+        url: page?path=other/log/1.2
       - text: V 1.3开发日志
-        path: "1.3"
+        url: page?path=other/log/1.3
       - text: V 2.0开发日志
-        path: "2.0"
+        url: page?path=other/log/2.0
       - text: V 2.1开发日志
-        path: "2.1"
+        url: page?path=other/log/2.1
       - text: V 2.2开发日志
-        path: "2.2"
+        url: page?path=other/log/2.2
       - text: V 2.3开发日志
-        path: "2.3"
+        url: page?path=other/log/2.3
       - text: V 2.4开发日志
-        path: "2.4"
+        url: page?path=other/log/2.4
   - tag: footer
