@@ -21,13 +21,13 @@ content:
     header: 其他相关
     content:
       - text: 寝室门禁时间
-        icon: /module/icon/guard.svg
+        icon: guard
         path: door
       - text: 寝室供电
-        icon: /module/icon/electric.svg
+        icon: electric
         path: electricity
       - text: 寝室供网
-        icon: /module/icon/network.svg
+        icon: network
         path: network
       - text: 走读与调宿
         icon: /icon/tabPage/about.svg

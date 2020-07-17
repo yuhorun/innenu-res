@@ -24,7 +24,7 @@ content:
   - tag: list
     content:
       - text: 接站
-        icon: /module/icon/pickup.svg
+        icon: pickup
         path: /check/arrival/pickup
   - tag: footer
     author: Mr.Hope

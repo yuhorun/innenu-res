@@ -13,13 +13,13 @@ content:
     header: 了解更多
     content:
       - text: 有线上网
-        icon: /module/icon/ethernet.svg
+        icon: ethernet
         path: lan
       - text: 无线上网
-        icon: /module/icon/wifi.svg
+        icon: wifi
         path: wlan
       - text: 计费
-        icon: /module/icon/pay.svg
+        icon: pay
         path: fee
       - text: 统一身份认证
         icon: /icon/tabPage/about.svg

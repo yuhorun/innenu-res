@@ -9,8 +9,8 @@ content:
   - tag: list
     content:
       - text: 火车站-净月
-        icon: /module/icon/train.svg
-        path: check18
+        icon: train
+        path: /check/arrival/train/jingyue
   - tag: title
     text: 打车
   - tag: text

@@ -28,8 +28,8 @@ content:
   - tag: list
     content:
       - text: 打车的建议
-        icon: /module/icon/taxi.svg
-        path: check4
+        icon: taxi
+        path: /check/arrival/taxi
   - tag: title
     text: 轻轨
   - tag: text

@@ -9,8 +9,8 @@ content:
   - tag: list
     content:
       - text: 火车站-本部
-        icon: /module/icon/train.svg
-        path: check17
+        icon: train
+        path: /check/arrival/train/benbu
   - tag: title
     text: 机场巴士-公交
   - tag: text

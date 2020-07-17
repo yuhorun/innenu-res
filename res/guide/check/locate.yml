@@ -14,7 +14,7 @@ content:
     header: " "
     content:
       - text: 本部校区校门介绍
-        icon: /module/icon/gate.svg
+        icon: gate
         path: benbu
       - text: 本部校区寝室介绍
         icon: /icon/tabPage/dorm.svg
@@ -27,7 +27,7 @@ content:
     header: " "
     content:
       - text: 净月校区校门介绍
-        icon: /module/icon/gate.svg
+        icon: gate
         path: jingyue
       - text: 净月校区寝室介绍
         icon: /icon/tabPage/dorm.svg
@@ -46,7 +46,7 @@ content:
   - tag: list
     content:
       - text: 地址与快递相关
-        icon: /module/icon/express.svg
+        icon: express
         path: /life/express/
   - tag: footer
     author: Mr.Hope

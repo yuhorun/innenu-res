@@ -30,8 +30,8 @@ content:
   - tag: list
     content:
       - text: 校内外超市
-        icon: /module/icon/shop.svg
-        path: life5
+        icon: shop
+        path: /life/shop
   - tag: title
     text: 学习用品
   - tag: text

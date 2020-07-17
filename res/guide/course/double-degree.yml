@@ -12,7 +12,7 @@ content:
     header: false
     content:
       - text: 转专业实施办法及注意事项
-        icon: /module/icon/attention.svg
+        icon: attention
         path: change-major
 
   - tag: title

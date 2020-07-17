@@ -23,8 +23,8 @@ content:
   - tag: list
     content:
       - text: 了解更多校园网相关
-        icon: /module/icon/network.svg
-        path: network0
+        icon: network
+        path: /network/
   - tag: footer
     author: Mr.Hope
     time: 2019年4月9日

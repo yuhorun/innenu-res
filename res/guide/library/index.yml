@@ -32,7 +32,7 @@ content:
         icon: info
         path: intro
       - text: 电子阅览室
-        icon: /module/icon/computer.svg
+        icon: computer
         path: digit-room
 
   - tag: footer

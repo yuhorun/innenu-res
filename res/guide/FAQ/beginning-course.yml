@@ -10,7 +10,7 @@ content:
     header: false
     content:
       - text: 注册流程
-        path: FAQ12
+        path: yiban
   - tag: title
     text: 课程学习流程
   - tag: text

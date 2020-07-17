@@ -18,7 +18,7 @@ content:
     content:
       - text: 如何激活生活用水
         icon: /icon/tabPage/card.svg
-        path: card2
+        path: /card/prepare
   - tag: img
     src: "https://mp.innenu.com/img/dorm/dorm6.jpg"
     desc: 图为本部三舍AB洗漱区
@@ -49,7 +49,7 @@ content:
   - tag: list
     content:
       - text: 洗衣机详细使用说明
-        icon: /module/icon/washer.svg
+        icon: washer
         path: washer
   - tag: img
     src: "https://mp.innenu.com/img/dorm/dorm10.jpg"
