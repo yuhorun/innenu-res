@@ -8,7 +8,7 @@ import {
   GridComponentConfig,
   PhoneComponentConfig,
   ImageComponentConfig,
-  SwiperComponentConfig
+  SwiperComponentConfig,
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -44,7 +44,7 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
       shareable: ["boolean", "undefined"],
       feedback: ["boolean", "undefined"],
       contact: ["boolean", "undefined"],
-      images: "string[]"
+      images: "string[]",
     },
     `${pagePath} page`
   );

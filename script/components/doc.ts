@@ -48,7 +48,7 @@ export const resolveDoc = (
       docIcon: "string",
       docName: "string",
       url: "string",
-      downloadable: { type: ["undefined"], additional: [true] }
+      downloadable: { type: ["undefined"], additional: [true] },
     },
     location
   );

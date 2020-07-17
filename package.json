@@ -6,6 +6,8 @@
   "scripts": {
     "check": "node ./script/check.js",
     "generate": "node ./script/gen/index.js",
+    "lint": "prettier --check --write . && eslint --fix --ext .ts .",
+    "lint:check": "prettier --check . && eslint --ext .ts .",
     "ts:compile": "tsc",
     "upload": "node ./script/upload.js"
   },
@@ -20,21 +22,26 @@
   },
   "dependencies": {
     "@mr-hope/assert-type": "0.0.2",
-    "@types/chai": "4.2.11",
     "@types/js-yaml": "3.12.5",
-    "@types/mocha": "7.0.2",
+    "@types/node": "^14.0.22",
     "axios": "0.19.2",
-    "chai": "4.2.0",
+    "child_process": "1.0.2",
     "del": "5.1.0",
     "ftp-hope": "0.1.1",
     "js-yaml": "3.14.0",
-    "husky": "4.2.5",
-    "mocha": "8.0.1",
-    "ts-node": "8.10.2"
+    "husky": "4.2.5"
   },
   "devDependencies": {
-    "@types/node": "^14.0.22",
-    "child_process": "1.0.2"
+    "@typescript-eslint/eslint-plugin": "3.6.0",
+    "@typescript-eslint/parser": "3.6.0",
+    "@typescript-eslint/typescript-estree": "3.6.0",
+    "eslint": "7.4.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5",
+    "typescript": "3.9.7"
   },
   "husky": {
     "hooks": {

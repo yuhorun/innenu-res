@@ -4,7 +4,7 @@ import {
   existsSync,
   mkdirSync,
   readFileSync,
-  writeFileSync
+  writeFileSync,
 } from "fs";
 import { safeDump, safeLoad } from "js-yaml";
 import { dirname, resolve } from "path";
@@ -38,7 +38,7 @@ export const convertFolder = (
     if (!existsSync(folderPath)) mkdirSync(folderPath, { recursive: true });
 
     const content = readFileSync(resolve(sourceFolder, filePath), {
-      encoding: "utf-8"
+      encoding: "utf-8",
     });
     const json = safeLoad(content);
 
@@ -115,7 +115,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 
@@ -128,7 +128,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 
@@ -139,7 +139,7 @@ const change = (json: any): any => {
         // eslint-disable-next-line no-param-reassign
         element = json.content[index] = {
           ...element,
-          footer
+          footer,
         };
       }
 
@@ -166,7 +166,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 

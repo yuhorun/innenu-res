@@ -12,7 +12,7 @@ export const resolveList = (
       tag: "string",
       header: ["string", "boolean", "undefined"],
       content: "array",
-      footer: ["string", "undefined"]
+      footer: ["string", "undefined"],
     },
     location
   );
@@ -49,7 +49,7 @@ export const resolveList = (
         icon: ["string", "undefined"],
         desc: ["string", "undefined"],
         path: ["string", "undefined"],
-        url: ["string", "undefined"]
+        url: ["string", "undefined"],
       },
       `${location}.content`
     );

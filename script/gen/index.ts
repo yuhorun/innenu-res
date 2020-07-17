@@ -23,7 +23,7 @@ exec("git diff --name-status", (_err, gitDiffResult) => {
     del("./resource/function.zip");
     // 读取旧版本号
     const functionVersion = readFileSync("./resource/functionVersion.json", {
-      encoding: "utf-8"
+      encoding: "utf-8",
     }).trim();
 
     // 更新 function 版本号

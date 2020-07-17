@@ -32,7 +32,7 @@ const promises = appidList.map((appid) =>
                 scene: filePath,
                 width: 1280,
                 // eslint-disable-next-line @typescript-eslint/naming-convention
-                auto_color: true
+                auto_color: true,
               },
               { responseType: "stream" }
             )

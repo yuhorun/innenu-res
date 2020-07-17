@@ -32,7 +32,7 @@ export const resolvePhone = (
       hostNum: ["string", "undefined"],
       website: ["string", "undefined"],
       email: ["string", "undefined"],
-      homeNum: ["string", "undefined"]
+      homeNum: ["string", "undefined"],
     },
     location
   );
