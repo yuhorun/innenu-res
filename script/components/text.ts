@@ -20,12 +20,20 @@ export const resolveText = (
   if (typeof element.style === "object")
     element.style = resolveStyle(element.style);
 
+  // 处理段落
+  if (typeof element.text === "string") element.text = [element.text];
+
+  // 处理段落缩进
+  if (element.type === "p")
+    element.style = `text-indent: 2em; ${element.style}`;
+
   checkKeys(
     element,
     {
       tag: "string",
       heading: ["string", "boolean", "undefined"],
-      text: ["string", "string[]", "undefined"],
+      type: { type: ["string", "undefined"], enum: ["ul", "ol", "p"] },
+      text: ["string[]", "undefined"],
       style: ["string", "undefined"],
       align: ["string", "undefined"],
       src: ["string", "undefined"],

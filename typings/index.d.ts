@@ -23,6 +23,8 @@ export interface TitleComponentConfig {
 
 export interface TextComponentConfig {
   tag: "text";
+  /** 段落类型 */
+  type?: "p" | "text" | "ol" | "ul";
   /** 段落标题 */
   heading?: string | true;
   /** 段落文字 */
