@@ -4,11 +4,8 @@
   "private": true,
   "description": "inNENU 小程序资源文件",
   "scripts": {
-    "check": "yarn run check:json && yarn run lint:check",
     "check:json": "node ./script/check.js",
     "generate": "node ./script/gen/index.js",
-    "lint": "prettier --check --write . && eslint --fix --ext .ts .",
-    "lint:check": "prettier --check . && eslint --ext .ts .",
     "ts:compile": "tsc",
     "upload": "node ./script/upload.js"
   },
@@ -33,15 +30,7 @@
     "husky": "4.2.5"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "3.6.0",
-    "@typescript-eslint/parser": "3.6.0",
-    "@typescript-eslint/typescript-estree": "3.6.0",
-    "eslint": "7.4.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-prettier": "3.1.4",
     "husky": "4.2.5",
-    "lint-staged": "10.2.11",
-    "prettier": "2.0.5",
     "typescript": "3.9.7"
   },
   "husky": {
