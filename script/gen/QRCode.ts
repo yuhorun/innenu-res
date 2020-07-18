@@ -3,6 +3,7 @@ import appidInfo from "../appidInfo";
 import { getFileList } from "../util/file";
 import { createWriteStream, existsSync, mkdirSync } from "fs";
 import { dirname, resolve } from "path";
+import { promiseQueue } from "../util/queue";
 
 const fileList = getFileList("./res/guide", ".yml").map((filePath) =>
   filePath.replace(/\.yml$/gu, "")
@@ -17,10 +18,13 @@ const promises = appidList.map((appid) =>
     )
     // eslint-disable-next-line @typescript-eslint/naming-convention
     .then(({ data: { access_token } }) => {
-      const photoPromises = fileList.map((filePath): Promise<void> | void => {
+      const photoPromises = fileList.map((filePath): (() => Promise<
+        void
+      >) => (): Promise<void> => {
         const folderPath = dirname(resolve(`./img/QRCode/${appid}`, filePath));
 
-        if (!existsSync(`${filePath}.png`)) {
+        if (!existsSync(`./img/QRCode/${appid}/${filePath}.png`)) {
+          console.log(`${filePath}.png 不存在`);
           if (!existsSync(folderPath))
             mkdirSync(folderPath, { recursive: true });
 
@@ -37,16 +41,20 @@ const promises = appidList.map((appid) =>
               { responseType: "stream" }
             )
             .then(({ data }) => {
+              console.log(`${filePath}.png 下载完成`);
+
               data.pipe(
                 createWriteStream(
                   resolve(`./img/QRCode/${appid}`, `${filePath}.png`)
                 )
               );
+
+              console.log(`${filePath}.png 写入完成`);
             });
-        }
+        } else return new Promise((resolve) => resolve());
       });
 
-      return Promise.all(photoPromises);
+      return promiseQueue(photoPromises, 10);
     })
 );
 
