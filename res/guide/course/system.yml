@@ -6,7 +6,9 @@ content:
     text: " 选课系统登录方式"
 
   - tag: text
-    text: 请使用 IE(Internet Explorer) 内核浏览器如 IE11，IE10 IE9。Windows 10 系统可以在 “开始菜单” —— “Windows附件” 中找到 “Internet Explorer”。
+    text:
+      - 请使用 IE(Internet Explorer) 内核浏览器如 IE11、IE10、IE9。
+      - Windows 10 系统可以在 “开始菜单” —— “Windows 附件” 中找到 “Internet Explorer”。
 
   - tag: text
     style:
@@ -40,6 +42,7 @@ content:
       - 如果忘记用户名或密码，请登录统一身份认证 (https://ids.nenu.edu.cn/amserver/UI/Login) 点击忘记密码尝试通过手机号、微信等辅助验证方式找回。如果实在不能找回，请尽快与学校信息化管理与规划办公室联系，以免耽误选课。
 
   - tag: list
+    header: false
     content:
       - icon: more
         text: 信息化办

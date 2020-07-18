@@ -9,6 +9,17 @@ content:
         path: enroll
 
   - tag: list
+    header: 东师及专业排名
+    content:
+      - text: 东师排名
+        icon: rank
+        path: rank
+
+      - text: 专业排名
+        icon: rank
+        path: major-rank
+
+  - tag: list
     header: 新生
     content:
       - text: 2019年新生群一览

@@ -32,13 +32,12 @@ content:
     text: 关于选修课
 
   - tag: text
-    heading: 课程计划
     text: 2015 版课程计划将通识选修课程分为三大类：社会与行为科学、人文与艺术、自然科学。选课时课程名称旁边会有显示对应课程的类别。不同专业对每个类别所选分数的要求是不同的，所以大家一定要仔细看好课程计划里对自己专业的选修课要求。
 
   - tag: list
-    header: " "
+    header: 相关内容
     content:
-      - text: 通识选修课更多详情
+      - text: 通识选修课介绍
         path: general/elective
 
       - text: 网课介绍

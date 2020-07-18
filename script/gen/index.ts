@@ -6,6 +6,7 @@ import { convertFolder } from "../util/yml2json";
 import { resolvePage } from "../components/page";
 import { generateKeywords } from "./keyword";
 
+del(["./resource/function/**", "./resource/guide/**", "./resource/other/**"]);
 // 生成对应的 JSON
 convertFolder("./res/config", "./resource/config", (data, filePath) =>
   filePath.match(/(function|guide|main)/u) ? resolvePage(data, filePath) : data

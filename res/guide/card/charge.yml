@@ -22,7 +22,7 @@ content:
     desc: 绑定界面
 
   - tag: text
-    type: o
+    type: p
     heading: "转账:"
     text: 请您点击左侧第二项银行服务，再点击第二行银校转账。在弹出的窗口中，请您填写身份证号、银行卡号、卡密码后点击确定申请转账，输入转账金额、校园卡密码点击转账。
 
@@ -111,6 +111,7 @@ content:
       - 校园卡总额务必不要达到 4 位数即一千元以上。
 
   - tag: footer
+    author: Mr.Hope
     time: 2020年7月18日
 
 shareable: true
