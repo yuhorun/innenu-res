@@ -28,11 +28,21 @@ content:
 
   - tag: text
     type: p
-    text: "一般学院的专业课会在自己的学院上，如果学院教室安排不开，则会在公共教学楼(比如数学学院没有自己的教室全靠逸夫楼hhh)。对于本部校区来说，公共课一般会在两个公共教学楼: 综合教学楼与逸夫教学楼上。"
+    text: 一般学院的专业课会在自己的学院上，如果学院教室安排不开，则会在公共教学楼(比如数学学院没有自己的教室全靠逸夫楼hhh)。
+
+  - tag: text
+    type: p
+    heading: 本部
+    text: "公共课一般会在两个公共教学楼: 综合教学楼与逸夫教学楼上。"
+
+  - tag: text
+    type: p
+    heading: 净月
+    text: "公共课一般会安排在综合楼上，如果安排不开，则会排在学院。"
 
   - tag: footer
     author: Mr.Hope
-    time: 2020年7月17日
+    time: 2020年7月18日
 
 shareable: true
 contact: true

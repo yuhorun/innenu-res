@@ -107,7 +107,7 @@ content:
     content:
       - text: 本部校区校门介绍
         icon: gate
-        path: benbu
+        path: /check/benbu
       - text: 本部校区寝室介绍
         icon: /icon/tabPage/dorm.svg
         path: /dorm/benbu
@@ -194,7 +194,7 @@ content:
     content:
       - text: 净月校区校门介绍
         icon: gate
-        path: jingyue
+        path: /check/jingyue
 
       - text: 净月校区寝室介绍
         icon: /icon/tabPage/dorm.svg

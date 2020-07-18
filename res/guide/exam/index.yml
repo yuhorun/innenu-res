@@ -7,12 +7,15 @@ content:
       - text: 体测简介
         icon: basketball
         path: physical-examination/intro
+
       - text: 测试成绩说明
         icon: info
         path: physical-examination/explain
+
       - text: 测试项目评分表
         icon: score
         path: physical-examination/score
+
       - text: 申请免测/缓测的条件及程序
         icon: apply
         path: physical-examination/exempt
@@ -20,12 +23,14 @@ content:
   - tag: list
     header: 英语
     content:
-      - text: 分级考试
+      - text: 分班考试
         icon: /icon/tabPage/test.svg
         path: grading-exam
+
       - text: 东北师范大学英语水平测试
         icon: english
-        path: DET
+        path: /study/english/DET
+
       - text: 四六级报考
         icon: CET
         path: CET

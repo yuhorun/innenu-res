@@ -1,16 +1,18 @@
 title: 新生群一览
 content:
-  - tag: text
-    text: 2020年新生群等待更新...
-
   - tag: title
-    text: 东北师范大学19官方新生群
+    text: 东北师范大学 20 官方新生群
 
   - tag: img
     src: https://v3.mp.innenu.com/img/FAQ/QRCode.jpg
 
   - tag: title
     text: 各学院官方迎新群
+
+  - tag: text
+    text:
+      - 2020 年学院新生群等待更新...
+      - (这个时候各个学院可能还没建)
 
   - tag: img
     src: https://v3.mp.innenu.com/img/FAQ/QRCode1.png
