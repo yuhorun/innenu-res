@@ -5,11 +5,6 @@ content:
   - tag: grid
     header: false
     content:
-      - text: 校园地图
-        color: orange
-        name: Map
-        icon: /icon/tabPage/map.svg
-        url: map
       - text: 音律东师
         color: red
         name: Music
