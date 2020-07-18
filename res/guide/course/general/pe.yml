@@ -20,7 +20,7 @@ content:
       - 国防教育课程旨在培养学生的国防意识。
 
   - tag: title
-    text: 课程内容、形式以及对应学期
+    text: 课程与对应的教材、学期与学分
 
   - tag: text
     type: ul
@@ -31,6 +31,10 @@ content:
       - "体育4: 自选 大二下 1学分"
       - "军事训练: 无 大一开学 1学分"
       - "军事理论: 无 大一下 1学分"
+
+  - tag: footer
+    author: Mr.Hope
+    time: 2020年7月18日
 
 shareable: true
 contact: true

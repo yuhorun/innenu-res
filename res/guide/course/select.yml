@@ -13,6 +13,21 @@ content:
       - 专业教育选修课
       - 专业教育必修课
 
+  - tag: list
+    header: 具体详情请见
+    content:
+      - text: 通识教育课程
+        icon: course-type
+        path: general/
+
+      - text: 专业教育课程
+        icon: course-type
+        path: professional
+
+      - text: 发展课程课程
+        icon: course-type
+        path: develop
+
   - tag: title
     text: 关于选修课
 
@@ -20,12 +35,14 @@ content:
     heading: 课程计划
     text: 2015 版课程计划将通识选修课程分为三大类：社会与行为科学、人文与艺术、自然科学。选课时课程名称旁边会有显示对应课程的类别。不同专业对每个类别所选分数的要求是不同的，所以大家一定要仔细看好课程计划里对自己专业的选修课要求。
 
-  - tag: text
-    heading: 网络课程
-    text:
-      - 除普通通识选修课程以外学校还开设一些网络课程，为通识选修课程。分为两类。
-      - 第一类是师范共享平台网络课程。这种课都是别的学校的，询问本届多人建议慎选。多为周六周日上课。给分捉摸不定还可能出问题。
-      - 第二类是通识选修网络课，主要集中在超星尔雅和智慧树两个平台。需要按时在线观看课程并完成课后考试，课程时间长度一般会远超线下的课程时间长度，学校还会安排教务秘书定期发放作业。考试形式为在线考试。
+  - tag: list
+    header: " "
+    content:
+      - text: 通识选修课更多详情
+        path: general/elective
+
+      - text: 网课介绍
+        path: /study/net-course
 
   - tag: title
     text: 选/注课原则
@@ -50,7 +67,7 @@ content:
       - 除非有特殊原因，比如和另一个校区的学院商谈好进行辅修或双学位的学习或有其他实际需求，可以致电教务处单独选课外，其他人跨校区选课一律无效、系统也会禁止跨校区选课。
 
   - tag: title
-    text: "选课参照"
+    text: 选课参照
 
   - tag: text
     heading: 课程表

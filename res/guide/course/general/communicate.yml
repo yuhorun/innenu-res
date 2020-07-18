@@ -23,7 +23,7 @@ content:
       - 中文写作课程旨在提供学生中文写作能力。
 
   - tag: title
-    text: 课程内容、形式以及对应学期
+    text: 课程与对应的教材、学期与学分
 
   - tag: text
     type: ul
@@ -34,11 +34,14 @@ content:
       - "英语2: 学校统一选课分班 大一下 4学分"
       - "英语选修: 自选 推荐大二上(如果英语必修免修则大一也可) 2学分"
 
+  - tag: title
+    text: 更多详情
+
   - tag: list
     header: " "
     content:
       - text: 英语课程介绍
-        path: /study/
+        path: /study/english
 
   - tag: footer
     author: Mr.Hope
