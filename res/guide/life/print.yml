@@ -23,7 +23,8 @@ content:
   - tag: text
     heading: 位置
     text: "   二食堂超市对面复印店、师大图文复印店"
-  - tag: gzh
+  - tag: card
+    type: web
     icon: /image/nenuyouth.png
     gzhName: 东师青年
     title: 东师史上最全的复印店数据大评估

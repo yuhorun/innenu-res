@@ -8,7 +8,8 @@ content:
       - 通过各个途径(室友、同学、校会君 QQ)寻找校园卡。
       - 仔细查看各学院、食堂的失物招领
 
-  - tag: gzh
+  - tag: card
+    type: web
     url: https://mp.weixin.qq.com/s?__biz=MzA5MTQ4NjUzMg==&mid=2651866916&idx=1&sn=2062f413d40aa003f62d8fab081d7f83
     src: http://mmbiz.qpic.cn/mmbiz_png/s67UCDghNJlbtkPQCHp2shtaRdzmyg89PVLIlUicVcrRbISiaer4YS7ksWKSPnUrJkD3fvTS6ePJbDxMUaWAcucg/0?wx_fmt=png
     title: 被盗刷可以做的
