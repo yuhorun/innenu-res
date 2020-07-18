@@ -85,7 +85,7 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
           `${pagePath} page.content[${index}]`
         );
       // 设置列表组件
-      else if (element.tag === "list" || element.tag === "ex-list")
+      else if (element.tag === "list")
         resolveList(
           element as ListComponentConfig,
           page.id,

@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 export type ImageMode =
   | "widthFix"
   | "scaleToFill"
@@ -92,9 +93,99 @@ export interface NormalListComponentItemConfig
 export interface ListComponentConfig {
   tag: "list";
   /** 列表标题 */
-  heading?: string | false;
+  header?: string | false;
   /** 列表内容 */
   content: NormalListComponentItemConfig[];
+  /** 列表页脚 */
+  footer?: string;
+}
+
+export interface NaviagatorListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 是否使用 navigator 组件 */
+  navigate: true;
+  /** 小程序提供的开放能力 */
+  openType?:
+    | "navigate"
+    | "redirect"
+    | "switchTab"
+    | "reLaunch"
+    | "navigateBack"
+    | "exit";
+  /** 跳转目标 */
+  target?: "self" | "miniProgram";
+}
+
+export interface SwitchListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 所控变量在 storage 中的 key 值 */
+  swiKey: string;
+  /**
+   * 开关对应的函数名称
+   *
+   * 不填仅改变 storage 中 swiKey 的值
+   */
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  Switch?: string;
+  /** 开关颜色 */
+  color?: string;
+}
+
+export interface PickerListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 选择器中包含的值 */
+  pickerValue: string;
+  /** 选择器所改变的变量在本地存储中的名称 */
+  key: string;
+  /**
+   * 设置 true 时为单列选择器
+   *
+   * 默认为多列选择器
+   */
+  single?: boolean;
+  /**
+   * 默认为弹出式 picker
+   *
+   * 设置 true 时为嵌入式 picker
+   */
+  inlay?: boolean;
+  /**
+   * picker 选择器对应的函数名称
+   *
+   * 不填仅改变界面显示值与 storage 中 key 的值
+   */
+  picker?: string;
+}
+
+export interface ButtonListComponnetItemConfig
+  extends BaseListComponentItemConfig {
+  /**
+   * 按钮函数名
+   *
+   * 填入按钮点击后触发的函数名
+   */
+  button: string;
+  /**
+   * 是否禁用按钮
+   *
+   * @default false
+   */
+
+  disabled?: boolean;
+}
+
+export interface AdvancedListComponentConfig {
+  tag: "List";
+  /** 列表标题 */
+  header?: string | false;
+  /** 列表内容 */
+  content: (
+    | NormalListComponentItemConfig
+    | NaviagatorListComponentItemConfig
+    | SwitchListComponentItemConfig
+    | PickerListComponentItemConfig
+    | ButtonListComponnetItemConfig
+  )[];
   /** 列表页脚 */
   footer?: string;
 }
@@ -121,7 +212,7 @@ export interface GridComponentConfig {
 }
 
 export interface FooterComponentConfig {
-  tag: "foot";
+  tag: "footer";
   /** 作者 */
   author?: string;
   /** 最后更新日期 */
@@ -331,6 +422,24 @@ export interface VideoComponentConfig extends MediaBaseComponentConfig {
 
 export type MediaComponentConfig = AudioConponentConfig | VideoComponentConfig;
 
+export interface CardComponentConfig {
+  tag: "card";
+  /** 卡片类型 */
+  type: "web" | "page";
+  /** 跳转的链接 */
+  url: string;
+  /** 封面图片在线地址 */
+  src: string;
+  /** 卡片标题 */
+  title?: string;
+  /** 卡片描述 */
+  desc?: string;
+  /** 卡片 Logo 地址 */
+  logo?: string;
+  /** 卡片 Logo 名称 */
+  name?: string;
+}
+
 export type PageTag =
   | "title"
   | "text"
@@ -338,6 +447,7 @@ export type PageTag =
   | "list"
   | "footer"
   | "grid"
+  | "card"
   | "intro"
   | "ex-list"
   | "doc"
@@ -356,7 +466,7 @@ export type ComponentConfig =
   | PhoneComponentConfig
   | SwiperComponentConfig
   | MediaComponentConfig
-  | Record<string, any>;
+  | CardComponentConfig;
 
 /** 页面配置 */
 export interface PageConfig {

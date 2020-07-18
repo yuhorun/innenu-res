@@ -14,8 +14,8 @@ content:
     src: http://mmbiz.qpic.cn/mmbiz_png/s67UCDghNJlbtkPQCHp2shtaRdzmyg89PVLIlUicVcrRbISiaer4YS7ksWKSPnUrJkD3fvTS6ePJbDxMUaWAcucg/0?wx_fmt=png
     title: 被盗刷可以做的
     desc: 被盗刷，只能忍气吞声，默默补办新卡？
-    icon: "https://v3.mp.innenu.com/img/nenuyouth.png"
-    gzhName: 东师青年
+    logo: "https://v3.mp.innenu.com/img/nenuyouth.png"
+    name: 东师青年
 
   - tag: text
     text: 如果您的校园卡成功找回，您将需要到自助终端机解挂；如果您的校园卡不幸没有找回，您可以到信息化办补办校园卡。

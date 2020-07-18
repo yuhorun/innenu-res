@@ -25,14 +25,12 @@ content:
     text: "   二食堂超市对面复印店、师大图文复印店"
   - tag: card
     type: web
-    icon: /image/nenuyouth.png
-    gzhName: 东师青年
+    logo: /image/nenuyouth.png
+    name: 东师青年
     title: 东师史上最全的复印店数据大评估
     desc: 快来走进东师青年和校会君一起看
-    src: >-
-      http://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlZj12wxUnVnmUZgOFJlZE8fToOYsx95sr68ia53XIH9heyQ5mo7owCibia4sU3X5uH8oMdk59icfelPw/0?wx_fmt=jpeg
+    src: http://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlZj12wxUnVnmUZgOFJlZE8fToOYsx95sr68ia53XIH9heyQ5mo7owCibia4sU3X5uH8oMdk59icfelPw/0?wx_fmt=jpeg
     url: "http://mp.weixin.qq.com/s/SIVZp56HZTmvMfqua2c_VQ"
-    remark: 复印店数据评估
   - tag: footer
     author: Mr.Hope
     time: 2019年7月14日
