@@ -26,7 +26,7 @@ content:
     style: "color:#888;font-size:14px;"
     text: 注：体重指数(BMI)=体重(千克)/身高的平方(平方米)
   - tag: img
-    src: "https://mp.innenu.com/img/test/test.jfif"
+    src: "https://v3.mp.innenu.com/img/test/test.jfif"
   - tag: title
     text: 相关要求
   - tag: text

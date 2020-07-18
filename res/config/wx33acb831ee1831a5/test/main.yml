@@ -6,20 +6,25 @@ content:
     header: 开启东师生活
     content:
       - text: 快递
-        icon: https://mp.innenu.com/icon/module/express.svg
-        path: /life/express
+        icon: https://v3.mp.innenu.com/img/icon/module/express.svg
+        path: /life/express/
+
       - text: 校园网
         icon: /icon/tabPage/network.svg
         path: /network/
+
       - text: 食堂
         icon: /icon/tabPage/dining.svg
         path: /dining/
+
       - text: 复印
-        icon: https://mp.innenu.com/icon/module/copy.svg
+        icon: https://v3.mp.innenu.com/img/icon/module/print.svg
         path: /life/print
+
       - text: 洗浴
-        icon: https://mp.innenu.com/icon/module/shower.svg
+        icon: https://v3.mp.innenu.com/img/icon/module/path.svg
         path: /life/bath
+
   - tag: text
     heading: " "
     type: p

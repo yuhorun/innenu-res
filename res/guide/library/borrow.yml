@@ -6,7 +6,7 @@ content:
     text: 借书权限
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/borrow.png"
+    src: "https://v3.mp.innenu.com/img/library/borrow.png"
 
   - tag: title
     text: 注意事项

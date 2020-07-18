@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 5A职业发展协会
-    src: "https://mp.innenu.com/img/corporation/5Alogo.png"
+    src: "https://v3.mp.innenu.com/img/corporation/5Alogo.png"
     desc: 全程化、全方位的就业指导服务
   - tag: title
     text: 社团简介
@@ -41,6 +41,6 @@ content:
     text: >-
       宣传部主要负责社团内部活动照片及视频的收集整理，以及5A职业发展协会及其各种活动的前期、实时、后期宜传工作，通过各种宣传渠道传递活动信息，形成5A精神，扩大5A影响，打造5A品牌。
   - tag: img
-    src: "https://mp.innenu.com/img/corporation/5A.jpg"
+    src: "https://v3.mp.innenu.com/img/corporation/5A.jpg"
   - tag: footer
     author: ""

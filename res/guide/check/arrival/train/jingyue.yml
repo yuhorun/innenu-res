@@ -11,7 +11,7 @@ content:
         进入地铁一号线后选择开往红咀子方向的地铁，到卫星广场站下车。之后在卫星广场站站内换乘轻轨3号线到博硕路站。
         请注意开往红咀子方向的地铁运营时间是6:06-21:46。
   - tag: img
-    src: "https://mp.innenu.com/img/check/check5.jpg"
+    src: "https://v3.mp.innenu.com/img/check/check5.jpg"
     desc: 图为1号线站点
   - tag: title
     text: 公交
@@ -39,10 +39,10 @@ content:
       - " 2. 4号线转3号线：从出站口出站后到底下二楼的换乘中心，进入轻轨四号线，从长春站北上车到卫星路下车，并在站内换乘3号线，坐到东北师范大学站(轻轨3、4  号线运营时间均为6:00—21:00。)"
       - " 这两种方式都是绕远且费时费力。如果实在不着急希望能够找到座位的话可以考虑选择第一种乘坐方式，从始发站上车无需换乘，可以在路上休息一会儿。"
   - tag: img
-    src: "https://mp.innenu.com/img/check/line3.jfif"
+    src: "https://v3.mp.innenu.com/img/check/line3.jfif"
     desc: 轻轨3号线路线图
   - tag: img
-    src: "https://mp.innenu.com/img/check/line4.jfif"
+    src: "https://v3.mp.innenu.com/img/check/line4.jfif"
     desc: 轻轨3号线转4号线地图
   - tag: footer
     author: Mr.Hope

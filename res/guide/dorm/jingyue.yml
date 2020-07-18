@@ -5,7 +5,7 @@ content:
   - tag: title
     text: 净月校区公寓分布
   - tag: img
-    src: "https://mp.innenu.com/img/dorm/jingyue.jpg"
+    src: "https://v3.mp.innenu.com/img/dorm/jingyue.jpg"
   - tag: text
     text: 净月的公寓大多集中在图书馆、食堂的后面。由于楼层不太高，没有电梯。
   - tag: text
@@ -15,9 +15,9 @@ content:
     heading: 夏华公寓
     text: "   共6层。A栋为男生宿舍楼，B栋为女生宿舍楼，入住信息科学与技术、音乐、政法学院学生。"
   - tag: img
-    src: "https://mp.innenu.com/img/dorm/xiahua.jpg"
+    src: "https://v3.mp.innenu.com/img/dorm/xiahua.jpg"
   - tag: img
-    src: "https://mp.innenu.com/img/dorm/xiahua2.jpg"
+    src: "https://v3.mp.innenu.com/img/dorm/xiahua2.jpg"
   - tag: text
     heading: 秋华公寓
     text: "   女生宿舍楼，分A、B两栋共6层，入住经济、音乐、商学院学生。"

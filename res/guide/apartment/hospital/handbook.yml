@@ -25,10 +25,10 @@ content:
     text: 相关文件
   - tag: doc
     docName: 补办《学生医疗手册》申请表(全日制).pdf
-    url: "https://mp.innenu.com/file/hospital/quanri.pdf"
+    url: "https://v3.mp.innenu.com/file/hospital/quanri.pdf"
   - tag: doc
     docName: 补办《学生医疗手册》申请表(少民计划制).pdf
-    url: "https://mp.innenu.com/file/hospital/shaomin.pdf"
+    url: "https://v3.mp.innenu.com/file/hospital/shaomin.pdf"
   - tag: footer
     desc: 信息来源：校医院官网
     time: 2019年8月13日

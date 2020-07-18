@@ -7,7 +7,7 @@ content:
   - tag: text
     text: "   体重指数小于、等于28者，其体质测试及格分为60分；体重指数大于28者，体重指数每增加1其及格标准降低2分(如：体重指数为29的学生，其体质测试及格分为58分)。"
   - tag: img
-    src: "https://mp.innenu.com/img/test/passScore.jfif"
+    src: "https://v3.mp.innenu.com/img/test/passScore.jfif"
     desc: 体重指数与对应的及格分数
   - tag: title
     text: 毕业时成绩的评定

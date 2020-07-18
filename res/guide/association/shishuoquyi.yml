@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 师说曲艺社
-    src: "https://mp.innenu.com/img/corporation/quyi.png"
+    src: "https://v3.mp.innenu.com/img/corporation/quyi.png"
     desc: 一起欢乐，一起进步
   - tag: text
     heading: " "
@@ -14,10 +14,10 @@ content:
          师说曲艺社现有演职人员20余人，下设有演员部、演出部、会员部、宣传部等部门，拥有会员200余名。我们欢迎各位喜欢传统曲艺、戏曲文化的老师、同学加入师说曲艺社这个大家庭，一起欢乐，一起进步！
   - tag: swiper
     url:
-      - "https://mp.innenu.com/img/corporation/quyi1.jpg"
-      - "https://mp.innenu.com/img/corporation/quyi2.jpg"
-      - "https://mp.innenu.com/img/corporation/quyi3.jpg"
-      - "https://mp.innenu.com/img/corporation/quyi4.jpg"
-      - "https://mp.innenu.com/img/corporation/quyi5.jpg"
+      - "https://v3.mp.innenu.com/img/corporation/quyi1.jpg"
+      - "https://v3.mp.innenu.com/img/corporation/quyi2.jpg"
+      - "https://v3.mp.innenu.com/img/corporation/quyi3.jpg"
+      - "https://v3.mp.innenu.com/img/corporation/quyi4.jpg"
+      - "https://v3.mp.innenu.com/img/corporation/quyi5.jpg"
   - tag: footer
     author: ""

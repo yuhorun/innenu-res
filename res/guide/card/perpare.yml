@@ -25,7 +25,7 @@ content:
   - tag: title
     text: 修改密码
   - tag: img
-    src: "https://mp.innenu.com/img/card/card4.png"
+    src: "https://v3.mp.innenu.com/img/card/card4.png"
     desc: 自助终端机界面
   - tag: text
     text: "   在领取到新的校园卡时，请您注意：初始密码为身份证号后六位，末尾为X用1代替。领取新卡后，Mr.Hope强烈建议您使用自助终端机修改初始密码。"
@@ -33,10 +33,10 @@ content:
     heading: 具体步骤
     text: "   请您点击左侧第一项自助服务，再点击第二行二个选项“修改密码”。之后请您在弹出的页面中输入旧密码、新密码、按确定即可完成修改密码操作。(如忘记密码，请您本人持有效身份证件到信息化办办理重置密码)"
   - tag: img
-    src: "https://mp.innenu.com/img/card/card5.png"
+    src: "https://v3.mp.innenu.com/img/card/card5.png"
     desc: 自助服务界面
   - tag: img
-    src: "https://mp.innenu.com/img/card/card6.png"
+    src: "https://v3.mp.innenu.com/img/card/card6.png"
     desc: 修改密码界面
   - tag: text
     text: "   在默认设置下，校园卡每次单次消费最多为20元。超过20元时的情况下，您需要分多次刷卡或者输入密码。如果您时长消费超过20元觉得很不方便的话，可以修改消费限额。"
@@ -44,7 +44,7 @@ content:
     heading: "修改消费限额:"
     text: "   请您点击页面左侧自助服务，再点击修改限额。在弹出的页面中，请您输入校园卡密码、新限额限额，按确定即可完成修改限额操作。"
   - tag: img
-    src: "https://mp.innenu.com/img/card/card7.png"
+    src: "https://v3.mp.innenu.com/img/card/card7.png"
     desc: 修改限额界面
   - tag: footer
     time: 2019年8月17日

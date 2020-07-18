@@ -9,15 +9,15 @@ content:
     text: "先访问图书馆主页 (http://www.library.nenu.edu.cn/)"
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/libraryGuide1.jpg"
+    src: "https://v3.mp.innenu.com/img/library/libraryGuide1.jpg"
     desc: 检索首页
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/libraryGuide2.jpg"
+    src: "https://v3.mp.innenu.com/img/library/libraryGuide2.jpg"
     desc: 检索结果列表
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/libraryGuide3.jpg"
+    src: "https://v3.mp.innenu.com/img/library/libraryGuide3.jpg"
     desc: 详细资料信息
 
   - tag: title
@@ -27,11 +27,11 @@ content:
     text: 点击图书馆主页上“我的图书馆”链接
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/libraryGuide4.jpg"
+    src: "https://v3.mp.innenu.com/img/library/libraryGuide4.jpg"
     desc: 登录页面
 
   - tag: img
-    src: "https://mp.innenu.com/img/library/libraryGuide5.jpg"
+    src: "https://v3.mp.innenu.com/img/library/libraryGuide5.jpg"
     desc: 我的图书馆页面
 
   - tag: footer

@@ -14,7 +14,7 @@ content:
     heading: 校园卡消费功能介绍
     text: "   由于校园卡是东师内部的“电子钱包”，学校为了保障您的资金安全，对校园卡进行了消费上的限制。每张校园卡的初始消费设置为：单次消费限额为20元，每日累计消费限额为100元。如果当日您的消费金额超过限额，则在刷卡时，您需要在刷卡机上输入密码才能完成消费。当然，您可以根据自身的消费习惯通过自助终端机修改消费限额，并定期更改校园卡密码。"
   - tag: img
-    src: "https://mp.innenu.com/img/card/card1.jpg"
+    src: "https://v3.mp.innenu.com/img/card/card1.jpg"
   - tag: list
     content:
       - text: 自助终端机

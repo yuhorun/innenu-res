@@ -7,7 +7,7 @@ content:
     heading: 本部校区
     text: "  本部校区有北苑餐厅和南苑餐厅两个食堂。北苑餐厅共两层，南苑餐厅共三层。地理位置如图："
   - tag: img
-    src: "https://mp.innenu.com/img/dining/dining1.jpg"
+    src: "https://v3.mp.innenu.com/img/dining/dining1.jpg"
   - tag: list
     header: false
     content:

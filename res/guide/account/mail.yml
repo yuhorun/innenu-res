@@ -7,10 +7,10 @@ content:
   - tag: text
     text: '   请您访问 http://mail.nenu.edu.cn/ 进行登录。为了您的安全，建议勾选 "SSL安全登录" 与 "全程SSL"。'
   - tag: img
-    src: "https://mp.innenu.com/img/account/email0.png"
+    src: "https://v3.mp.innenu.com/img/account/email0.png"
     desc: 邮箱登录页面
   - tag: img
-    src: "https://mp.innenu.com/img/account/email.png"
+    src: "https://v3.mp.innenu.com/img/account/email.png"
     desc: 网页版邮箱页面
   - tag: title
     text: 客户端设置
@@ -21,7 +21,7 @@ content:
       - text: iOS设置方法
         path: iOS
   - tag: img
-    src: "https://mp.innenu.com/img/account/emailAdvance.png"
+    src: "https://v3.mp.innenu.com/img/account/emailAdvance.png"
     desc: 高级设置
   - tag: footer
     time: 2019年2月22日
