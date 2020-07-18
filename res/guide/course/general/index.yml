@@ -1,6 +1,4 @@
 title: 通识教育课程
-shareable: true
-contact: true
 content:
   - tag: title
     text: 通识教育课程
@@ -17,7 +15,7 @@ content:
         path: politics
 
       - text: 体育与国防教育
-        path: PE
+        path: pe
 
       - text: 交流表达与信息素养
         path: communicate
@@ -30,4 +28,7 @@ content:
 
   - tag: footer
     author: Mr.Hope
-    time: 2020年7月17日
+    time: 2020年7月18日
+
+shareable: true
+contact: true

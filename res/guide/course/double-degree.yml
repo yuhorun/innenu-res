@@ -4,9 +4,9 @@ contact: true
 content:
   - tag: text
     type: p
+    text: "Mr.Hope 在这里告诉大家: 不推荐大家进行双学位或辅修的修读。如果对自己所学专业不满意或不感兴趣可以考虑转专业。"
     style:
       color: red
-    text: 首先 Mr.Hope 在这里告诉大家不推荐大家进行双学位或辅修的修读。如果对自己所学专业不满意或不感兴趣可以考虑转专业。
 
   - tag: list
     header: false

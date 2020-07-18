@@ -1,6 +1,4 @@
 title: 选课流程
-shareable: true
-contact: true
 content:
   - tag: text
     heading: "提示: 新生选课为注课，不用抢课"
@@ -35,3 +33,6 @@ content:
   - tag: footer
     author: Mr.Hope
     time: 2020年7月17日
+
+shareable: true
+contact: true

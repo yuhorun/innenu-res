@@ -31,7 +31,7 @@ content:
     content:
       - text: 更多详情
         icon: english
-        path: /exam/DET
+        path: DET
 
   - tag: text
     type: p
