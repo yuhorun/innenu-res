@@ -5,9 +5,9 @@ content:
   - tag: title
     text: 一楼南侧
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining10.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining10.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining11.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining11.jpg
     desc: 北苑一楼南侧环境
   - tag: text
     heading: 包含档口
@@ -15,7 +15,7 @@ content:
   - tag: title
     text: 二楼南侧
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining13.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining13.jpg
     desc: 北苑二楼南侧环境
   - tag: text
     heading: 包含档口
@@ -25,7 +25,7 @@ content:
     heading: false
     text: 价位：￥7-16。
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining12.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining12.jpg
   - tag: footer
     author: Mr.Hope
     time: 2020年2月22日

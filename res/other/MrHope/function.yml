@@ -8,7 +8,7 @@ content:
     text: 由于小程序主体是Mr.Hope个人，很多开发完成的功能在审核途中被阉割掉了。Mr.Hope正在努力与学校协商已开发功能在学校主体小程序的上线问题。请大家耐心等待。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/MrHope/MrHope.jpg"
+    src: https://v3.mp.innenu.com/img/MrHope/MrHope.jpg
     desc: 审核消息记录及未通过审核的部分功能
 
   - tag: footer

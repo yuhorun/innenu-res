@@ -7,11 +7,11 @@ content:
   - tag: text
     text: " 首先打开浏览器访问https://www.yiban.cn/。点右上角的【注册】按钮。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/FAQ/yibanRegister1.png"
+    src: https://v3.mp.innenu.com/img/FAQ/yibanRegister1.png
   - tag: text
     text: " 按照要求输入手机号与验证码，设置密码后点击下一步。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/FAQ/yibanRegister2.png"
+    src: https://v3.mp.innenu.com/img/FAQ/yibanRegister2.png
   - tag: text
     text: " 。直接点击【马上去校方认证】，填写学校(东北师范大学)、真实姓名和学号(录取通知书编号，2019开头的10位数字)，点击【立即认证】，完成校方认证。"
   - tag: title

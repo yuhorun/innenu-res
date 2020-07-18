@@ -4,19 +4,19 @@ content:
     text: 本部校区
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/library/benbuGuanCang.png"
+    src: https://v3.mp.innenu.com/img/library/benbuGuanCang.png
 
   - tag: title
     text: 净月校区
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/library/jingyueGuanCang.png"
+    src: https://v3.mp.innenu.com/img/library/jingyueGuanCang.png
 
   - tag: title
     text: 图书馆馆藏分布
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/library/jingyueGuanCang2.jfif"
+    src: https://v3.mp.innenu.com/img/library/jingyueGuanCang2.jfif
 
   - tag: footer
     author: Mr.Hope

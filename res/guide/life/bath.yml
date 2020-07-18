@@ -12,7 +12,7 @@ content:
     heading: 地址
     text: 学生八舍旁，幼儿园园长培训中心后侧(二楼可以自带吹风机吹头发)。
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/bath2.jpg"
+    src: https://v3.mp.innenu.com/img/life/bath2.jpg
     desc: 本部浴池
   - tag: text
     heading: 开放时间
@@ -42,14 +42,14 @@ content:
     heading: 地址
     text: 净月校区教师进修中心一楼。浴池内提供直饮水服务并免费提供电吹风。
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/bath3.jpg"
+    src: https://v3.mp.innenu.com/img/life/bath3.jpg
   - tag: text
     heading: 开放时间
     text: |2-
        7:00-20:30
        检修时间：每月第二周星期三。
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/bath1.jpg"
+    src: https://v3.mp.innenu.com/img/life/bath1.jpg
     desc: 浴池更衣间实拍
   - tag: text
     heading: 监督电话

@@ -23,9 +23,9 @@ content:
       - " 5. 户口迁移地点录取到本部校区各学院的新生，户口迁到吉林省长春市南关区南岭街派出所，咨询电话:0431-85099938；录取到净月校区各学院的新生，  户口迁到吉林省长春市南关区净月大街2555号东北师范大学，咨询电话：0431-84536111。"
       - " 6. 迁移流程(来源于网络)"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check14.jfif"
+    src: https://v3.mp.innenu.com/img/check/check14.jfif
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check15.jfif"
+    src: https://v3.mp.innenu.com/img/check/check15.jfif
   - tag: title
     text: 其他
   - tag: text

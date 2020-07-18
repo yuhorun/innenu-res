@@ -9,7 +9,7 @@ content:
     text: 在自助终端机绑定银行卡(学校发的交行学子卡无需开通网银即可绑定)，直接从银行卡中转钱至校园卡中。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card8.png"
+    src: https://v3.mp.innenu.com/img/card/card8.png
     desc: 银行服务列表图
 
   - tag: text
@@ -18,7 +18,7 @@ content:
     text: 点击左侧第二项银行服务，再点击第三项项申请绑定，填写您的身份证号和校园卡密码后按确定即可完成绑定。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card9.png"
+    src: https://v3.mp.innenu.com/img/card/card9.png
     desc: 绑定界面
 
   - tag: text
@@ -27,11 +27,11 @@ content:
     text: 请您点击左侧第二项银行服务，再点击第二行银校转账。在弹出的窗口中，请您填写身份证号、银行卡号、卡密码后点击确定申请转账，输入转账金额、校园卡密码点击转账。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card10.png"
+    src: https://v3.mp.innenu.com/img/card/card10.png
     desc: 申请转账界面
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card11.png"
+    src: https://v3.mp.innenu.com/img/card/card11.png
     desc: 转账界面
 
   - tag: text
@@ -50,15 +50,15 @@ content:
     text: 进入支付宝，在首页更多找到大学生活，并点击一卡通，进入充值页面。第一次使用需要要填写学校、姓名和学号，输入充值金额点击充值即可，下次充值无需再次输入姓名学号。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/Alipay1.jpg"
+    src: https://v3.mp.innenu.com/img/card/Alipay1.jpg
     desc: 进入支付宝主页点击更多
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/Alipay2.jpg"
+    src: https://v3.mp.innenu.com/img/card/Alipay2.jpg
     desc: 进入大学生活
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/Alipay3.jpg"
+    src: https://v3.mp.innenu.com/img/card/Alipay3.jpg
     desc: 点击一卡通
 
   - tag: text
@@ -83,18 +83,18 @@ content:
     text: 扫描下方二维码，关注企业号
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card2.png"
+    src: https://v3.mp.innenu.com/img/card/card2.png
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card3.jpg"
+    src: https://v3.mp.innenu.com/img/card/card3.jpg
     desc: 关注企业号之后点击欢迎关注中的消息卡片输入账号密码完成认证
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card4.jpg"
+    src: https://v3.mp.innenu.com/img/card/card4.jpg
     desc: 之后点击校园卡
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card13.jpg"
+    src: https://v3.mp.innenu.com/img/card/card13.jpg
     desc: 点击右下角校园卡充值
 
   - tag: text

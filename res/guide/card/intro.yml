@@ -42,7 +42,7 @@ content:
       - 当然，您可以根据自身的消费习惯通过自助终端机修改消费限额，并定期更改校园卡密码。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/card/card1.jpg"
+    src: https://v3.mp.innenu.com/img/card/card1.jpg
     desc: 校园卡
 
   - tag: footer

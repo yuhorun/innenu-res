@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 国协
-    src: "https://v3.mp.innenu.com/img/corporation/NISA.png"
+    src: https://v3.mp.innenu.com/img/corporation/NISA.png
     desc: 东北师范大学国际学生交流协会
   - tag: title
     text: 协会简介
@@ -12,7 +12,7 @@ content:
     style: "word-wrap:break-word;"
     text: "   国协，全称为东北师范大学国际学生交流协会(NENU International Students Association)国协成立于2007年，是由东北师范大学国际合作与交流处领导，留学生科指导的，唯一致力于留学生交流活动的校级学生组织，也是东北地区高校中第一个倡导国际交流活动的学生组织。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/corporation/NISA.jpg"
+    src: https://v3.mp.innenu.com/img/corporation/NISA.jpg
     desc: >-
       NISA是国际学生交流协会的简称，是NENU International Students Association
       的缩写，NISA四个字母分别代表了国协的四条协会精神：Normal(表率)、Interactivity(交流)、Sincerity(真诚)、Accountability(责任)。

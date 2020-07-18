@@ -23,7 +23,7 @@ content:
        3. 乘坐306路/66路/6路/6路夜车到达自由大路站，1元
       4.步行约63米 到达东北师范大学(东北方向)
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/mainGate.jfif"
+    src: https://v3.mp.innenu.com/img/check/mainGate.jfif
     desc: 图为东北师范大学正门
   - tag: title
     text: 打车

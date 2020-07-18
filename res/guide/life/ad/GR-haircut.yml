@@ -16,13 +16,13 @@ content:
   - tag: title
     text: 店铺环境
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/GR1.jpg"
+    src: https://v3.mp.innenu.com/img/life/GR1.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/GR2.jpg"
+    src: https://v3.mp.innenu.com/img/life/GR2.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/GR3.jpg"
+    src: https://v3.mp.innenu.com/img/life/GR3.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/life/GR4.jpg"
+    src: https://v3.mp.innenu.com/img/life/GR4.jpg
   - tag: text
     heading: 活动
     text: "   开学期间办理剪发会员卡，当次剪发免费。"

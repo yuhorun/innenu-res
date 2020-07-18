@@ -4,7 +4,7 @@ content:
     text: 类型
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/study/scholarship.jpg"
+    src: https://v3.mp.innenu.com/img/study/scholarship.jpg
 
   - tag: title
     text: 评定时间
@@ -30,6 +30,9 @@ content:
   - tag: text
     heading: 次年6月
     text: 学年奖学金(针对毕业生)
+
+  - tag: title
+    text: 相关文件
 
   - tag: doc
     docName: 本科学生奖励条例.docx

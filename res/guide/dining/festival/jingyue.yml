@@ -3,13 +3,13 @@ shareable: true
 contact: true
 content:
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining36.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining36.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining37.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining37.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining38.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining38.jpg
   - tag: img
-    src: "https://v3.mp.innenu.com/img/dining/dining39.jpg"
+    src: https://v3.mp.innenu.com/img/dining/dining39.jpg
   - tag: footer
     author: Mr.Hope
     time: 2019年4月9日

@@ -10,16 +10,16 @@ content:
     heading: 地铁(最快最便捷)
     text: "   票价2元，从长春站北上车，往红嘴子方向(南)，到东北师大下车(4站)，最快8分钟可到达。下车后从C出站口出站，即可到达东师校医院门口，出站后左手边即为东北师范大学。请注意开往红嘴子方向的地铁运营时间是6:06-21:46，其他时间请选择打车。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check3.jpg"
+    src: https://v3.mp.innenu.com/img/check/check3.jpg
     desc: 东北师大站时刻表
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check4.jpg"
+    src: https://v3.mp.innenu.com/img/check/check4.jpg
     desc: 东北师大站门口
   - tag: text
     heading: 地铁口位置
     text: "   从地下一层出站口出站后(此时亲面朝北)，继续前往地下二楼的综合换乘中心，在西北角进入地铁一号线(墙上有明显的指示牌指示)。请务必不要走错到轻轨4号线。从B1出站口出站后请在右前方寻找向下的电梯，下电梯请左转在右前方寻找指示牌。从B2出站口出站请左转直行，在右手边找到电梯下楼后继续左转在右前方寻找指示牌。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check1.jpg"
+    src: https://v3.mp.innenu.com/img/check/check1.jpg
     desc: 地铁1号线门口
   - tag: text
     heading: 地铁购票
@@ -27,16 +27,16 @@ content:
       - "   地铁售票采用无人自动售票机，购票机只支持现金和长春一卡通，请提前准备好零钱。在购票机上快速找到东北师大站可能对初来长春的新生们有点困难，届  时请直接在屏幕右侧选择￥2的车票购买即可。"
       - "   进入地铁站有安检，请刷单程票进站，出站时将单程票放入回收口从C出站口出站。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check2.jpg"
+    src: https://v3.mp.innenu.com/img/check/check2.jpg
     desc: 自助售票机
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check5.jpg"
+    src: https://v3.mp.innenu.com/img/check/check5.jpg
     desc: 地铁一号线停靠点
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/subwayEnv.jfif"
+    src: https://v3.mp.innenu.com/img/check/subwayEnv.jfif
     desc: 地铁内部环境
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/subwayTicket.jfif"
+    src: https://v3.mp.innenu.com/img/check/subwayTicket.jfif
     desc: 地铁票
   - tag: text
     heading: 公交
@@ -53,7 +53,7 @@ content:
     heading: 出租车乘降中心位置
     text: "   对于长春站来说，从北出站口B1出来后，请右转直行，并留意左手边指示，从出站口北B2出来之后请左转，约十步即可在右侧看到出租车乘降中心的牌子。在出租车乘降中心请排队等待上车(队伍非恶劣天气会前进的很快)。"
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check6.jpg"
+    src: https://v3.mp.innenu.com/img/check/check6.jpg
     desc: 乘降中心指示牌
   - tag: footer
     author: Mr.Hope

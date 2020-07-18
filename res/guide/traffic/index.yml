@@ -16,11 +16,11 @@ content:
       - 本部的地铁站就在正门附近，也就是校医院门口；净月的轻轨站在净月校门附近，出校门左转走两分钟就到了。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check3.jpg"
+    src: https://v3.mp.innenu.com/img/check/check3.jpg
     desc: 地铁一号线运营时间
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/check/check5.jpg"
+    src: https://v3.mp.innenu.com/img/check/check5.jpg
     desc: 地铁一号线途经站点
 
   - tag: text

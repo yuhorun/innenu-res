@@ -18,7 +18,7 @@ content:
       - Microsoft Edge 不是 IE!
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/course/ie.png"
+    src: https://v3.mp.innenu.com/img/course/ie.png
 
   - tag: text
     type: ol
@@ -32,7 +32,7 @@ content:
     text: 后两种方式本质上就是跳转到第一种的网页上去，所以建议直接输入网址访问并添加收藏夹以便日后快速访问。
 
   - tag: img
-    src: "https://v3.mp.innenu.com/img/course/entrance.png"
+    src: https://v3.mp.innenu.com/img/course/entrance.png
 
   - tag: text
     text:

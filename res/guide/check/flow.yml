@@ -8,7 +8,7 @@ content:
 
       本页信息为2019年情况
   - tag: img
-    src: "https://v3.mp.innenu.comcomcom/img/check/check21.jfif"
+    src: https://v3.mp.innenu.comcomcom/img/check/check21.jfif
   - tag: title
     text: 大体流程
   - tag: text
@@ -66,7 +66,7 @@ content:
     text: 晚上按时归寝等待导员查寝
     align: center
   - tag: img
-    src: "https://v3.mp.innenu.comcomcom/img/check/check23.jfif"
+    src: https://v3.mp.innenu.comcomcom/img/check/check23.jfif
   - tag: title
     text: 因故不能按时报到
   - tag: text

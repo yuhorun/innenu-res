@@ -12,7 +12,7 @@ content:
   - tag: title
     text: 机构设置
   - tag: img
-    src: "https://v3.mp.innenu.com/img/apartment/xscDetail.gif"
+    src: https://v3.mp.innenu.com/img/apartment/xscDetail.gif
   - tag: footer
     desc: 信息来源：学生处官网
     time: 2019年8月7日
