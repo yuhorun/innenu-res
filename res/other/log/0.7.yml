@@ -44,7 +44,7 @@ content:
   - tag: text
     heading: V0.7.6
     text: |-
-      大量故障修复：
+      大量故障修复:
       修复image不能预览的问题；
       初步修复wechat主题首页显示返回按钮的问题；
       footer改进；

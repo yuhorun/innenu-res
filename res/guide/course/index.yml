@@ -8,16 +8,20 @@ content:
     content:
       - text: 通识教育课程
         icon: course-type
-        path: general
+        path: general/
+
       - text: 专业教育课程
         icon: course-type
         path: professional
+
       - text: 发展课程课程
         icon: course-type
         path: develop
+
       - text: 学分与绩点
         icon: course-type
         path: gpa
+
       - text: 本科课程计划
         icon: plan
         path: plan
@@ -28,12 +32,15 @@ content:
       - text: 选课内容
         icon: content
         path: select
+
       - text: 选课流程
         icon: flow
         path: flow
+
       - text: 选课系统
         icon: system
         path: system
+
       - text: 选课技巧
         icon: skill
         path: skill
@@ -44,6 +51,7 @@ content:
       - text: 东师排名
         icon: rank
         path: rank
+
       - text: 专业排名
         icon: rank
         path: major-rank
@@ -54,6 +62,7 @@ content:
       - text: 获取双学位与辅修
         icon: /icon/tabPage/course.svg
         path: double-degree
+
       - text: 转专业实施办法及注意事项
         icon: /icon/tabPage/course.svg
         path: change-major
