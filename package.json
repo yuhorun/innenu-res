@@ -35,7 +35,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn run ts:compile && yarn run generate && git add resource/"
+      "pre-commit": "yarn run ts:compile && yarn run generate && git add resource/ && git add img/"
     }
   }
 }

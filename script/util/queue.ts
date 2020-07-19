@@ -89,16 +89,19 @@ export const promiseQueue = (
       /** 即将执行的任务 */
       const task = queue.shift();
 
-      if (task)
+      if (task) {
+        running += 1;
         task().then(() => {
           running -= 1;
           next();
         });
-      else if (running === 0) resolve();
+      } else if (running === 0) resolve();
     };
 
-    while (running < capacity) {
+    let counter = 0;
+
+    while (counter < capacity) {
+      counter += 1;
       next();
-      running += 1;
     }
   });
