@@ -1,6 +1,4 @@
 title: 安卓邮件客户端设置
-shareable: true
-contact: true
 content:
   - tag: text
     type: p
@@ -45,3 +43,6 @@ content:
   - tag: footer
     author: Mr.Hope
     time: 2020年7月18日
+
+shareable: true
+contact: true

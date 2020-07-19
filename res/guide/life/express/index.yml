@@ -1,15 +1,21 @@
 title: 快递
-shareable: true
-contact: true
 content:
   - tag: text
-    text: "   若同学们想要寄东西，地址就填学校的地址，然后填写方便取的快递，例如我在本部，我的宿舍离菜鸟驿站很近，菜鸟驿站那可以取圆通的快递，那就可以寄圆通快递。"
+    type: p
+    text: 若同学们想要寄东西，地址就填学校的地址，然后填写方便取的快递，例如我在本部，我的宿舍离菜鸟驿站很近，菜鸟驿站那可以取圆通的快递，那就可以寄圆通快递。
+
   - tag: list
+    header: false
     content:
       - text: 本部
         path: benbu
+
       - text: 净月
         path: jingyue
+
   - tag: footer
     author: Mr.Hope
     time: 2019年8月10日
+
+shareable: true
+contact: true
