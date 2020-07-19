@@ -9,6 +9,7 @@ import {
   PhoneComponentConfig,
   ImageComponentConfig,
   SwiperComponentConfig,
+  IntroComponentConfig,
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -20,6 +21,8 @@ import { resolveGrid } from "./grid";
 import { resolvePhone } from "./phone";
 import { resolveImg } from "./img";
 import { resolveSwiper } from "./swiper";
+import { resolveIntro } from "./intro";
+import { genScopeData } from "./scopeData";
 
 /**
  * 处理页面数据
@@ -116,8 +119,16 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
           element as SwiperComponentConfig,
           `${pagePath} page.content[${index}]`
         );
+      // 设置介绍
+      else if (element.tag === "intro")
+        resolveIntro(
+          element as IntroComponentConfig,
+          `${pagePath} page.content[${index}]`
+        );
     });
   else console.warn(`${pagePath} 不存在页面内容`);
+
+  genScopeData(page, pagePath);
 
   return page; // 返回处理后的 page
 };
