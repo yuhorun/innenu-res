@@ -11,8 +11,8 @@ content:
     type: ul
     heading: 人员组成
     text:
-      - 工作室人数：1 (就是这么尴尬)
-      - 工作室室长：Mr.Hope
+      - "工作室人数: 1 (就是这么尴尬)"
+      - "工作室室长: Mr.Hope"
 
   - tag: text
     heading: 人员招聘
