@@ -4,16 +4,16 @@ contact: true
 content:
   - tag: intro
     name: 校新媒体中心
-    src: /image/nenuyouth.png
+    logo: https://v3.mp.innenu.com/img/nenuyouth.png
     desc: 东北师范大学校学生会新媒体中心是东北师范大学最有影响力的新媒体平台。
   - tag: card
     type: web
-    logo: /image/nenuyouth.png
+    logo: https://v3.mp.innenu.com/img/nenuyouth.png
     name: 东师青年
     title: 纳新 | 青春遇见梦想，你我刚好在场
     desc: 校会君期待着你的到来
     src: http://mmbiz.qpic.cn/mmbiz_jpg/s67UCDghNJlEPh1vnuZzeniaj13zwQpJKeA1G28LhRlupVvyKqTdq4ico5NxnMFSFiaYtJgnicnrwI1ZJnOOLx5OHQ/0?wx_fmt=jpeg
-    url: https://mp.weixin.qq.com/s?__biz=MzA5MTQ4NjUzMg==&mid=2651880739&idx=1&sn=97cf36edeebeb49b8c51f1de9977c728&chksm=8b9f7d08bce8f41e302ecb79878a93f430428153fd864767d11ce9f147881263c079ddfaea53&mpshare=1&scene=22
+    url: https://mp.weixin.qq.com/s/u-1y5FHuLfMs91gSh3DDhA
   - tag: text
     heading: " "
     text: >-

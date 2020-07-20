@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 厚普公益学校
-    src: https://mrhope.top/mpImagae/studentOrg/houpu.png
+    logo: https://v3.mp.innenu.com/img/studentOrg/houpu.png
     desc: 东北师范大学厚普公益学校
   - tag: text
     heading: " "

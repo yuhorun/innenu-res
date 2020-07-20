@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 国协
-    src: https://v3.mp.innenu.com/img/corporation/NISA.png
+    logo: https://v3.mp.innenu.com/img/corporation/NISA.png
     desc: 东北师范大学国际学生交流协会
   - tag: title
     text: 协会简介

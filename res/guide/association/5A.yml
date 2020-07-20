@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 5A职业发展协会
-    src: https://v3.mp.innenu.com/img/corporation/5Alogo.png
+    logo: https://v3.mp.innenu.com/img/corporation/5Alogo.png
     desc: 全程化、全方位的就业指导服务
   - tag: title
     text: 社团简介

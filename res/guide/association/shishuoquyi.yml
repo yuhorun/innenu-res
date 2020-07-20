@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 师说曲艺社
-    src: https://v3.mp.innenu.com/img/corporation/quyi.png
+    logo: https://v3.mp.innenu.com/img/corporation/quyi.png
     desc: 一起欢乐，一起进步
   - tag: text
     heading: " "

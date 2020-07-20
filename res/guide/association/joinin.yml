@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 卓音
-    src: https://v3.mp.innenu.com/img/corporation/joinin.png
+    logo: https://v3.mp.innenu.com/img/corporation/joinin.png
     desc: 卓音网络工作室
 
   - tag: text

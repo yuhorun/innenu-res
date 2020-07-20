@@ -20,11 +20,14 @@ content:
     content:
       - text: 安卓设置方法
         path: Android
+
       - text: iOS设置方法
         path: iOS
+
   - tag: img
     src: https://v3.mp.innenu.com/img/account/emailAdvance.png
     desc: 高级设置
+
   - tag: footer
     author: Mr.Hope
     time: 2019年2月22日

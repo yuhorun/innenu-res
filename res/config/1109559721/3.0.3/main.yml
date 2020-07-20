@@ -9,16 +9,16 @@ content:
     header: 寝室
     content:
       - text: 本部校区
-        path: benbu
+        path: /dorm/benbu
 
       - text: 净月校区
-        path: jingyue
+        path: /dorm/jingyue
 
       - text: 室内布局
-        path: detail
+        path: /dorm/detail
 
       - text: 公共区域
-        path: public
+        path: /dorm/public
 
   - tag: list
     header: 食堂
@@ -26,33 +26,33 @@ content:
       - text: 本部校区有北苑餐厅和南苑餐厅两个食堂。
 
       - text: 北苑餐厅
-        path: beiyuan/
+        path: /dinning/beiyuan/
 
       - text: 南苑餐厅
-        path: nanyuan/
+        path: /dinning/nanyuan/
 
       - text: 净月校区有两个食堂，分别为一食堂和二食堂。
 
       - text: 一食堂
-        path: dining-1
+        path: /dinning/dining-1
 
       - text: 二食堂
-        path: dining-2
+        path: /dinning/dining-2
 
   - tag: list
     header: 课程
     content:
       - text: 本科课程计划
         icon: plan
-        path: plan
+        path: /course/plan
 
       - text: 获取双学位与辅修
         icon: /icon/tabPage/course.svg
-        path: double-degree
+        path: /course/double-degree
 
       - text: 转专业实施办法及注意事项
         icon: /icon/tabPage/course.svg
-        path: change-major
+        path: /course/change-major
 
   - tag: text
     heading: " "

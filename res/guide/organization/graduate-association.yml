@@ -4,7 +4,7 @@ contact: true
 content:
   - tag: intro
     name: 研究生会
-    src: https://v3.mp.innenu.com/img/studentOrg/yanHui.png
+    logo: https://v3.mp.innenu.com/img/studentOrg/yanHui.png
     desc: 东北师范大学研究生会
 
   - tag: text
