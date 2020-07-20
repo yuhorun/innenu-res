@@ -42,7 +42,7 @@ content:
     text: 更多详情
 
   - tag: doc
-    docName: 大学英语课程计划.docx
+    name: 大学英语课程计划.docx
     url: "https://v3.mp.innenu.com/file/jwc/foreignLanguageCoursePlan.docx"
 
   - tag: footer

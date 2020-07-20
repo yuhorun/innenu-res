@@ -38,15 +38,15 @@ export const resolveDoc = (
   element: DocComponentConfig,
   location = ""
 ): void => {
-  element.docIcon = getDocIcon(element.docName);
-  element.docName = getDocName(element.docName);
+  element.icon = getDocIcon(element.name);
+  element.name = getDocName(element.name);
 
   checkKeys(
     element,
     {
       tag: "string",
-      docIcon: "string",
-      docName: "string",
+      icon: "string",
+      name: "string",
       url: "string",
       downloadable: { type: ["undefined"], additional: [true] },
     },

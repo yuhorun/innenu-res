@@ -4,22 +4,29 @@ contact: true
 content:
   - tag: title
     text: 机构设置
+
   - tag: img
     src: https://v3.mp.innenu.com/img/apartment/houqinDetail.jpg
+
   - tag: title
     text: 相关文件
+
   - tag: doc
-    docName: 学生公寓管理办法.docx
+    name: 学生公寓管理办法.docx
     url: "https://v3.mp.innenu.com/file/hq/rule.docx"
+
   - tag: doc
-    docName: 学生公寓卫生管理办法.docx
+    name: 学生公寓卫生管理办法.docx
     url: "https://v3.mp.innenu.com/file/hq/weisheng.docx"
+
   - tag: doc
-    docName: 个人班车申请.docx
+    name: 个人班车申请.docx
     url: "https://v3.mp.innenu.com/file/hq/personBus.docx"
+
   - tag: doc
-    docName: 集体班车申请.docx
+    name: 集体班车申请.docx
     url: "https://v3.mp.innenu.com/file/hq/groupBus.docx"
+
   - tag: footer
     desc: 信息来源：后勤管理处官网
     time: 2019年8月1日

@@ -72,15 +72,15 @@ content:
     text: 相关文件
 
   - tag: doc
-    docName: 校团委用印申请表.docx
+    name: 校团委用印申请表.docx
     url: "https://v3.mp.innenu.com/file/tw/seal.docx"
 
   - tag: doc
-    docName: 北苑B16多功能厅借用协议.docx
+    name: 北苑B16多功能厅借用协议.docx
     url: "https://v3.mp.innenu.com/file/tw/B16.docx"
 
   - tag: doc
-    docName: 北苑餐厅学生活动场地借用申请表.docx
+    name: 北苑餐厅学生活动场地借用申请表.docx
     url: "https://v3.mp.innenu.com/file/tw/Beiyuan.docx"
 
   - tag: footer

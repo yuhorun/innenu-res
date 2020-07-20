@@ -25,7 +25,7 @@ content:
   - tag: text
     heading: 正式接待
   - tag: doc
-    docName: 摆台分布示意图.pdf
+    name: 摆台分布示意图.pdf
     url: "https://v3.mp.innenu.com/file/checkin2019.pdf"
   - tag: text
     text: "   本部校区在同心路上(化院、排球场门前对着的那条路)"

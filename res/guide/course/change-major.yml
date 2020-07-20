@@ -55,7 +55,7 @@ content:
     text: 各专业准入细则
 
   - tag: doc
-    docName: 各专业准入细则.pdf
+    name: 各专业准入细则.pdf
     url: "https://v3.mp.innenu.com/file/study/switchMajor.pdf"
 
   - tag: footer

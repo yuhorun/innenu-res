@@ -1,6 +1,4 @@
 title: 专业排名
-shareable: true
-contact: true
 content:
   - tag: title
     text: 专业排名
@@ -69,10 +67,13 @@ content:
     heading: 思想政治教育
     text: 在此排行榜中，我校思想政治教育专业在全国参评的学校中位列第 2 名。
 
-  - tag: title
+  - tag: text
     type: p
     text: 此外，我校还拥有众多优秀学科：国家级特色专业：心理学、会计学、思想政治教育、环境科学、小学教育、物理学、生物科学、地理科学、汉语言文学、英语、历史学、数学与应用数学。国家“双一流”建设学科：马克思主义理论、世界史、数学、化学、统计学、材料科学与工程。国家重点学科：思想政治教育、教育学原理、世界史、细胞生物学、生态学。吉林省重中之重学科：马克思主义理论、教育学、世界史、化学、生物学、生态学、统计学、材料科学与工程。
 
   - tag: footer
     author: Mr.Hope
     time: 2019年4月9日
+
+shareable: true
+contact: true

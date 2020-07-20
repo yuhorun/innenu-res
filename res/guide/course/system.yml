@@ -44,7 +44,7 @@ content:
   - tag: list
     header: false
     content:
-      - icon: more
+      - icon: office
         text: 信息化办
         path: /card/office
 

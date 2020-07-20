@@ -1,5 +1,4 @@
 title: 关于处分
-
 content:
   - tag: title
     text: 收到处分的后果
@@ -13,7 +12,7 @@ content:
 
   - tag: text
     heading: 旷课
-    text: "东北师范大学学生违纪惩处处办法》第十九条规定，达到以下学时数的，分别给予一下处分:"
+    text: "《东北师范大学学生违纪惩处处办法》第十九条规定，达到以下学时数的，分别给予一下处分:"
 
   - tag: text
     type: ol
@@ -61,15 +60,15 @@ content:
     text: 相关文件
 
   - tag: doc
-    docName: 学生违纪惩处办法.docx
+    name: 学生违纪惩处办法.docx
     url: https://v3.mp.innenu.com/file/xsc/way.docx
 
   - tag: doc
-    docName: 处分工作流程.png
+    name: 处分工作流程.png
     url: https://v3.mp.innenu.com/file/xsc/process.png
 
   - tag: doc
-    docName: 检讨书.pdf
+    name: 检讨书.pdf
     url: https://v3.mp.innenu.com/file/xsc/jts.pdf
 
   - tag: footer

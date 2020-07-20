@@ -224,9 +224,9 @@ export interface FooterComponentConfig {
 export interface DocComponentConfig {
   tag: "doc";
   /** 文档名称 */
-  docName: string;
+  name: string;
   /** 文档图标 */
-  docIcon: string;
+  icon: string;
   /** 文档地址 */
   url: string;
   /**
@@ -445,7 +445,7 @@ export interface IntroComponentConfig {
   /** 主体名称 */
   name: string;
   /** 图标地址 */
-  src: string;
+  logo: string;
   /** 主体描述 */
   desc?: string;
 }

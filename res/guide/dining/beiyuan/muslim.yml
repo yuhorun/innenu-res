@@ -1,6 +1,4 @@
 title: 北苑清真餐厅
-shareable: true
-contact: true
 content:
   - tag: title
     text: 清真食堂
@@ -30,3 +28,6 @@ content:
   - tag: footer
     author: Mr.Hope
     time: 2020年2月22日
+
+shareable: true
+contact: true

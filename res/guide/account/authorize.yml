@@ -1,14 +1,19 @@
 title: 统一身份认证
-shareable: true
-contact: true
 content:
+  - tag: title
+    text: 获得学号
+
+  - tag: text
+    text: 学号是 10 位数字，你收到的录取通知书编号和日后发放的校园卡卡号即是学号。
+
   - tag: title
     text: 获得账号(邮箱)
 
   - tag: text
     type: p
     text:
-      - 请您访问 http://account.nenu.edu.cn，在网页中使用学号(10 位数字：录取通知书编号与校园卡卡号即是学号)与默认密码(Nenu + 身份证后六位，X 用 1 代替)进行登录。
+      - 请您访问 http://account.nenu.edu.cn，在网页中使用学号与默认密码进行登录。
+      - 默认密码为 Nenu + 身份证后六位，X 用 1 代替
       - 登陆后，您就可以在“账号信息”中查看自己的邮箱号 (****@nenu.edu.cn)
 
   - tag: img
@@ -20,7 +25,7 @@ content:
   - tag: text
     type: p
     text:
-      - 请您访问http://account.nenu.edu.cn进行登录。
+      - 请您访问 http://account.nenu.edu.cn 进行登录。
       - 点击“修改密码”，修改初始密码。为了您找回密码时的便捷，建议您点击“绑定邮箱/绑定手机/绑定微信/保护问题”进行个人信息的绑定，便于密码丢失后自助找回。由于身份证号可能被他人获得，为了您的资金、消费以及课程成绩安全，建议您务必更换默认密码。
 
   - tag: img
@@ -46,3 +51,6 @@ content:
   - tag: footer
     author: Mr.Hope
     time: 2020年7月18日
+
+shareable: true
+contact: true

@@ -27,7 +27,7 @@ content:
     text: 2019 年秋学期的申请时间为 8 月 27 日 15:00 至 8 月 29 日下午 16:00
 
   - tag: doc
-    docName: 英语免修申请方法.docx
+    name: 英语免修申请方法.docx
     url: "https://v3.mp.innenu.com/file/jwc/englishExemption.docx"
 
   - tag: footer

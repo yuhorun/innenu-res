@@ -10,7 +10,7 @@ export const resolveIntro = (
     {
       tag: "string",
       name: "string",
-      src: "string",
+      logo: "string",
       desc: ["string", "undefined"],
     },
     location
