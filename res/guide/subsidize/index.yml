@@ -11,6 +11,7 @@ content:
       - icon: subsidizeAuthentication
         text: 资助申请流程
         path: application
+
       - icon: info
         text: 资助工作机构简介
         path: intro
