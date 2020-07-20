@@ -31,8 +31,10 @@ const getImages = (page: PageConfig): string[] =>
   page.images
     ? page.images.length > 10
       ? page.images.slice(0, 10)
+      : page.images.length === 0
+      ? ["https://v3.mp.innenu.com/img/inNENU.jpg"]
       : page.images
-    : [];
+    : ["https://v3.mp.innenu.com/img/inNENU.jpg"];
 
 export const genScopeData = (page: PageConfig, filePath: string): void => {
   page.scopeData = {
