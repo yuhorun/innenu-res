@@ -24,7 +24,7 @@ content:
         path: logistics
 
       - text: 校医院
-        icon: hospital/
+        icon: /icon/tagPage/heart.svg
         path: hospital/
 
       - text: 保卫科
