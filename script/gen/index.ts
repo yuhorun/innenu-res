@@ -7,6 +7,7 @@ import { resolvePage } from "../components/page";
 import { genKeywords } from "./keyword";
 // import { genSitemap } from "./sitemap";
 import { genQRCode } from "./QRCode";
+import { getGuideWords, getFunctionWords } from "./count";
 // import { pushPages } from "./push";
 
 // 删除旧的文件
@@ -85,6 +86,11 @@ genQRCode()
           );
         else throw new Error("Mac OS is not supported");
       }
+      console.log(
+        `东师指南现有字数 ${getGuideWords()} 字，功能部分现有字数 ${getFunctionWords()}字，共计 ${
+          getGuideWords() + getFunctionWords()
+        } 字。`
+      );
     });
     console.log("全部完成");
   });

@@ -34,7 +34,7 @@ content:
         path: hostpital
       - text: 校园周边
         icon: /icon/tabPage/nearby.svg
-        path: nearby
+        path: nearby/
   - tag: footer
     author: Mr.Hope
     time: 2019年8月1日
