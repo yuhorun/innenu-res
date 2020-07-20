@@ -10,11 +10,13 @@ content:
         name: Music
         icon: /icon/tabPage/music.svg
         url: player
+
       - text: 体测计算器
         color: blue
         name: PE Calculator
         icon: /icon/tabPage/calculate.svg
         url: PEcal
+
       - text: 校历
         color: purple
         name: Calendar
