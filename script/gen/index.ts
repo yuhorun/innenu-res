@@ -5,7 +5,7 @@ import { type } from "os";
 import { convertFolder } from "../util/yml2json";
 import { resolvePage } from "../components/page";
 import { genKeywords } from "./keyword";
-import { genSitemap } from "./sitemap";
+// import { genSitemap } from "./sitemap";
 import { genQRCode } from "./QRCode";
 // import { pushPages } from "./push";
 
@@ -24,7 +24,7 @@ convertFolder("./res/other", "./resource/other", resolvePage);
 genKeywords();
 
 // 生成 Sitemap
-genSitemap();
+// genSitemap();
 
 // 生成二维码
 genQRCode()
