@@ -27,7 +27,7 @@ content:
         path: door
 
       - text: 寝室供网
-        icon: network
+        icon: /icon/tabPage/network.svg
         path: network
 
       - text: 走读与调宿

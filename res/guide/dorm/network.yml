@@ -27,7 +27,7 @@ content:
   - tag: list
     content:
       - text: 了解更多校园网相关
-        icon: network
+        icon: /icon/tabPage/network.svg
         path: /network/
 
   - tag: footer
