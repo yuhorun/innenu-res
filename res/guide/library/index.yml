@@ -9,7 +9,7 @@ content:
         path: distribution
 
       - text: 图书馆楼层平面图
-        icon: floor-map
+        icon: floor
         path: floor
 
       - text: 书目检索

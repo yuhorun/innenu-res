@@ -1,7 +1,7 @@
 title: ATM机
 content:
   - tag: title
-    text: ATM机位置
+    text: ATM 机位置
 
   - tag: text
     type: p
@@ -11,7 +11,7 @@ content:
   - tag: text
     type: p
     heading: 净月
-    text: 区域位于一食堂北边(靠近博硕路一侧)，目前已有ATM入驻的银行有交通银行(可存钱) 、中国银行、中国建设银行、中国邮政储蓄银行、中国农业银行。另外，纽瓦克学院(行政楼)一楼也有交通银行取款机。
+    text: 区域位于一食堂北边(靠近博硕路一侧)，目前已有 ATM 入驻的银行有交通银行(可存钱) 、中国银行、中国建设银行、中国邮政储蓄银行、中国农业银行。另外，纽瓦克学院(行政楼)一楼也有交通银行取款机。
 
   - tag: footer
     author: Mr.Hope

@@ -24,10 +24,11 @@ content:
         path: logistics
 
       - text: 校医院
-        icon: /icon/tagPage/heart.svg
+        icon: /icon/tabPage/heart.svg
         path: hospital/
 
       - text: 保卫科
+        icon: shield
         path: defend
 
   - tag: footer

@@ -8,33 +8,43 @@ content:
       - text: 洗浴
         icon: bath
         path: bath
+
       - text: 理发
         icon: haircut
         path: haircut
+
       - text: 照相
         icon: photo
         path: photo
+
       - text: 打印
         icon: print
         path: print
+
       - text: 超市
         icon: shop
         path: shop
+
       - text: 快递
         icon: express
         path: express/
+
       - text: 地铁卡公交卡
         icon: /icon/tabPage/card.svg
         path: card
+
       - text: ATM
         icon: atm
         path: atm
+
       - text: 就医
         icon: /icon/tabPage/heart.svg
         path: hostpital
+
       - text: 校园周边
         icon: /icon/tabPage/nearby.svg
         path: nearby/
+
   - tag: footer
     author: Mr.Hope
     time: 2019年8月1日

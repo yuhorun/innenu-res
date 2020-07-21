@@ -1,6 +1,4 @@
 title: 走读与调宿
-shareable: true
-contact: true
 content:
   - tag: title
     text: 住宿规定
@@ -26,7 +24,7 @@ content:
     text: 校外居住
 
   - tag: text
-    text: 如因身体原因或其他情况，需要在校外住宿的，请填写以下申请表
+    text: 如因身体原因或其他情况，需要在校外住宿的，请填写以下申请表。
 
   - tag: doc
     name: 校外居住协议书.docx
@@ -34,4 +32,7 @@ content:
 
   - tag: footer
     author: Mr.Hope
-    time: 2019年8月1日
+    time: 2020年7月21日
+
+shareable: true
+contact: true
