@@ -63,13 +63,14 @@ content:
     text: 体测是有缓考的，一般在正式考试后的后两个月。如果因为原因无法参加正式测试，需要提出缓考申请。
 
   - tag: list
-    header: " "
+    header: false
     content:
       - text: 缓考申请
+        icon: apply
         path: exempt
 
   - tag: title
-    text: Nr.Hope 的友情提示
+    text: Mr.Hope 的友情提示
 
   - tag: text
     type: ul

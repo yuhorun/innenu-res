@@ -33,6 +33,7 @@ content:
       font-size: 14px
 
   - tag: text
+    type: p
     heading: 生活用水圈存
     text: 如果觉得每日 18 升水不够的话，您可以利用补助机对生活用水小钱包进行圈存。将卡放置于补助机的读卡区，在补助机上输入金额，按两次确定键即可对生活用水进行圈存。
 
@@ -65,8 +66,9 @@ content:
     text: 在默认设置下，校园卡每次单次消费最多为 20 元。超过 20元，需要分多次刷卡或者输入密码。如果您时长单次消费消费超过 20 元觉得很不方便的话，可以修改消费限额。
 
   - tag: text
-    heading: "修改消费限额:"
-    text: "   请您点击页面左侧自助服务，再点击修改限额。在弹出的页面中，请您输入校园卡密码、新限额限额，按确定即可完成修改限额操作。"
+    type: p
+    heading: 修改消费限额
+    text: 请您点击页面左侧自助服务，再点击修改限额。在弹出的页面中，请您输入校园卡密码、新限额限额，按确定即可完成修改限额操作。
 
   - tag: img
     src: https://v3.mp.innenu.com/img/card/card7.png
@@ -74,7 +76,7 @@ content:
 
   - tag: footer
     author: Mr.Hope
-    time: 2019年8月17日
+    time: 2020年7月22日
 
 shareable: true
 contact: true

@@ -57,10 +57,9 @@ content:
   - tag: text
     type: p
     heading: " "
-    text: 
+    text:
       - 元旦的时候男女生可以互串寝室！同时也请大家文明串寝。
       - 另外关于寝室的一些解释大部分都是根据本部本科生寝室情况进行叙述的。净月那边不仅没住过更没参观过寝室，也没办法说太多，酌情参考即可。
-
 
   - tag: footer
     author: Mr.Hope

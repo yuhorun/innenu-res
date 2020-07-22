@@ -7,27 +7,34 @@ content:
     header: 报道之前
     content:
       - text: 报到时间
+        icon: time
         path: /check/location-and-time
 
       - text: 录取通知书内容详情
+        icon: content
         path: admission-notice
 
       - text: 导员姓名与联系方式
+        icon: phone
         path: counselor
 
       - text: 新生入学前课程学习
+        icon: /icon/tabPage/study.svg
         path: beginning-course
 
   - tag: list
     header: 找到组织
     content:
       - text: 专业所属学院
+        icon: /icon/tabPage/course.svg
         path: /about/enroll
 
       - text: 学校学院官方迎新群
+        icon: qq-group
         path: /about/QQGroup
 
       - text: 老乡群
+        icon: qq-group
         path: fellow-group
 
   - tag: list
@@ -47,8 +54,8 @@ content:
 
       - text: 关于接站
         path: /check/arrival/pickup
-  - tag: list
 
+  - tag: list
     header: 开学活动
     content:
       - text: 体检

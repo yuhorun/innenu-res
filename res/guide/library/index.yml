@@ -29,7 +29,7 @@ content:
         path: scene
 
       - text: 其他服务
-        icon: service
+        icon: /icon/tabPage/contact.svg
         path: service
 
       - text: 借阅流程

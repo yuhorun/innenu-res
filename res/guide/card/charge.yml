@@ -1,11 +1,10 @@
 title: 校园卡充值
 content:
   - tag: title
-    text: 向校园卡储值
+    text: 方法一
 
   - tag: text
     type: p
-    heading: 方法一
     text: 在自助终端机绑定银行卡(学校发的交行学子卡无需开通网银即可绑定)，直接从银行卡中转钱至校园卡中。
 
   - tag: img
@@ -14,7 +13,7 @@ content:
 
   - tag: text
     type: p
-    heading: "绑定银行卡:"
+    heading: "绑定银行卡"
     text: 点击左侧第二项银行服务，再点击第三项项申请绑定，填写您的身份证号和校园卡密码后按确定即可完成绑定。
 
   - tag: img
@@ -23,7 +22,7 @@ content:
 
   - tag: text
     type: p
-    heading: "转账:"
+    heading: "转账"
     text: 请您点击左侧第二项银行服务，再点击第二行银校转账。在弹出的窗口中，请您填写身份证号、银行卡号、卡密码后点击确定申请转账，输入转账金额、校园卡密码点击转账。
 
   - tag: img
@@ -37,16 +36,18 @@ content:
   - tag: text
     type: p
     heading: 提示
-    text: "   校园卡每次最多充值 200 元，如果想要充值更多钱可以分次充值，但校园卡总额务必不要达到 4 位数即一千元以上，否则在普通卡机上刷卡会报错。如果不小心转账超过一千元，请本人持卡到信息化办处理。"
+    text: 校园卡每次最多充值 200 元，如果想要充值更多钱可以分次充值，但校园卡总额务必不要达到 4 位数即一千元以上，否则在普通卡机上刷卡会报错。如果不小心转账超过一千元，请本人持卡到信息化办处理。
+
+  - tag: title
+    text: 方法二
 
   - tag: text
     type: p
-    heading: 方法二
     text: 将支付宝与校园卡绑定，从支付宝转账到校园卡。
 
   - tag: text
     type: p
-    heading: "支付宝绑定与转账:"
+    heading: "支付宝绑定与转账"
     text: 进入支付宝，在首页更多找到大学生活，并点击一卡通，进入充值页面。第一次使用需要要填写学校、姓名和学号，输入充值金额点击充值即可，下次充值无需再次输入姓名学号。
 
   - tag: img
@@ -72,13 +73,15 @@ content:
       - 夜间学校一卡通服务会进行短暂维护届时您将无法充值或查询余额。
       - 转完账后，余额可能不能立即更新，需要您稍等几分钟，所以请您务必提前圈存。
 
+  - tag: title
+    text: 方法三
+
   - tag: text
     type: p
-    heading: 方法三
     text: 使用微信充值校园卡
 
   - tag: text
-    heading: "微信绑定与转账:"
+    heading: 微信绑定与转账
     type: p
     text: 扫描下方二维码，关注企业号
 
@@ -95,11 +98,7 @@ content:
 
   - tag: img
     src: https://v3.mp.innenu.com/img/card/card13.jpg
-    desc: 点击右下角校园卡充值
-
-  - tag: text
-    type: p
-    text: 请您直接输入充值金额点击付款即可
+    desc: 点击右下角校园卡充值，直接输入充值金额点击付款即可
 
   - tag: text
     type: ul

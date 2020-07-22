@@ -8,7 +8,8 @@ content:
     text: 保护
 
   - tag: text
-    text: "校园卡是一张IC卡，在日常使用校园卡时，请您了解以下注意事项"
+    type: p
+    text: 校园卡是一张 IC 卡，在日常使用校园卡时，请您了解以下注意事项
 
   - tag: text
     type: ol

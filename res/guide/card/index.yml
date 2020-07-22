@@ -43,6 +43,12 @@ content:
         icon: /icon/tabPage/card.svg
         path: protect
 
+  - tag: list
+    content:
+      - text: Mr.Hope 的个人建议
+        icon: skill
+        path: advice
+
   - tag: footer
     author: Mr.Hope
     time: 2020年7月18日
