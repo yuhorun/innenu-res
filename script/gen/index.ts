@@ -17,7 +17,10 @@ del(["./resource/function/**", "./resource/guide/**", "./resource/other/**"]);
 convertFolder("./res/config", "./resource/config", (data, filePath) =>
   filePath.match(/(function|guide|main)/u) ? resolvePage(data, filePath) : data
 );
-convertFolder("./res/function", "./resource/function");
+convertFolder("./res/function", "./resource/function", (data, filePath) =>
+  filePath.match(/(benbu|jingyue)/u) ? resolvePage(data, filePath) : data
+);
+
 convertFolder("./res/guide", "./resource/guide", resolvePage);
 convertFolder("./res/other", "./resource/other", resolvePage);
 

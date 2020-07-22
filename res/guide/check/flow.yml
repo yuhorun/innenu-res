@@ -23,7 +23,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
@@ -34,7 +34,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
@@ -45,7 +45,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
@@ -67,7 +67,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
@@ -78,7 +78,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
@@ -89,7 +89,7 @@ content:
     text: ↓
     align: center
     style:
-      font-weight: 500
+      font-weight: "500"
       font-size: 20px
 
   - tag: text
