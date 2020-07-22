@@ -66,9 +66,10 @@ content:
     street: 学生活动中心 208 室
 
   - tag: text
+    type: ul
     heading: 资助办公室其他联系方式
     text:
-      - "传真: 0431-85099370；0431-85098302"
+      - "传真: 0431-85099370 0431-85098302"
       - "邮箱: zzzx@nenu.edu.cn"
       - "网址: http://clzc.nenu.edu.cn"
 

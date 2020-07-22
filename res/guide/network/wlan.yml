@@ -7,7 +7,7 @@ content:
     text: " 1. 开启手机/电脑等上的无线网(WLAN)功能，搜索可用无线网信号，搜索结果应包含下图所示无线网信号："
 
   - tag: img
-    src: https://v3.mp.innenu.com/img/network/Wifi.jpg
+    src: https://v3.mp.innenu.com/img/network/wifi.jpg
 
   - tag: text
     text:
