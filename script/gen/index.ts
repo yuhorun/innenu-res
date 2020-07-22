@@ -8,7 +8,7 @@ import { genKeywords } from "./keyword";
 // import { genSitemap } from "./sitemap";
 import { genQRCode } from "./QRCode";
 import { getGuideWords, getFunctionWords } from "./count";
-// import { pushPages } from "./push";
+import { pushPages } from "./push";
 
 // 删除旧的文件
 del(["./resource/function/**", "./resource/guide/**", "./resource/other/**"]);
@@ -29,7 +29,7 @@ genKeywords();
 
 // 生成二维码
 genQRCode()
-  // .then(() => pushPages())
+  .then(() => pushPages())
   .then(() => {
     exec("git diff --name-status", (_err, gitDiffResult) => {
       // 功能配置有更新
