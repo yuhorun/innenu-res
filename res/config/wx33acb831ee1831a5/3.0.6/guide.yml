@@ -86,7 +86,7 @@ content:
       - text: 社团
         color: orange
         name: Coporation
-        icon: /icon/tabPage/corporation.svg
+        icon: /icon/tabPage/association.svg
         path: /association/
 
       - text: 交通
