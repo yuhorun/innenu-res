@@ -1,7 +1,5 @@
 title: 报到
-shareable: true
 grey: true
-contact: true
 content:
   - tag: list
     header: 到校路线
@@ -71,3 +69,5 @@ content:
   - tag: footer
     author: Mr.Hope
     time: 2019年8月11日
+
+shareable: true

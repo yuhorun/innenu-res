@@ -1,6 +1,5 @@
 title: 报到时间地点
 shareable: true
-contact: true
 content:
   - tag: text
     style: "color:#888;font-size:14px;"

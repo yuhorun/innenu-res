@@ -1,7 +1,6 @@
 title: 食堂
 shareable: true
 grey: true
-contact: true
 content:
   - tag: text
     type: p

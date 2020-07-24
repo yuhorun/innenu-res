@@ -10,6 +10,7 @@ import {
   ImageComponentConfig,
   SwiperComponentConfig,
   IntroComponentConfig,
+  MediaComponentConfig,
 } from "../../typings";
 import { checkKeys } from "@mr-hope/assert-type";
 import { resolveTitle } from "./title";
@@ -22,6 +23,7 @@ import { resolvePhone } from "./phone";
 import { resolveImg } from "./img";
 import { resolveSwiper } from "./swiper";
 import { resolveIntro } from "./intro";
+import { resolveMedia } from "./media";
 import { genScopeData } from "./scopeData";
 
 /**
@@ -123,6 +125,12 @@ export const resolvePage = (page: PageConfig, pagePath = ""): PageConfig => {
       else if (element.tag === "intro")
         resolveIntro(
           element as IntroComponentConfig,
+          `${pagePath} page.content[${index}]`
+        );
+      // 设置媒体
+      else if (element.tag === "media")
+        resolveMedia(
+          element as MediaComponentConfig,
           `${pagePath} page.content[${index}]`
         );
     });
