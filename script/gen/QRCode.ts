@@ -1,7 +1,7 @@
 import axios from "axios";
 import appidInfo from "../appidInfo";
 import { getFileList } from "../util/file";
-import { existsSync, mkdirSync, writeFileSync } from "fs";
+import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "fs";
 import { dirname, resolve } from "path";
 import { promiseQueue } from "../util/queue";
 
@@ -11,7 +11,21 @@ const fileList = getFileList("./res/guide", ".yml").map((filePath) =>
 
 const appidList = Object.keys(appidInfo);
 
-export const genQRCode = (): Promise<void> => {
+const removeQRCode = (): void => {
+  appidList.map((appid) => {
+    const imgList = getFileList(
+      `./img/QRCode/${appid}`,
+      ".png"
+    ).map((filePath) => filePath.replace(/\.png$/gu, ""));
+
+    imgList.forEach((imgPath) => {
+      if (!fileList.includes(imgPath))
+        unlinkSync(`./img/QRCode/${appid}/${imgPath}.png`);
+    });
+  });
+};
+
+const getQRCode = (): Promise<void> => {
   const promises = appidList.map((appid) =>
     axios
       .get(
@@ -63,4 +77,10 @@ export const genQRCode = (): Promise<void> => {
   return Promise.all(promises).then(() => {
     console.log("二维码生成完成");
   });
+};
+
+export const genQRCode = (): Promise<void> => {
+  removeQRCode();
+
+  return getQRCode();
 };
