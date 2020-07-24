@@ -18,7 +18,7 @@ content:
       - text: 使用前准备
         desc: 新卡到手后
         icon: prepare
-        path: perpare
+        path: prepare
 
       - text: 校园卡丢失
         desc: 立即挂失
