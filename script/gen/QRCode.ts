@@ -12,7 +12,7 @@ const fileList = getFileList("./res/guide", ".yml").map((filePath) =>
 const appidList = Object.keys(appidInfo);
 
 const removeQRCode = (): void => {
-  appidList.map((appid) => {
+  appidList.forEach((appid) => {
     const imgList = getFileList(
       `./img/QRCode/${appid}`,
       ".png"
