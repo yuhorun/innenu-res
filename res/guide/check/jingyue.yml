@@ -7,6 +7,9 @@ content:
   - tag: img
     src: https://v3.mp.innenu.com/img/check/jingyue.jfif
 
+  - tag: text
+    text: 由于疫情原因，2020 年迎新地点可能会有改动，校门可能也只会开放特定的校门，请大家以实际通知为准，届时小程序会在首页以及对应页面更新。
+
   - tag: title
     text: 净月东门
 

@@ -33,6 +33,7 @@ content:
       color: red
 
   - tag: list
+    header: false
     content:
       - text: 校内外超市
         icon: shop
