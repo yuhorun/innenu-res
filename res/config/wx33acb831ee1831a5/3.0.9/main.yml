@@ -5,6 +5,23 @@ content:
   - tag: title
     text: 新生们最关心的问题
 
+  - tag: text
+    heading: 招生相关
+    type: ol
+    text:
+      - |-
+        2020招生计划
+        http://bkzsw.nenu.edu.cn/col_000018_000171.html
+      - |-
+        往年分数线
+        http://bkzsw.nenu.edu.cn/col_000018_000170.html
+      - |-
+        学校招生咨询群
+        http://zsb.nenu.edu.cn/info/1016/1821.htm
+      - |-
+        招生办留言板
+        http://zsb.nenu.edu.cn/lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123
+
   - tag: list
     header: 寝室
     content:
@@ -57,7 +74,7 @@ content:
   - tag: text
     heading: " "
     type: p
-    text: "如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。"
+    text: 如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。
     style:
       color: "#888"
       font-size: 14px
