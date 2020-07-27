@@ -38,12 +38,13 @@
   cover: https://v3.mp.innenu.com/img/nenuyouth.png
   title: 好想你
   singer: 新媒体中心填词歌曲
-  # lyric: miss-you
+  lyric: miss-you
 
 - src: https://res.wx.qq.com/voice/getvoice?mediaid=MzA5MTQ4NjUzMl8yNjUxODc2MDU4
   cover: https://v3.mp.innenu.com/img/nenuyouth.png
   title: 那些花儿东师版
   singer: 新媒体中心填词歌曲
+  lyric: flower
 
 - src: https://res.wx.qq.com/voice/getvoice?mediaid=MzIxOTk0MTkzMF8yMjQ3NDgzODAw
   cover: https://v3.mp.innenu.com/img/nenuyouth.png
@@ -104,3 +105,4 @@
   cover: https://v3.mp.innenu.com/img/song/schoolLogo.jpg
   title: 东北师范大学校歌
   singer: "填词: 张松如 谱曲: 吕远"
+  lyric: school
