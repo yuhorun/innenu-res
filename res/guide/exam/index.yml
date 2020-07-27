@@ -1,41 +1,50 @@
 title: 考试
-shareable: true
 grey: true
-contact: true
 content:
   - tag: list
     header: 体测
     content:
       - text: 体测简介
-        icon: /module/icon/bodyMeasureTime.svg
+        icon: basketball
         path: physical-examination/intro
+
       - text: 测试成绩说明
-        icon: /module/icon/grade.svg
+        icon: info
         path: physical-examination/explain
+
       - text: 测试项目评分表
-        icon: /module/icon/score.svg
+        icon: score
         path: physical-examination/score
+
       - text: 申请免测/缓测的条件及程序
-        icon: /module/icon/condition.svg
+        icon: apply
         path: physical-examination/exempt
+
   - tag: list
     header: 英语
     content:
-      - text: 分级考试
-        icon: /module/icon/gradeExam.svg
+      - text: 分班考试
+        icon: /icon/tabPage/test.svg
         path: grading-exam
+
       - text: 东北师范大学英语水平测试
-        icon: /module/icon/English.svg
-        path: DET
+        desc: DET
+        icon: english
+        path: /study/english/DET
+
       - text: 四六级报考
-        icon: /module/icon/CET.svg
+        icon: CET
         path: CET
+
   - tag: list
     header: 计算机
     content:
       - text: 计算机等级考试说明
-        icon: /module/icon/computer.svg
+        icon: computer
         path: NCRE/intro
+
   - tag: footer
     author: Mr.Hope
-    time: 2019年8月7日
+    time: 2020年7月17日
+
+shareable: true

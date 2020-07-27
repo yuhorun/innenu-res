@@ -1,44 +1,17 @@
-import {
-  readdirSync,
-  statSync,
-  existsSync,
-  mkdirSync,
-  readFileSync,
-  writeFileSync
-} from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { safeDump, safeLoad } from "js-yaml";
-import { dirname, resolve } from "path";
-
-interface ReadDirResult {
-  file: string[];
-  dir: string[];
-}
-
-const readDir = (dirPath: string, prefix = ""): ReadDirResult => {
-  const files = readdirSync(resolve(prefix, dirPath));
-  const result: ReadDirResult = { file: [], dir: [] };
-  files.forEach((file) => {
-    const filePath = resolve(prefix, dirPath, file);
-
-    if (statSync(filePath).isFile()) result.file.push(file);
-    else if (statSync(filePath).isDirectory()) result.dir.push(file);
-  });
-
-  return result;
-};
+import { resolve } from "path";
+import { getFileList } from "../util/file";
 
 export const convertFolder = (
   sourceFolder: string,
   convertFunction: (data: any, filePath: string) => any
 ): void => {
-  const result = readDir("", sourceFolder);
+  const fileList = getFileList(sourceFolder, "yml");
 
-  result.file.forEach((filePath) => {
-    const folderPath = dirname(resolve(sourceFolder, filePath));
-    if (!existsSync(folderPath)) mkdirSync(folderPath, { recursive: true });
-
+  fileList.forEach((filePath) => {
     const content = readFileSync(resolve(sourceFolder, filePath), {
-      encoding: "utf-8"
+      encoding: "utf-8",
     });
     const json = safeLoad(content);
 
@@ -48,11 +21,6 @@ export const convertFolder = (
       { encoding: "utf-8" }
     );
   });
-
-  if (result.dir.length !== 0)
-    result.dir.forEach((dirPath) => {
-      convertFolder(resolve(sourceFolder, dirPath), convertFunction);
-    });
 };
 
 // eslint-disable-next-line max-lines-per-function
@@ -115,7 +83,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 
@@ -128,7 +96,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 
@@ -139,7 +107,7 @@ const change = (json: any): any => {
         // eslint-disable-next-line no-param-reassign
         element = json.content[index] = {
           ...element,
-          footer
+          footer,
         };
       }
 
@@ -166,7 +134,7 @@ const change = (json: any): any => {
         element = json.content[index] = {
           tag: "list",
           header,
-          ...element
+          ...element,
         };
       }
 

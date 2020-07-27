@@ -15,7 +15,7 @@ export const resolveTitle = (
     {
       tag: "string",
       text: "string",
-      style: ["string", "undefined"]
+      style: ["string", "undefined"],
     },
     location
   );

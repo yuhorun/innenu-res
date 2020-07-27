@@ -2,7 +2,7 @@ title: 保卫科
 content:
   - tag: swiper
     url:
-      - "https://mp.innenu.com/img/nenuyouth.png"
+      - "https://v3.mp.innenu.com/img/nenuyouth.png"
   - tag: title
     text: 简介
   - tag: text
@@ -14,6 +14,6 @@ content:
     street: 吉林省长春市人民大街5268号
     postCode: "130024"
   - tag: footer
-    auther: fy Mr.Hope
+    author: fy Mr.Hope
     time: 2019年8月11日
 hidden: true

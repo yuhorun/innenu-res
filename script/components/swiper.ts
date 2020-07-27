@@ -41,9 +41,9 @@ export const resolveSwiper = (
           "top right",
           "bottom left",
           "bottom right",
-          undefined
-        ]
-      }
+          undefined,
+        ],
+      },
     },
     location
   );

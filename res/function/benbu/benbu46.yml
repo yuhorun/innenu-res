@@ -16,6 +16,6 @@ content:
         path: /apartment/hospital/
   - tag: footer
     desc: 来源：东北师范大学校医院官网
-    auther: fy
+    author: fy
     time: 2019年4月9日
 hidden: true

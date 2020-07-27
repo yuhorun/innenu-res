@@ -1,0 +1,21 @@
+- tag: list
+  header: 工作室与开发者介绍
+  content:
+    - text: "   小程序全部内容均由 Hope Studio 独立开发。"
+    - text: Hope Studio介绍
+      url: page?path=other/MrHope/hope-studio
+
+    - text: Mr.Hope个人介绍
+      url: page?path=other/MrHope/mrhope
+
+    - text: 致谢名单
+      url: page?path=other/MrHope/thanks
+
+- tag: list
+  header: 小程序介绍
+  content:
+    - text: 开发者访谈
+      url: page?path=other/MrHope/interview
+
+    - text: 小程序功能太少?
+      url: page?path=other/MrHope/function

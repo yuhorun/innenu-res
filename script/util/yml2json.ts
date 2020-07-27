@@ -17,7 +17,7 @@ export const convertFolder = (
     if (!existsSync(folderPath)) mkdirSync(folderPath, { recursive: true });
 
     const content = readFileSync(resolve(sourceFolder, filePath), {
-      encoding: "utf-8"
+      encoding: "utf-8",
     });
     const json = safeLoad(content);
 

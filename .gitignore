@@ -5,5 +5,4 @@ service/info/
 
 script/**/*.js
 
-script/**/appidInfo.ts
-script/**/loginInfo.ts
+script/**/info.ts

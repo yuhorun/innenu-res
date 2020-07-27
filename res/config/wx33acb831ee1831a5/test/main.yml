@@ -2,27 +2,62 @@ title: 首页
 grey: true
 hidden: true
 content:
+  - tag: title
+    text: 新生们最关心的问题
+
   - tag: list
-    header: 开启东师生活
+    header: 寝室
     content:
-      - text: 快递
-        icon: https://mp.innenu.com/icon/module/express.svg
-        path: /life/express
-      - text: 校园网
-        icon: /icon/tabPage/network.svg
-        path: /network/
-      - text: 食堂
-        icon: /icon/tabPage/dining.svg
-        path: /dining/
-      - text: 复印
-        icon: https://mp.innenu.com/icon/module/copy.svg
-        path: /life/print
-      - text: 洗浴
-        icon: https://mp.innenu.com/icon/module/shower.svg
-        path: /life/bath
+      - text: 本部校区
+        path: /dorm/benbu
+
+      - text: 净月校区
+        path: /dorm/jingyue
+
+      - text: 室内布局
+        path: /dorm/detail
+
+      - text: 公共区域
+        path: /dorm/public
+
+  - tag: list
+    header: 食堂
+    content:
+      - text: 本部校区有北苑餐厅和南苑餐厅两个食堂。
+
+      - text: 北苑餐厅
+        path: /dining/beiyuan/
+
+      - text: 南苑餐厅
+        path: /dining/nanyuan/
+
+      - text: 净月校区有两个食堂，分别为一食堂和二食堂。
+
+      - text: 一食堂
+        path: /dining/dining-1
+
+      - text: 二食堂
+        path: /dining/dining-2
+
+  - tag: list
+    header: 课程
+    content:
+      - text: 本科课程计划
+        icon: https://v3.mp.innenu.com/img/icon/module/plan.svg
+        path: /course/plan
+
+      - text: 获取双学位与辅修
+        icon: /icon/tabPage/course.svg
+        path: /course/double-degree
+
+      - text: 转专业实施办法及注意事项
+        icon: /icon/tabPage/course.svg
+        path: /course/change-major
+
   - tag: text
     heading: " "
-    text: "   如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。"
+    type: p
+    text: "如果您还有什么疑问，但是小程序中没有提及的，欢迎联系 QQ 1178522294 咨询。"
     style:
       color: "#888"
       font-size: 14px

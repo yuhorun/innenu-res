@@ -1,40 +1,49 @@
 title: 生活
 shareable: true
 grey: true
-contact: true
 content:
   - tag: list
     content:
       - text: 洗浴
-        icon: /module/icon/shower.svg
+        icon: bath
         path: bath
+
       - text: 理发
-        icon: /module/icon/haircut.svg
+        icon: haircut
         path: haircut
+
       - text: 照相
-        icon: /module/icon/takePhoto.svg
+        icon: photo
         path: photo
+
       - text: 打印
-        icon: /module/icon/copy.svg
+        icon: print
         path: print
+
       - text: 超市
-        icon: /module/icon/shop.svg
+        icon: shop
         path: shop
+
       - text: 快递
-        icon: /module/icon/express.svg
+        icon: express
         path: express/
+
       - text: 地铁卡公交卡
         icon: /icon/tabPage/card.svg
         path: card
+
       - text: ATM
-        icon: /module/icon/atm.svg
+        icon: atm
         path: atm
+
       - text: 就医
-        icon: /icon/heart.svg
+        icon: /icon/tabPage/heart.svg
         path: hostpital
+
       - text: 校园周边
         icon: /icon/tabPage/nearby.svg
-        path: nearby
+        path: nearby/
+
   - tag: footer
     author: Mr.Hope
     time: 2019年8月1日

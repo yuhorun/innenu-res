@@ -2,8 +2,8 @@ title: 制作中
 content:
   - tag: swiper
     url:
-      - >-
-        https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=cc0f16d490529822113e3191b6a310ae/b2de9c82d158ccbfe6ad9f2919d8bc3eb135418b.jpg
+      - https://gss2.bdstatic.com/9fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike80%2C5%2C5%2C80%2C26/sign=cc0f16d490529822113e3191b6a310ae/b2de9c82d158ccbfe6ad9f2919d8bc3eb135418b.jpg
+
   - tag: title
     text: 制作中
   - tag: text
@@ -22,5 +22,6 @@ content:
     heading: 联系方式
     text: 制作中...
   - tag: footer
-    desc: 来源：东北师范大学官网
+    desc: "来源: 东北师范大学官网"
+
 hidden: true

@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 export type ImageMode =
   | "widthFix"
   | "scaleToFill"
@@ -28,7 +29,7 @@ export interface TextComponentConfig {
   /** 段落标题 */
   heading?: string | true;
   /** 段落文字 */
-  text?: string | string[];
+  text?: string[];
   /** 段落文字样式 */
   style?: string;
   /**
@@ -92,9 +93,99 @@ export interface NormalListComponentItemConfig
 export interface ListComponentConfig {
   tag: "list";
   /** 列表标题 */
-  heading?: string | false;
+  header?: string | false;
   /** 列表内容 */
   content: NormalListComponentItemConfig[];
+  /** 列表页脚 */
+  footer?: string;
+}
+
+export interface NaviagatorListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 是否使用 navigator 组件 */
+  navigate: true;
+  /** 小程序提供的开放能力 */
+  openType?:
+    | "navigate"
+    | "redirect"
+    | "switchTab"
+    | "reLaunch"
+    | "navigateBack"
+    | "exit";
+  /** 跳转目标 */
+  target?: "self" | "miniProgram";
+}
+
+export interface SwitchListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 所控变量在 storage 中的 key 值 */
+  swiKey: string;
+  /**
+   * 开关对应的函数名称
+   *
+   * 不填仅改变 storage 中 swiKey 的值
+   */
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  Switch?: string;
+  /** 开关颜色 */
+  color?: string;
+}
+
+export interface PickerListComponentItemConfig
+  extends BaseListComponentItemConfig {
+  /** 选择器中包含的值 */
+  pickerValue: string;
+  /** 选择器所改变的变量在本地存储中的名称 */
+  key: string;
+  /**
+   * 设置 true 时为单列选择器
+   *
+   * 默认为多列选择器
+   */
+  single?: boolean;
+  /**
+   * 默认为弹出式 picker
+   *
+   * 设置 true 时为嵌入式 picker
+   */
+  inlay?: boolean;
+  /**
+   * picker 选择器对应的函数名称
+   *
+   * 不填仅改变界面显示值与 storage 中 key 的值
+   */
+  picker?: string;
+}
+
+export interface ButtonListComponnetItemConfig
+  extends BaseListComponentItemConfig {
+  /**
+   * 按钮函数名
+   *
+   * 填入按钮点击后触发的函数名
+   */
+  button: string;
+  /**
+   * 是否禁用按钮
+   *
+   * @default false
+   */
+
+  disabled?: boolean;
+}
+
+export interface AdvancedListComponentConfig {
+  tag: "List";
+  /** 列表标题 */
+  header?: string | false;
+  /** 列表内容 */
+  content: (
+    | NormalListComponentItemConfig
+    | NaviagatorListComponentItemConfig
+    | SwitchListComponentItemConfig
+    | PickerListComponentItemConfig
+    | ButtonListComponnetItemConfig
+  )[];
   /** 列表页脚 */
   footer?: string;
 }
@@ -121,7 +212,7 @@ export interface GridComponentConfig {
 }
 
 export interface FooterComponentConfig {
-  tag: "foot";
+  tag: "footer";
   /** 作者 */
   author?: string;
   /** 最后更新日期 */
@@ -133,9 +224,9 @@ export interface FooterComponentConfig {
 export interface DocComponentConfig {
   tag: "doc";
   /** 文档名称 */
-  docName: string;
+  name: string;
   /** 文档图标 */
-  docIcon: string;
+  icon: string;
   /** 文档地址 */
   url: string;
   /**
@@ -277,7 +368,7 @@ interface MediaBaseComponentConfig {
    *
    * @default false
    */
-  loop?: false;
+  loop?: boolean;
   /**
    * 是否显示默认控件
    *
@@ -331,6 +422,34 @@ export interface VideoComponentConfig extends MediaBaseComponentConfig {
 
 export type MediaComponentConfig = AudioConponentConfig | VideoComponentConfig;
 
+export interface CardComponentConfig {
+  tag: "card";
+  /** 卡片类型 */
+  type: "web" | "page";
+  /** 跳转的链接 */
+  url: string;
+  /** 封面图片在线地址 */
+  src: string;
+  /** 卡片标题 */
+  title?: string;
+  /** 卡片描述 */
+  desc?: string;
+  /** 卡片 Logo 地址 */
+  logo?: string;
+  /** 卡片 Logo 名称 */
+  name?: string;
+}
+
+export interface IntroComponentConfig {
+  tag: "intro";
+  /** 主体名称 */
+  name: string;
+  /** 图标地址 */
+  logo: string;
+  /** 主体描述 */
+  desc?: string;
+}
+
 export type PageTag =
   | "title"
   | "text"
@@ -338,6 +457,7 @@ export type PageTag =
   | "list"
   | "footer"
   | "grid"
+  | "card"
   | "intro"
   | "ex-list"
   | "doc"
@@ -356,7 +476,49 @@ export type ComponentConfig =
   | PhoneComponentConfig
   | SwiperComponentConfig
   | MediaComponentConfig
-  | Record<string, any>;
+  | CardComponentConfig
+  | IntroComponentConfig;
+
+export interface GeneralScopeData {
+  "@type": "general";
+  /**
+   * 内容标识
+   *
+   * appid下全局唯一，长度不大于256字符
+   */
+  // eslint-disable-next-line @typescript-eslint/naming-convention
+  uniq_id: string;
+  /**
+   * 内容标题
+   *
+   * 该页面内容的主题，不超过100个字符
+   */
+  title: string;
+  /**
+   * 内容缩略图
+   *
+   * 该页面包含图片或者能描述该页面的图片URL，宽高比1：1，建议500x500px，不超过10张
+   */
+  thumbs: string[];
+  /**
+   * 内容封面大图
+   *
+   * 能描述该页面的封面大图URL，适用于需要大图表现的内容（如视频），宽高比16：9，宽度不低于800px，限定1张
+   */
+  cover?: string;
+  /**
+   * 内容摘要
+   *
+   * 该页面的摘要内容，不超过200个字符
+   */
+  digest: string;
+  /**
+   * 内容关键词
+   *
+   * 能描述该页面的关键词，不超过10个，每个关键词不超过10个字符
+   */
+  tags: string[];
+}
 
 /** 页面配置 */
 export interface PageConfig {
@@ -394,4 +556,8 @@ export interface PageConfig {
    * 是否隐藏导航栏
    */
   hidden?: boolean;
+  /**
+   * 结构化数据
+   */
+  scopeData?: GeneralScopeData;
 }

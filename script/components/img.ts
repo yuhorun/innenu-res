@@ -29,9 +29,9 @@ export const resolveImg = (
           "top right",
           "bottom left",
           "bottom right",
-          undefined
-        ]
-      }
+          undefined,
+        ],
+      },
     },
     location
   );

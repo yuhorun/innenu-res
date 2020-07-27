@@ -1,87 +1,109 @@
 title: 导员姓名与联系方式
 shareable: true
-contact: true
 content:
   - tag: title
     text: 本部
+
   - tag: text
     heading: 教育学部
-    text: " 翁灏：18744046552"
+    text: " 翁灏: 18744046552"
+
   - tag: text
     heading: 心理学院
     text: |2-
        刘竞雄
        0431-85099535
+
   - tag: text
     heading: 文学院
-    text: " 周思瑞：13029120183"
+    text: " 周思瑞: 13029120183"
+
   - tag: text
     heading: 历史文化学院
-    text: " 曾艳：15567767666"
+    text: " 曾艳: 15567767666"
+
   - tag: text
     heading: 外国语学院
-    text: " 方鑫：18004453372"
+    text: " 方鑫: 18004453372"
+
   - tag: text
     heading: 马克思主义学部
-    text: " 张博岩：18686467373"
+    text: " 张博岩: 18686467373"
+
   - tag: text
     heading: 数学与统计学院
-    text: " 李欣宇：18626696118"
+    text: " 李欣宇: 18626696118"
+
   - tag: text
     heading: 物理学院
     text: |2-
-       刘雨婷：19969508346
+       刘雨婷: 19969508346
        0431-85099890
+
   - tag: text
     heading: 化学学院
-    text: " 渠文洁：18946617899"
+    text: " 渠文洁: 18946617899"
+
   - tag: text
     heading: 生命科学学院
-    text: " 赵睿：18629938868"
+    text: " 赵睿: 18629938868"
+
   - tag: text
     heading: 地理科学学院
-    text: " 王玉：13159609048"
+    text: " 王玉: 13159609048"
+
   - tag: text
     heading: 体育学院
-    text: " 李春桥：15104310022"
+    text: " 李春桥: 15104310022"
+
   - tag: title
     text: 净月
+
   - tag: text
     heading: 政法学院
-    text: " 刘梦桃：15526882516"
+    text: " 刘梦桃: 15526882516"
+
   - tag: text
     heading: 经济学院
-    text: " 王洋：18844176275"
+    text: " 王洋: 18844176275"
+
   - tag: text
     heading: 商学院
     text: |2-
-       陈雪：18004457720(工商专业)
-       房栋：13756323833(中美专业)
+       陈雪: 18004457720(工商专业)
+       房栋: 13756323833(中美专业)
        0431-84537521
+
   - tag: text
     heading: 外国语学院
-    text: " 祝贺：13196099160"
+    text: " 祝贺: 13196099160"
+
   - tag: text
     heading: 音乐学院
     text: |2-
-       赵琳：18543118181
+       赵琳: 18543118181
        0431-84536317
+
   - tag: text
     heading: 美术学院
     text: |2-
-       于磊：18686660692
-       张振宇：13694307121
+       于磊: 18686660692
+       张振宇: 13694307121
+
   - tag: text
     heading: 信息技术与科学学院
     text: |2-
-       贾保龙：18686533051
+       贾保龙: 18686533051
        0431-84536300
+
   - tag: text
     heading: 环境学院
-    text: " 李康靖：17644028711"
+    text: " 李康靖: 17644028711"
+
   - tag: text
     heading: 传媒学院(新闻学院)
-    text: " 王翘楚：13196006005"
+    text: " 王翘楚: 13196006005"
+
   - tag: footer
     author: Mr.Hope
     time: 2019年8月8日

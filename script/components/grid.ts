@@ -12,7 +12,7 @@ export const resolveGrid = (
       tag: "string",
       header: { type: ["string", "undefined"], additional: [false] },
       content: "array",
-      footer: ["string", "undefined"]
+      footer: ["string", "undefined"],
     },
     location
   );
@@ -41,7 +41,7 @@ export const resolveGrid = (
         color: "string",
         name: "string",
         path: ["string", "undefined"],
-        url: ["string", "undefined"]
+        url: ["string", "undefined"],
       },
       `${location}.content`
     );

@@ -35,15 +35,14 @@ jobs:
           git config --global user.name 'Mr.Hope'
           git config --global user.email 'zhangbowang1998@gmail.com'
           mkdir service/info
-          echo '${{ secrets.APPID_INFO }}' > script/appidInfo.ts
-          echo '${{ secrets.LOGIN_INFO }}' > script/loginInfo.ts
+          echo '${{ secrets.INFO }}' > script/info.ts
           echo '${{ secrets.APPID_SECRET }}' > service/info/appid.php
 
       - name: compile
         run: yarn run ts:compile
 
       - name: Check
-        run: yarn run check
+        run: yarn run check:json
 
       - name: Deploy
         run: |

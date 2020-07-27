@@ -1,14 +1,16 @@
 title: 校园周边
 shareable: true
 grey: true
-contact: true
 content:
   - tag: list
     header: 吃喝玩乐
     content:
       - text: 本部
         path: benbu
+
       - text: 净月
         path: jingyue
+
   - tag: footer
+    author: Mr.Hope
     time: 2019年8月10日

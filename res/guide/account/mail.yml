@@ -1,27 +1,39 @@
 title: 校园邮箱
-shareable: true
-contact: true
 content:
   - tag: title
     text: 登陆地址
+
   - tag: text
-    text: '   请您访问 http://mail.nenu.edu.cn/ 进行登录。为了您的安全，建议勾选 "SSL安全登录" 与 "全程SSL"。'
+    text: 请您访问 http://mail.nenu.edu.cn/ 进行登录。为了您的安全，建议勾选 "SSL 安全登录" 与 "全程 SSL"。
+
   - tag: img
-    src: "https://mp.innenu.com/img/account/email0.png"
+    src: https://v3.mp.innenu.com/img/account/email0.png
     desc: 邮箱登录页面
+
   - tag: img
-    src: "https://mp.innenu.com/img/account/email.png"
+    src: https://v3.mp.innenu.com/img/account/email.png
     desc: 网页版邮箱页面
+
   - tag: title
     text: 客户端设置
+
   - tag: list
+    header: false
     content:
       - text: 安卓设置方法
+        icon: android
         path: Android
+
       - text: iOS设置方法
+        icon: ios
         path: iOS
+
   - tag: img
-    src: "https://mp.innenu.com/img/account/emailAdvance.png"
+    src: https://v3.mp.innenu.com/img/account/emailAdvance.png
     desc: 高级设置
+
   - tag: footer
+    author: Mr.Hope
     time: 2019年2月22日
+
+shareable: true
