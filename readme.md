@@ -8,9 +8,9 @@
 
 这里是 **in 东师** / **东师青年\+** 小程序的配置文件。欢迎大家检查并提交错误。
 
-小程序的每个页面都是根据对应的一个 JSON 文件渲染而成。JSON 文件使用记事本或 文本编辑器(如 VSCode) 即可编写。
+小程序的每个页面都是根据对应的一个 yaml 文件渲染而成。yaml 文件使用记事本或 文本编辑器(如 VSCode) 即可编写。
 
 ## 编写说明
 
 - [简单开发教程](https://mrhope.site/code/miniProgram/framework/simpleDebug/)
-- [JSON 参数表](https://mrhope.site/code/miniProgram/framework/tagList/)
+- [小程序参数表](https://mrhope.site/code/miniProgram/framework/tagList/)
