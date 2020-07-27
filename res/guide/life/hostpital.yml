@@ -13,11 +13,20 @@ content:
     header: false
     content:
       - text: 校医院详情
+<<<<<<< HEAD
         icon: /icon/heart.svg
         path: /apartment/hospital/
 
   - tag: text
     text: "   净月校区 Mr.Hope 不是很了解。此处有待补充"
+=======
+        icon: /icon/tabPage/heart.svg
+        path: /apartment/hospital/
+
+  - tag: text
+    type: p
+    text: 净月校区 Mr.Hope 不是很了解。此处有待补充
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     style:
       color: "#888"
       font-size: 14px
@@ -35,6 +44,7 @@ content:
     text: 本部校区附近比较好的医院有吉林大学白求恩第一医院、中心医院与中日联谊医院。
 
   - tag: text
+    type: p
     heading: 吉林大学白求恩第一医院
     text:
       - 是吉林省内非常出名的医院，患者很多。除了夜间急诊之外，白天就诊需要在线使用微信公众号提前挂号。

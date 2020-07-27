@@ -2,6 +2,7 @@ title: 净月快递
 shareable: true
 content:
   - tag: title
+<<<<<<< HEAD
     text: 邮寄地址
 
   - tag: text
@@ -14,6 +15,8 @@ content:
     text: "130117"
 
   - tag: title
+=======
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     text: 快递中心
 
   - tag: text

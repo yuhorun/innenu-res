@@ -30,10 +30,20 @@ content:
       - text: 去净月
         path: jingyue2
 
+<<<<<<< HEAD
   - tag: list
     header: false
     content:
       - text: 接站
+=======
+  - tag: title
+    text: 接站
+
+  - tag: list
+    header: false
+    content:
+      - text: 接站相关
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         icon: pickup
         path: /check/arrival/pickup
 

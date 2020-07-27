@@ -6,7 +6,11 @@ content:
     text: 刚入学期间萌新门一定要注意防盗防骗！！！今年如果校园封闭管理，你们报到时人员进入审查很严的话，可能会少一些。往年是一定会有很多的外校的大学生混进来装作你所在学院的学长学姐到你的寝室以各种名义实施诈骗。
 
   - tag: text
+<<<<<<< HEAD
     ttpe: ul
+=======
+    type: ul
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 一些学长学姐们的亲身经历
     text:
       - |
@@ -28,11 +32,19 @@ content:
     content:
       - text: 保卫科
         icon: shield
+<<<<<<< HEAD
         path: /apartment/defend/
 
       - text: 辅导员联系方式
         icon: phone
         path: /FAQ/counselor/
+=======
+        path: /apartment/defend
+
+      - text: 辅导员联系方式
+        icon: phone
+        path: /FAQ/counselor
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: footer
     author: Mr.Hope

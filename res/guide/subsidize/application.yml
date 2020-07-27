@@ -5,6 +5,10 @@ content:
     text: 资助申请流程
 
   - tag: text
+<<<<<<< HEAD
+=======
+    type: p
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     text: 入学后，学校统一组织资助对象认定，对于获得资助对象资格的家庭经济困难学生给予相应资助。
 
   - tag: title

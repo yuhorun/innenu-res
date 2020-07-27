@@ -19,7 +19,14 @@ content:
     text: 消防安全
 
   - tag: text
+<<<<<<< HEAD
     text: (只可以在夜间挂蚊帐)
+=======
+    type: ul
+    text:
+      - 只可以在夜间挂蚊帐
+      - 严禁使用蚊香一类的物品
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: title
     text: 学生行为守则

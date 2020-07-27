@@ -78,6 +78,7 @@ content:
     text: 校区地址
 
   - tag: list
+    header: false
     content:
       - text: 地址与快递相关
         icon: express

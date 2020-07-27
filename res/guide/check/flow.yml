@@ -8,7 +8,11 @@ content:
       font-size: 14px
 
   - tag: img
+<<<<<<< HEAD
     src: https://v3.mp.innenu.comcom/img/check/check21.jfif
+=======
+    src: https://v3.mp.innenu.com/img/check/check21.jfif
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: title
     text: 大体流程
@@ -52,6 +56,10 @@ content:
     align: center
 
   - tag: text
+<<<<<<< HEAD
+=======
+    type: p
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 提示
     text: 如果宿舍分配结果还没出来，新生可能暂时被安排到其他宿舍暂时居住，分配具体结果出来后才安排到实际的宿舍去住，会有相关人员进行接待和安排住宿事宜。(可以联系导员了解情况)提前来的萌新们如果到校时间过早或过晚，建议提前联系自己的导员或者学院的学长学姐，说明情况，以便获得建议和帮助。必要的话可以提前和学长学姐联系，请他们帮忙带路。
 
@@ -96,7 +104,11 @@ content:
     align: center
 
   - tag: img
+<<<<<<< HEAD
     src: https://v3.mp.innenu.comcom/img/check/check23.jfif
+=======
+    src: https://v3.mp.innenu.com/img/check/check23.jfif
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: title
     text: 因故不能按时报到

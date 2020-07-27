@@ -1,7 +1,12 @@
 title: 长春站-到本部
 content:
   - tag: text
+<<<<<<< HEAD
     text: 除了乘坐校学生会提供的迎新大巴之外，同学们主要有三种交通方式到达本部
+=======
+    type: p
+    text: "除了乘坐校学生会提供的迎新大巴之外，同学们主要有三种交通方式到达本部:"
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: title
     text: 地铁
@@ -33,6 +38,10 @@ content:
     header: false
     content:
       - text: 吉祥码注册与使用
+<<<<<<< HEAD
+=======
+        icon: content
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         path: /FAQ/jixiang-code/
 
   - tag: img
@@ -53,7 +62,11 @@ content:
     desc: 地铁 1 号线门口
 
   - tag: text
+<<<<<<< HEAD
     type: p
+=======
+    type: ul
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 购票相关
     text:
       - 从 长春站北 / 长春站 到 东北师大 票价 2 元
@@ -108,6 +121,10 @@ content:
     header: false
     content:
       - text: 吉祥码注册与使用
+<<<<<<< HEAD
+=======
+        icon: content
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         path: /FAQ/jixiang-code/
 
   - tag: text
@@ -142,6 +159,10 @@ content:
     header: false
     content:
       - text: 更多打车相关提示
+<<<<<<< HEAD
+=======
+        icon: taxi
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         path: /check/arrival/taxi
 
   - tag: footer

@@ -21,6 +21,10 @@ content:
       - 学生持申请表到学校设立的“绿色通道”办理手续。
 
   - tag: text
+<<<<<<< HEAD
+=======
+    type: ul
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 爱心超市
     text:
       - "本部: 三舍C一楼"

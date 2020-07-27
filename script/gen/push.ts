@@ -1,8 +1,15 @@
 import axios from "axios";
+<<<<<<< HEAD
 import appidInfo from "../appidInfo";
 import { getFileList } from "../util/file";
 
 const appidList = Object.keys(appidInfo);
+=======
+import { appIDInfo } from "../info";
+import { getFileList } from "../util/file";
+
+const appidList = Object.keys(appIDInfo);
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
 export const pushPages = (): Promise<void> => {
   const fileList = getFileList("./res/guide", "yml");
@@ -15,7 +22,11 @@ export const pushPages = (): Promise<void> => {
   const promises = appidList.map((appid) =>
     axios
       .get(
+<<<<<<< HEAD
         `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appidInfo[appid]}`
+=======
+        `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
       )
       // eslint-disable-next-line @typescript-eslint/naming-convention
       .then(({ data: { access_token } }) => {

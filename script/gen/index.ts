@@ -4,6 +4,10 @@ import { readFileSync, writeFileSync } from "fs";
 import { type } from "os";
 import { convertFolder } from "../util/yml2json";
 import { resolvePage } from "../components/page";
+<<<<<<< HEAD
+=======
+import { genLyric } from "./lyric";
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 import { genKeywords } from "./keyword";
 // import { genSitemap } from "./sitemap";
 import { genQRCode } from "./QRCode";
@@ -26,6 +30,56 @@ convertFolder("./res/other", "./resource/other", resolvePage);
 
 // 生成关键词
 genKeywords();
+
+<<<<<<< HEAD
+// 生成 Sitemap
+// genSitemap();
+
+// 生成二维码
+genQRCode()
+  .then(() => pushPages())
+  .then(() => {
+    exec("git diff --name-status", (_err, gitDiffResult) => {
+      // 功能配置有更新
+      if (gitDiffResult.match(/resource\/function/u)) {
+        del("./resource/function.zip");
+        // 读取旧版本号
+        const functionVersion = readFileSync(
+          "./resource/functionVersion.json",
+          {
+            encoding: "utf-8",
+          }
+        ).trim();
+
+        // 更新 function 版本号
+        writeFileSync(
+          "./resource/functionVersion.json",
+          `${Number(functionVersion) + 1}\n`
+        );
+
+        // 压缩文件
+        if (type() === "Linux")
+          exec(
+            "zip -r resource/function.zip resource/function resource/functionVersion.json"
+          );
+        else if (type() === "Windows_NT")
+          exec(
+            'cd ./resource && "../lib/7z" a -r function.zip "@../lib/function" && cd ..'
+          );
+        else throw new Error("Mac OS is not supported");
+      }
+
+      // 指南配置有更新
+      if (gitDiffResult.match(/resource\/guide/u)) {
+        del("./resource/guide.zip");
+        const guideVersion = readFileSync(
+          "./resource/guideVersion.json",
+          "utf-8"
+        ).trim();
+
+=======
+// 生成歌词
+genLyric();
 
 // 生成 Sitemap
 // genSitemap();
@@ -72,6 +126,7 @@ genQRCode()
           "utf-8"
         ).trim();
 
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         // 更新 guide 版本号
         writeFileSync(
           "./resource/guideVersion.json",

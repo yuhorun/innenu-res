@@ -1,8 +1,8 @@
-- 2019春季学期
-- - title: 3月
+- 2019 春季学期
+- - title: 3 月
     icon: /function/icon/schedule.svg
     text: |-
-      学生报到时间：2019年3月4日
+      学生报到时间：2019 年 3 月 4 日
 
       补考、免修、缓考考试
 
@@ -19,7 +19,8 @@
       毕业 (结业、肄业) 申请
 
       普通话测试报名
-  - title: 4月
+
+  - title: 4 月
     icon: /function/icon/schedule.svg
     text: |-
       教师资格证报名与体检
@@ -32,11 +33,17 @@
 
       大一、大二在校生转专业
 
+<<<<<<< HEAD
       毕业图像信息采集 (2020届)
   - title: 5月
+=======
+      毕业图像信息采集 (2020 届)
+
+  - title: 5 月
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     icon: /function/icon/schedule.svg
     text: |-
-      五一放假日期：5月1日至5月4日
+      五一放假日期：5 月 1 日至 5 月 4 日
 
       普通话测试
 
@@ -49,7 +56,8 @@
       毕业审核学校复审
 
       学生转学工作办理
-  - title: 6月
+
+  - title: 6 月
     icon: /function/icon/schedule.svg
     text: |-
       英语听力考试
@@ -61,7 +69,8 @@
       毕业证书、学位证书制作与发放(第一批)
 
       校际交流生选派与接收
-  - title: 7月
+
+  - title: 7 月
     icon: /function/icon/schedule.svg
     text: |-
       毕业证书、学位证书制作与发放(第二批)
@@ -70,4 +79,4 @@
 
       期末考试
 
-      7月12日放假
+      7 月 12 日放假

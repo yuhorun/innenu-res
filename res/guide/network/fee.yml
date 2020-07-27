@@ -15,7 +15,11 @@ content:
     content:
       - text: 统一身份认证
         icon: /icon/tabPage/about.svg
+<<<<<<< HEAD
         path: /accout/authorize
+=======
+        path: /account/authorize
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: title
     text: 校园网价格

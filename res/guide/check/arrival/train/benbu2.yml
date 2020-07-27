@@ -8,13 +8,20 @@ content:
     text: 乘坐地铁是最快捷最简便的方式，票价 3 元。从长春西站下车，直接乘坐地铁 2 号线，搭乘东方广场方向的地铁坐 9 站到解放大路站，之后站内换乘 1 号线乘坐开放红嘴子方向的地铁坐 1 站到东北师大站下车。
 
   - tag: text
+<<<<<<< HEAD
+=======
+    type: ul
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 首末班车时间
     text:
       - 地铁二号线东方广场方向首车 5:15、末车 21:00；
       - 地铁一号线红嘴子方向首车 5:50、末车 21:30。
+<<<<<<< HEAD
     style:
       color: "#888"
       font-size: 14px
+=======
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: text
     type: p
@@ -27,6 +34,10 @@ content:
     header: false
     content:
       - text: 吉祥码注册与使用
+<<<<<<< HEAD
+=======
+        icon: content
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         path: /FAQ/jixiang-code/
 
   - tag: title
@@ -43,6 +54,23 @@ content:
     type: p
     text: 乘坐 55 路有轨电车到工农大路站，到马路(一定要到马路对面，要不就惨了)对面转乘 80 路到东北师范大学站下车。
 
+<<<<<<< HEAD
+=======
+  - tag: text
+    type: p
+    heading: 疫情相关
+    text:
+      - 由于新冠疫情，出站时要测量体温、刷身份证，请提前做好准备。
+      - 在长春乘坐公共交通工具、出入公共场所，都需要用到吉林省内的吉祥码。请提前进行相关注册并在地铁案件前出示吉祥码。
+
+  - tag: list
+    header: false
+    content:
+      - text: 吉祥码注册与使用
+        icon: content
+        path: /FAQ/jixiang-code/
+
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
   - tag: title
     text: 打车
 
@@ -54,6 +82,10 @@ content:
     header: false
     content:
       - text: 更多打车相关提示
+<<<<<<< HEAD
+=======
+        icon: taxi
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
         path: /check/arrival/taxi
 
   - tag: footer

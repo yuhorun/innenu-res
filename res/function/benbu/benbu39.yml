@@ -2,7 +2,11 @@ title: 综合教学楼
 content:
   - tag: swiper
     url:
+<<<<<<< HEAD
       - "https://v3.mp.innenu.comcom/img/scence/benbu/zonghe.webp"
+=======
+      - "https://v3.mp.innenu.com/img/scence/benbu/zonghe.webp"
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
   - tag: title
     text: 综合教学楼
   - tag: text

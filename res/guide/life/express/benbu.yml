@@ -1,6 +1,7 @@
 title: 本部校区快递
 content:
   - tag: title
+<<<<<<< HEAD
     text: 学校(邮寄)地址
 
   - tag: text
@@ -13,6 +14,8 @@ content:
     text: "130022"
 
   - tag: title
+=======
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     text: 菜鸟驿站
 
   - tag: text

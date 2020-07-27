@@ -1,5 +1,5 @@
 import axios from "axios";
-import appidInfo from "../appidInfo";
+import { appIDInfo } from "../info";
 import { getFileList } from "../util/file";
 import { existsSync, mkdirSync, unlinkSync, writeFileSync } from "fs";
 import { dirname, resolve } from "path";
@@ -9,7 +9,11 @@ const fileList = getFileList("./res/guide", ".yml").map((filePath) =>
   filePath.replace(/\.yml$/gu, "")
 );
 
+<<<<<<< HEAD
 const appidList = Object.keys(appidInfo);
+=======
+const appidList = Object.keys(appIDInfo);
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
 const removeQRCode = (): void => {
   appidList.forEach((appid) => {
@@ -29,7 +33,11 @@ const getQRCode = (): Promise<void> => {
   const promises = appidList.map((appid) =>
     axios
       .get(
+<<<<<<< HEAD
         `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appidInfo[appid]}`
+=======
+        `https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${appIDInfo[appid]}`
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
       )
       // eslint-disable-next-line @typescript-eslint/naming-convention
       .then(({ data: { access_token } }) => {

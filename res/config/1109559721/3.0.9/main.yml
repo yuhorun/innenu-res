@@ -21,6 +21,11 @@ content:
       - |-
         招生办留言板
         http://zsb.nenu.edu.cn/lyb.jsp?urltype=tree.TreeTempUrl&wbtreeid=1123
+<<<<<<< HEAD
+=======
+    style:
+      font-size: 14px
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
   - tag: list
     header: 寝室

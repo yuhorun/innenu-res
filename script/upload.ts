@@ -1,7 +1,7 @@
 "use strict";
 
 import { client, putFolder } from "ftp-hope";
-import loginInfo from "./loginInfo";
+import { loginInfo } from "./info";
 
 // 连接客户端
 client.connect(loginInfo);

@@ -10,11 +10,19 @@ content:
 
       - text: 坐火车到校
         icon: train
+<<<<<<< HEAD
         path: arrival/train
 
       - text: 坐飞机到校
         icon: plane
         path: arrival/plane
+=======
+        path: arrival/train/
+
+      - text: 坐飞机到校
+        icon: plane
+        path: arrival/plane/
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
 
       - text: 关于打车
         icon: taxi

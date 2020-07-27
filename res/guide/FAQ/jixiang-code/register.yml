@@ -1,9 +1,12 @@
 title: “吉祥码”注册
 content:
   - tag: title
+<<<<<<< HEAD
     text: 吉祥码简介
 
   - tag: title
+=======
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     text: 进入“吉事办”小程序流程
 
   - tag: text

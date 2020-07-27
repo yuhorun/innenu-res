@@ -10,6 +10,10 @@ content:
     text: 北苑超市旁、南苑、图书馆一楼、图书馆电子阅览室、北苑地下一楼
 
   - tag: text
+<<<<<<< HEAD
+=======
+    type: p
+>>>>>>> fe2eb1d3eec51dd9c854faddd4262cfaab192523
     heading: 校外位置
     text:
       - 东师文昌路数码图文快印

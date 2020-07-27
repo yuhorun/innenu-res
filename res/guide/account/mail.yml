@@ -16,7 +16,9 @@ content:
 
   - tag: title
     text: 客户端设置
+
   - tag: list
+    header: false
     content:
       - text: 安卓设置方法
         icon: android
