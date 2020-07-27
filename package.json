@@ -7,6 +7,7 @@
     "check:json": "node ./script/check.js",
     "generate": "node ./script/gen/index.js",
     "ts:compile": "tsc",
+    "ts:watch": "tsc --watch",
     "upload": "node ./script/upload.js"
   },
   "repository": {

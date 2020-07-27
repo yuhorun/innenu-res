@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync } from "fs";
 import { type } from "os";
 import { convertFolder } from "../util/yml2json";
 import { resolvePage } from "../components/page";
+import { genLyric } from "./lyric";
 import { genKeywords } from "./keyword";
 // import { genSitemap } from "./sitemap";
 import { genQRCode } from "./QRCode";
@@ -26,6 +27,9 @@ convertFolder("./res/other", "./resource/other", resolvePage);
 
 // 生成关键词
 genKeywords();
+
+// 生成歌词
+genLyric();
 
 // 生成 Sitemap
 // genSitemap();
