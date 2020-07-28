@@ -9,12 +9,12 @@ content:
     logo: /icon/tabPage/map.svg
     url: map
 
-  # - tag: card
-  #   type: page
-  #   src: http://v3.mp.innenu.com/img/tab/headphone.jpg
-  #   title: 音律东师
-  #   logo: /icon/tabPage/music.svg
-  #   url: player
+  - tag: card
+    type: page
+    src: http://v3.mp.innenu.com/img/tab/headphone.jpg
+    title: 音律东师
+    logo: /icon/tabPage/music.svg
+    url: player
 
   - tag: card
     type: page
